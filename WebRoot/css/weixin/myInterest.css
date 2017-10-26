@@ -1,0 +1,368 @@
+*{-webkit-tap-highlight-color:rgba(0,0,0,0); text-decoration:none}/* 取消浏览器默认点击样式 */
+.grayBkg02 {
+	background: #fafafa;
+}
+.tab1 {
+	box-sizing: border-box;
+}
+.border3Red {
+	border-bottom: 3px solid #ff5a5a;
+}
+.btn.btnInterest {
+	background: #fe735d;
+	width: 70px;
+}
+.width50P {
+	width: 50px;
+}
+.verM {
+	vertical-align: middle;	
+}
+
+.lists li{
+	height:125px;
+	box-sizing: border-box;
+}
+.lists dl dd{
+	height:25px;
+	line-height: 25px;
+}
+.annual{
+	width:75px;
+	height: 75px;
+	border-radius: 50%;
+	margin-left: 30px;
+	box-sizing: border-box;
+}
+.demand dl dd{
+	border-top:1px solid #ff5a5a;
+	border-bottom:1px solid #ff5a5a;
+}
+.demand dl dd:nth-child(2){
+	background: #ff5a5a;
+}
+.demand .righhtBox{
+	width:115px;
+	height: 136px;
+	background: url(../../pic/weixin/demandBg.png) no-repeat;
+	background-size: 100%;
+	right:-10px;
+	top:-7px;
+}
+.demand .annual{
+	color:#ff5a5a;
+}
+
+.fix dl dd{
+	border-top:1px solid #79cec9;
+	border-bottom:1px solid #79cec9;
+}
+.fix dl dd:nth-child(2){
+	background: #79cec9;
+}
+.fix .righhtBox{
+	width:115px;
+	height: 136px;
+	background: url(../../pic/weixin/fixBg.png) no-repeat;
+	background-size: 100%;
+	right:-10px;
+	top:-7px;
+}
+.fix .annual{
+	color:#79cec9;
+}
+
+.used dl dd{
+	border-top:1px solid #c8c8c8;
+	border-bottom:1px solid #c8c8c8;
+}
+.used dl dd:nth-child(2){
+	background: #c8c8c8;
+}
+.used .righhtBox{
+	width:115px;
+	height: 136px;
+	background: url(../../pic/weixin/usedBg.png) no-repeat;
+	background-size: 100%;
+	right:-10px;
+	top:-7px;
+}
+.used .annual{
+	color:#c8c8c8;
+}
+
+#tabContent1{
+	left:0;
+}
+#tabContent2{
+	left:100%;
+	margin-top: 52px;
+	padding-bottom: 23px;
+}
+.current{
+	color:#ff5a5a;
+	border-bottom: 3px solid #ff5a5a;
+}
+
+/* 弹框样式 */
+.alertBg{
+	background:rgba(0,0,0,0.3);
+	left:0;
+	top:0;
+	z-index: 100;
+}
+.alertBox{
+	height:190px;
+	left:10%;
+	top:50%;
+	margin-top: -95px;
+}
+
+#tips{
+	height:55px;
+	padding:25px 5% 0;
+}
+
+.rotate1,.rotate2{
+	left:0;
+	top:0;
+	height:30px;
+	line-height: 30px;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+}
+.rotate1{
+	z-index: 2;
+}
+li.hover .rotate1{
+	transform:rotateX(180deg);
+	-webkit-transform:rotateX(180deg);
+}
+.rotate2{
+	transform:rotateX(-180deg);
+	-webkit-transform:rotateX(-180deg);
+}
+li.hover .rotate2{
+	transform:rotateX(0deg);
+	-webkit-transform:rotateX(0deg);
+}
+.list{
+	height:30px;
+}
+.minHeight {
+	min-height: 60px;
+}
+.minHeight500 {
+	min-height: 500px;
+}
+
+.newColor{
+	background-color: #fe9801;
+	width: 100px;
+	margin-left: -50px;
+		padding-top: 7px;
+	padding-bottom: 7px;
+	color: #fff;
+}
+
+.add,.rule{
+	color: #fff;
+}
+.newColor,.add{
+	top: 67%;
+	left: 50%;
+}
+.add{
+	margin-left: -48px;
+	margin-top: 33px;
+}
+.rule{
+	right: 3%;
+	top: 4%;
+}
+.active{
+	background-color: #fe9801;
+	color: #fff;
+}
+.dark{
+	background-color: #ececec;
+	color: #9f9f9f;
+}
+.orange{
+	color:#ffc942;
+}
+
+
+.boxContent{
+	background: url(../../pic/weixin/ver2_9/interestBkg.png) no-repeat top left;
+	background-size: 100% 100%;
+}
+.borderDashedR{
+	border-right: 1px dashed #dddddd;
+}
+tr{height: 106px;}
+
+/*inphone4*/
+@media only screen
+and (max-device-width : 320px)
+{
+.newColor,.add{
+	top: 67%;
+	left: 50%;
+}
+.minHeight290{
+	height: 290px;
+}
+.newColor{
+	width: 74px;
+	margin-left: -37px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.add{
+	margin-left: -48px;
+	margin-top: 28px;
+}
+}
+
+/*  顶部左右滑的tab  start */
+.topTabWrap{
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 20000;
+}
+.slideTab{
+}
+.slideTab li{
+	z-index: 100;
+}
+.slideTab .validityLi{
+	width: 37%;
+}
+.slideTab .validityLi:after,.slideTab .validityLi:before{
+	right: 22%;
+}
+.slideTab .rateLi{
+	width: 37%;
+}
+.slideTab .rateLi:after,.slideTab .rateLi:before{
+	right: 38%;
+}
+@media screen and (min-width:321px) and (max-width: 375px){
+	.slideTab .rateLi:after,.slideTab .rateLi:before{
+		right: 32%;
+	}
+}
+@media screen and (max-width: 320px){
+	.slideTab .rateLi:after,.slideTab .rateLi:before{
+		right: 24%;
+	}
+}
+.slideTab .allType{
+	width: 26%;
+	height: 100%;
+	padding: 0;
+}
+
+.sortType{
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-ms-transition:all 1s;
+	-o-transition:all 1s;
+	transition:all 1s;
+	-webkit-transform:translateY(-150px);
+	-moz-transform:translateY(-150px);
+	-ms-transform:translateY(-150px);
+	-o-transform:translateY(-150px);
+	transform:translateY(-150px);
+}
+.sortTypeDown{
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-ms-transition:all 1s;
+	-o-transition:all 1s;
+	transition:all 1s;
+	-webkit-transform:translateY(0);
+	-moz-transform:translateY(0);
+	-ms-transform:translateY(0);
+	-o-transform:translateY(0);
+	transform:translateY(0);
+}
+#sortType .sortTypeCur{
+	background: url("../../pic/weixin/icon_selected.png") no-repeat 92% center;
+	background-size: 20px auto;
+	color: #ff5a5a;
+}
+.downArrow {
+	 padding-right: 22px;
+ }
+.upArrow {
+	padding-right: 22px;
+}
+.perTop02 font.font20{
+	top: 14px;
+}
+.redBackground{
+	background: url("../../pic/weixin/Rectangle_red.png") no-repeat;
+	background-size: 100% 100%;
+}
+.blueBackground{
+	background: url("../../pic/weixin/Rectangle_blue.png") no-repeat;
+	background-size: 100% 100%;
+}
+.grayBackground{
+	background: url("../../pic/weixin/Rectangle_gray.png") no-repeat;
+	background-size: 100% 100%;
+}
+#RateCouponsList li{
+	box-shadow: 0 0 20px #DDD;
+}
+.huoqi .get_way{
+	 color: #ff5a5a;
+	 border: 1px solid #ff5a5a;
+	 font-weight: normal;
+	 padding: 1px 4px 0;
+ }
+.dingqi .get_way{
+	color: #698DFB;
+	border: 1px solid #698DFB;
+	font-weight: normal;
+	padding: 1px 4px 0;
+}
+.moren .get_way{
+	color: #9f9f9f;
+	border: 1px solid #9f9f9f;
+	font-weight: normal;
+	padding: 1px 4px 0;
+}
+.statusImg2{
+	background: url("../../pic/weixin/statusImg2.png") no-repeat;
+	width: 45px;
+	height: 45px;
+	top: 0;
+	right: 0;
+	background-size: 100% 100%;
+}
+.statusImg1{
+	background: url("../../pic/weixin/statusImg1.png") no-repeat;
+	width: 45px;
+	height: 45px;
+	top: 0;
+	right: 0;
+	background-size: 100% 100%;
+}
+.fixedBtn{
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	background: #FFF;
+	color: #1B8EEC;
+	border-radius: 0;
+	height: 42px;
+	line-height: 42px;
+	box-shadow: 0 0 15px #DDD;
+}
+/*  顶部左右滑的tab  end */

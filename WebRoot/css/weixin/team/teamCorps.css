@@ -1,0 +1,264 @@
+/*
+*by dhm
+*
+*/
+body {
+    background: #FDB163;
+}
+
+.teamWrap {
+    background: url("../../../pic/weixin/activity/team/corps-bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.grayText1 {
+    color: #8d6749;
+}
+
+.bannerTex {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 15px;
+    z-index: 2;
+}
+
+.bannerTex img {
+    width: 90%;
+    height: auto;
+}
+
+.teamTime {
+    padding: 0 10px;
+    width: 70%;
+    margin: 0 auto;
+    height: 33px;
+    line-height: 33px;
+    background: url("../../../pic/weixin/activity/team/teamLine.png") no-repeat top, url("../../../pic/weixin/activity/team/teamLine.png") no-repeat bottom;
+    background-size: 100% 2px;
+    top: -10px;
+    z-index: 1;
+}
+
+.teamWrap .grayText1 {
+    color: #8d6749;
+}
+
+@media screen and (max-width: 320px) {
+    .teamTime {
+        width: 78%;
+    }
+}
+
+.ruleTitle {
+    width: 180px;
+    height: 33px;
+    line-height: 33px;
+    margin: 0 auto;
+    background: url("../../../pic/weixin/activity/team/Titleshading.png") no-repeat;
+    background-size: 100% 100%;
+    letter-spacing: 3px;
+    top: 26px;
+
+    font-size: 13px;
+}
+
+.ruleTitle img {
+    width: 16px;
+    height: 16px;
+    margin: 0 6px 0 22px;
+}
+
+.corpsTitle {
+    letter-spacing: 0px;
+    text-indent: 8px;
+    top: 22px;
+}
+
+.ruleTex {
+    height: 305px;
+    color: #F19E02;
+    padding: 35px 28px 38px;
+    background: url("../../../pic/weixin/activity/team/Textframe.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.corpsTex {
+    min-height: 95px;
+    max-height: 190px;
+    color: #F19E02;
+    padding: 30px 15px 25px;
+    background: url("../../../pic/weixin/activity/team/Textframe.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.corpsTex li {
+    padding: 2.5% 3.5%;
+}
+
+.scrollTex {
+    height: 305px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /*可以让页面在Native端滚动时模拟原生的弹性滚动效果*/
+}
+
+
+.scrollTex p {
+    margin-top: 7px;
+}
+
+.teamRule {
+    margin-top: -10px;
+}
+
+.btnBox {
+    padding: 0 6.5%;
+}
+
+#looktTeam {
+    display: none;
+}
+
+.btnBox a {
+    width: 45%;
+    height: 45px;
+    line-height: 45px;
+}
+
+.teamMembers li img {
+    width: 54px;
+    height: 54px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.teamMembers li img.captain {
+    right: 13px;
+    width: 30px;
+    height: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .btnBox a {
+        font-size: 14px;
+    }
+
+    .corpsTex {
+        padding: 30px 15px 15px;
+    }
+
+    .corpsTex li {
+        width: 20%;
+        padding: 2.5% 2.5%;
+    }
+
+    .captain {
+        right: 11.5%;
+        width: 40%;
+    }
+    .teamMembers li img.captain{
+        right: 7px;
+        width: 30px;
+    }
+    .scrollTex{
+        height: 335px;
+    }
+    .ruleTex{
+        height:335px; 
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .teamMembers li img.captain{
+        right: 12px;
+        width: 30px;
+    }
+}
+@media screen and (min-width: 412px) {
+    .corpsTex {
+        padding: 30px 15px 35px;
+    }
+
+    .teamMembers li img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .teamMembers li img.captain{
+        right: 15px;
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+
+}
+
+.setTeam {
+    background: #FE5260;
+}
+
+.teamRank {
+    background: #FD7D62;
+}
+
+.bounceWrap {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.bounceCon {
+    width: 290px;
+    height: 270px;
+    background: url("../../../pic/weixin/activity/team/pop.png") no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.bounceCon p {
+    margin-top: 150px;
+}
+
+.bounceBtn span {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+}
+
+.cancelBtn {
+    background: #AAAAAA;
+    margin-left: 35px;
+}
+
+.confirmBtn {
+    background: #FE5260;
+    margin-right: 35px;
+}
+
+.rewardBox {
+    width: 48px;
+    height: 12px;
+    padding-top: 22px;
+    top: 10px;
+    right: 20px;
+    z-index: 10;
+    background: url("../../../pic/weixin/activity/team/icongift.png") no-repeat center top;
+    background-size: 20px 20px;
+}
+
+.iconClose {
+    width: 25px;
+    right: 20px;
+    top: 15px;
+}

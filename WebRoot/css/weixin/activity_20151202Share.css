@@ -1,0 +1,12 @@
+.btnArea {
+	left: 50%;
+	margin-left: -120px;
+	top: 7%;	
+}
+.btnArea img  {
+	width: 240px;
+}
+.btnBox a {
+	padding: 10px 0;
+	background: #ff5a5a;
+}

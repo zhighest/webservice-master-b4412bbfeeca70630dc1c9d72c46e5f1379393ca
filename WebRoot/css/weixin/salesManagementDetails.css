@@ -1,0 +1,27 @@
+body{
+	background: #efefef;
+}
+.wrap{
+	height: 100%;
+}
+
+.wrap .greyBkg{
+	background: #efefef;
+    height: 36px;
+    line-height: 36px;
+}
+.wrap .whiteBkg{
+	border-top: 1px solid #efefef;
+	background: #ffffff;
+}
+.wrap .type{
+	line-height: 1.8em;
+	height: 25px;
+}
+.wrap .count{
+	line-height: 1.8em;
+	height: 25px;
+}
+.wrap .time{
+	line-height:3.6em;
+}

@@ -1,0 +1,64 @@
+
+.stick {
+	top:21px;
+	right:0;
+}
+.turnAround90{
+	transform: rotate(90deg);
+}
+.desIcon0{
+	background:url(../../pic/weixin/ver2_7/ticket.png) no-repeat;	
+}
+.desIcon1{
+	background:url(../../pic/weixin/ver2_7/describe.png) no-repeat;	
+}
+.desIcon2{
+	background:url(../../pic/weixin/ver2_7/safe.png) no-repeat;	
+}
+.desIcon3{
+	background:url(../../pic/weixin/ver2_7/assure.png) no-repeat;	
+}
+.desIcon4{
+	background:url(../../pic/weixin/ver2_7/time.png) no-repeat;	
+}
+.desIcon5{
+	background:url(../../pic/weixin/ver2_7/cover.png) no-repeat;	
+}
+.desIcon6{
+	background:url(../../pic/weixin/ver2_7/record.png) no-repeat;	
+}
+.desIcon0,.desIcon1,.desIcon2,.desIcon3,.desIcon4,.desIcon5,.desIcon6{
+	background-size: 100%;
+	width:20px;
+	height:20px;
+	top:15px;
+	left:0;
+}
+.vipHint {
+	right: -30px;
+    top: 3px;
+}
+.vipHintUl {
+	right: -100px;
+    top: 24px;
+}
+.vipHintUl li {
+	width: 78px;
+	padding: 3px 3px;
+	border: 1px solid #FFF;
+	margin-bottom: 4px;
+}
+.dashedB{
+	border-bottom: 1px dashed #e5e5e5;
+}
+.dashedT{
+	border-top: 1px dashed #e5e5e5;
+}
+.voucherIcon{
+	background:url(../../pic/weixin/ver2_8/voucherIcon.png) no-repeat;
+	background-size: 100%;
+	width:20px;
+	height:20px;
+	top:15px;
+	left:0;
+}

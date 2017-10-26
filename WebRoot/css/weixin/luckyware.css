@@ -1,0 +1,331 @@
+body{
+	margin: 0;
+}
+/*共用样式部分开始*/
+.purpleBg1{
+	background: #6e16a7;
+}
+.purpleBg2{
+	background: #4e0474;
+}
+.purpleText1{
+	color:#ffcbe8;
+}
+.whiteText{
+	color:#fff;
+}
+.MR2{
+	margin-right: 2px;
+}
+.NEMT3{
+	top: -3px;
+}
+.redText{
+	color:#d20330;
+}
+
+/*共用样式部分结束*/
+/*头部样式开始*/
+.header .times{
+	height: 35px;
+	padding-top: 2px;
+}
+.header .times .giftIcon{
+	width: 28px;
+	height: 28px;
+	margin-left: 28.5%;
+	margin-right: 5px;
+}
+.header .times .textContent{
+	padding-top: 6px;
+}
+.header .times .textContent .avaliableTimes{
+	color:#ffa500;
+}
+/*头部样式结束*/
+/*内容区样式开始*/
+.content {
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling:touch;
+}
+.content .prizeContent{
+	padding-left: 4px;
+	padding-bottom: 13px;
+	width: 36em; 
+	overflow-y: hidden;
+}
+.content .prizeContent .prizeList{
+	height:149px;
+}
+.content .prizeContent .prizeList .prizeItem .itemBg{
+	width: 112px;
+	height: 66px;
+	background: url('../../pic/weixin/activity/choujiang/prizeListBg.png') no-repeat;
+	background-size: 100% 100%;
+}
+.content .prizeContent .prizeList .prizeItem .bottomItem{
+	margin-top: 16px;
+}
+.content .prizeContent .prizeList .prizeItem .prizeItemTop{
+	height: 39px;
+}
+.content .prizeContent .prizeList .prizeItem .prizeItemTop img{
+	
+}
+.content .prizeContent .prizeList .prizeItem .prizeItemBot{
+	padding-top: 6px;
+	height: 21px;
+}
+.giftBox{
+	height: 185px;
+	background: url('../../pic/weixin/activity/choujiang/luckDrawBg.png') no-repeat;
+	background-size: 100% 100%;
+}
+.giftBox .swiperBox{
+	width: 100%;
+	height: 80px;
+	top:0;
+	left: 0;
+	z-index: 3;
+}
+.giftBox .clickBox{
+	width:30%;
+	height:100px;
+	left: 50%;
+	top:80px;
+	margin-left: -15%;
+	z-index: 3;
+}
+.giftBox .hander{
+	top:4%;
+	left: 0%;
+	z-index: 2;
+}
+.giftBox .giftPic{
+	top:-11px;
+	left:20%;
+}
+.giftBox .giftPicStatic{
+	top:0px;
+	left:50%;
+	transform: translate(-50%, 0);
+	-ms-transform:translate(-50%, 0);	/* IE 9 */
+	-moz-transform:translate(-50%, 0);	/* Firefox */
+	-webkit-transform:translate(-50%, 0); /* Safari 和 Chrome */
+	-o-transform:translate(-50%, 0); 	/* Opera */
+	transition: all 0.6s;  
+	-moz-transition:all 0.6s;/* Firefox 4 */
+	-webkit-transition: all 0.6s;/* Safari 和 Chrome */
+	-o-transition: all 0.6s; /* Opera */
+}
+.giftBox .giftPicStatic.active{
+	 transform:translate(-50%, 0) scale(1.05); 
+	-webkit-transform:translate(-50%, 0) scale(1.05); /* Safari 和 Chrome */
+	 top:5px;
+}
+.giftBox .giftPicStatic.animate{
+	animation: giftBoxMove 3s;
+	-webkit-animation: giftBoxMove 3s;	/* Safari 和 Chrome */
+}
+@keyframes giftBoxMove
+{
+0 {transform: translate(-50%,0px);opacity:1}
+100% {transform: translate(-50%,300px);opacity:0}
+0 {-webkit-transform: translate(-50%,0px);opacity:1}
+100% {-webkit-transform: translate(-50%,300px);opacity:0}
+}
+
+@-webkit-keyframes giftBoxMove /* Safari 和 Chrome */
+{
+0 {transform: translate(-50%,0px);opacity:1}
+100% {transform: translate(-50%,300px);opacity:0}
+0 {-webkit-transform: translate(-50%,0px);opacity:1}
+100% {-webkit-transform: translate(-50%,300px);opacity:0}
+}
+
+/*.selectWay .selectWay1{
+	height: 71px;
+}*/
+.selectWay .text{
+	width: 100%;
+	text-align: center;
+	bottom: 8px;
+}
+/*.selectWay .selectWay2{
+	height: 71px;
+}*/
+.activityDes .desTitle{
+	left: 50%;
+	margin-left: -30px;
+	top:30%;
+	width: 60px;
+	height: 16px;
+}
+.activityDes .textArea{
+	text-align: left;
+	left: 10%;
+	top:37%;
+	width: 80%;
+	color: #54565b;
+	padding:0 8px;
+	box-sizing: border-box;
+}
+/*内容区样式结束*/
+.notice {
+	text-align: center;
+}
+.notice img {
+	width: 100px;
+	padding: 20px 0 35px;
+}
+.notice p{
+	font-size: 12px;
+	line-height: 12px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.notice .noticeTop{
+	padding-bottom: 28px;
+}
+.notice .noticeBot{
+	padding-bottom: 7px;
+}
+/*弹框区样式开始*/
+.mask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0.7;
+	z-index: 8;
+}
+.oneTimesBox,.tenTimesBox{
+	width: 80%;
+	margin-left: 10%;
+	position: fixed;
+	top: 0%;
+	left:0;
+	right:0;
+	transform: translate(0, -50%);
+	-ms-transform:translate(0, -50%);	/* IE 9 */
+	-moz-transform:translate(0, -50%);	/* Firefox */
+	-webkit-transform:translate(0, -50%);/* Safari 和 Chrome */
+	-o-transform:translate(0, -50%); 	/* Opera */
+	background-size: 100%;
+	z-index: 10;
+}
+.closeIcon{
+	right: -18px;
+	top:-18px;
+	width:26px;
+	height:26px;
+}
+.oneTimesHeader{
+	border-bottom: 1px solid #8f71ae;
+}
+.oneTimesContent,.oneTimesFooter{
+	background: #fff;
+}
+.oneTimesFooter .oneTimesBtn{
+	margin:auto;
+	margin-top: 16px;
+	background: #ec2550;
+	width:41%;
+	height:32px;
+	border-radius:16px;
+	color:#fff;
+	line-height: 32px;
+	font-size: 12px;
+}
+.PTB33{
+	padding:0 33px 33px 33px;
+}
+
+.oneTimesContent .prizeIfo{
+	width: 100%;
+	height: 78px;
+	line-height: 78px;
+	box-sizing: border-box;
+	background:url('../../pic/weixin/activity/choujiang/oneTimesContent.png') no-repeat;
+	background-size: 100% 100%;
+}
+.whiteText{
+	color:#fff;
+}
+.MT6{
+	margin-top: 6px;
+}
+.LH75{
+	height:75px;
+	line-height: 75px;
+	padding-left: 25px;
+}
+.oneTimesFooter{
+	height: 64px;
+	border-top: 1px solid #d8d7d7;
+	border-radius:0 0 15px 15px ;
+}
+.tenTimesContent{
+	background: #fff;
+	padding:16px 16px 20px 16px;
+}
+.tenTimesContent .prizeList{
+	height:236px;
+	overflow: auto;
+	-webkit-overflow-scrolling:touch;
+}
+
+.prizeList .prizeItem .prizeItemCategory{
+	width:33%;
+}
+.prizeList .prizeItem{
+	height:54px;
+}
+.prizeList .prizeItem .prizeItemNo{
+	width:20px;
+	height:20px;
+	line-height: 20px;
+	border-radius: 50%;
+	background: #ec8d3a;
+	color:#fff;
+}
+.prizeList .prizeItem .prizeItemNo .line{
+	width:1px;
+	height:35px;
+	background: #d8d7d7;
+	left:50%;
+	top:20px;
+}
+.prizeList .prizeItem .prizeItemIfo{
+	width:auto;
+}
+.lineHeight2_5x{
+	line-height: 2.5em;
+}
+/*弹框区样式结束*/
+@media screen and (max-width: 320px) {
+	.PTB33{
+		padding:0 6% 33px 6%;
+	}
+	.oneTimesContent .prizeIfo .prizeIfoR {
+		width: 48%;
+	}
+	.oneTimesContent .prizeIfo .prizeIfoL {
+		width: 52%;
+	}
+	.selectWay .text {
+	    bottom: 8px;
+	}
+	.oneTimesContent .prizeIfo h3{
+		font-size:20px;
+	}
+	.prizeList .prizeItem .prizeItemCategory {
+	    width: 38%;
+	}
+	.tenTimesContent{
+		background: #fff;
+		padding:16px 5px 20px 5px;
+	}
+}

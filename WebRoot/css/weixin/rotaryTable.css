@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Reset */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+fieldset, img {
+	border: 0;
+}
+a {
+	-webkit-appearance: none;
+	outline: none;
+}
+.none {
+	display:none;
+}
+html{
+	font-size: 14px;
+	overflow-x: hidden;
+}
+body{
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	overflow-x: hidden;
+}
+.wrap{
+	width: 100%;
+	position: relative;
+}
+.content{
+	position: absolute;
+	width: 84%;
+	height: 10.42rem;
+	left: 8%;
+	top: 31%;
+}   
+.content img{
+	position: absolute;
+	left: 0;
+	top: 0;
+} 
+.plate{
+	position: absolute;
+	width: 94%;
+	height: 9.66rem;
+	background-size: 100%;
+	left: 3%;
+	top: 3%;
+	-webkit-transform:transition3d(0,0,0);
+	transform:transition3d(0,0,0);
+	transform: rotate(0);
+	-webkit-transform-origin:50% 50%; 
+	-webkit-transform: rotate(0);
+	transform-origin: 50% 50%;
+	transition:transform ease-out 2s;
+	-webkit-transition: -webkit-transform ease-out 2s ;
+}
+.plateBth{
+	display: inline-block;
+	position: absolute;
+	width: 34%;
+    background: url('../../pic/weixin/activity/rotaryTable/rotaryTable_02.png') no-repeat;
+    height: 4.72rem;
+    background-size: 100%;
+    left: 33%;
+	top: 24%;
+}
+.wrapOdd{
+	background-color: rgb(251,235,160);
+	text-align: left;
+	font-size: 14px;
+	line-height: 0.8rem;
+	color: rgb(23,23,23);
+}
+.wrapOdd span{
+	font-weight: bold;
+}
+.wrapOdd .common{
+	margin-left: 0.3rem;
+	margin-right: 0.4rem;
+}
+.detail{
+	margin-top: 0.1rem;
+} 
+.detail span{
+	font-weight: 600;
+}
+.footer{
+	font-size: 12px;
+	margin-top: 1rem;
+	text-align: center;
+	padding-bottom: 0.7rem;
+	
+}
+.item{
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	top: 0;
+}
+.img{ 
+	width: 0.7rem;
+    height: 0.6rem;
+}
+.item1{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0; 
+}
+.num{
+	position: absolute;
+	color: #fff;
+	font-size: 16px;
+	bottom: 6%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.alertWrap{
+	width: 100%;
+	background-color: rgba(33,66,63,0.5);
+	position: fixed;
+	height: 100%;
+	z-index: 2;
+	}
+.alert{
+	width: 100%;
+	height: 92%;
+	position: absolute;
+	left: 0;
+	top: 8%;
+}
+.typeface{ 
+	position: relative;
+    margin-top: 11rem;
+    text-align: center;
+    letter-spacing: -2px;
+    font-size: 24px;
+    color: rgb(241,234,79);
+    z-index: 3;
+	}
+.typeface2{
+		 letter-spacing: -2px;
+	}
+.icon{
+	width: 0.98rem;
+	height: 0.98rem;
+	position: absolute;
+    right: 10%;
+    top: 25%; 
+}
+.width100 {
+	width: 100%;
+}
+.height100P {
+	height: 100%;
+}
+.positionF {
+	position:fixed;
+}
+.radius5 {
+	border-radius: 5px;
+}
+.whiteBkg {
+	background-color: #FFF;
+}
+.width80 {
+	width: 80%;
+}
+.positionA {
+	position: absolute;
+}
+.textC {
+	text-align: center;
+}
+.font20 {
+	font-size: 20px;
+}
+.PT15 {
+	padding-top: 15px;
+}
+.redTex {
+	color: #ff5a5a;
+}
+.font16 {
+	font-size: 16px;
+}
+.blackTex {
+	color: #373737;
+}
+.lineHeight1_5x {
+	line-height: 1.5em;
+}
+.inlineB {
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+}
+.claerfix{
+	position: absolute;
+}
+.redBkg {
+	background: #ff5a5a;
+}
+.width35 {
+	width: 35%;
+}
+.ML10 {
+	margin-left: 10px;
+}
+.MR10 {
+	margin-right: 10px;
+}
+.whiteTex {
+	color: #FFF;
+}
+.PT5 {
+	padding-top: 5px;
+}
+.PB5 {
+	padding-bottom: 5px;
+}
+.font16 {
+	font-size: 16px;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	.num{ 
+		font-size: 12px;
+		bottom: 7%;
+	}
+	.typeface{
+		font-size: 20px;
+		margin-top: 10.9rem;
+	}                                                            
+	.typeface2{
+		 letter-spacing: 0px;
+	}
+	.icon{
+		right: 7%;
+    	top: 22%;
+	}
+}	

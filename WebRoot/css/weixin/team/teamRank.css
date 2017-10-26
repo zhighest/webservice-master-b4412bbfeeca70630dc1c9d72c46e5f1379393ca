@@ -1,0 +1,69 @@
+.rewardBox{
+    width: 58px;
+    height: 12px;
+    padding-top: 22px;
+    top: 10px;
+    right: 10px;
+    background: url("../../../pic/weixin/activity/team/icongift.png") no-repeat center top;
+    background-size: 20px 20px;
+}
+.threeRank{
+    height: 50vw;
+    background: url("../../../pic/weixin/activity/team/rankBg.png") no-repeat center top;
+    background-size: 100% 100%;
+}
+.rankList img{
+    width: 45%;
+    height: auto;
+}
+.rankList li:nth-child(2) img{
+    width: 55%;
+    margin-top: -10%;
+}
+.rankNum{
+    width: 45%;
+    line-height: 18px;
+    background: #E1E1E1;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.rankList li:nth-child(2) .rankNum{
+    background: #FFC800;
+}
+.rankList li:nth-child(3) .rankNum{
+    background: #FF9800;
+}
+.teamMoney,.moreMoney{
+    color: #FFC800;
+}
+.teamName{
+    line-height: 18px;
+}
+.moreNum{
+    width: 23%;
+    color: #777777;
+}
+.moreName{
+    width: 40%;
+}
+.moreMoney{
+    width: 34%;
+}
+.trophies{
+    width: 55%;
+    height: auto;
+}
+@media screen and (max-width: 320px) {
+    .threeRank {
+        height: 54vw;
+    }
+    .moreRankList .moreNum{
+        width: 23%;
+    }
+    .moreRankList .moreName{
+        width: 42%;
+    }
+    .moreRankList .moreMoney{
+        width: 35%;
+    }
+}

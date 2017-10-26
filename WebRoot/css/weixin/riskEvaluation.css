@@ -1,0 +1,96 @@
+.surveyWrap{
+margin: 0 auto;
+height: 420px;
+}
+#listWrap{
+position:relative;
+width: 100%;
+height:100%;
+margin:0px auto;
+overflow-x: hidden;
+}
+#listWrap li{
+position:absolute;
+height:320px;
+border: 1px solid #E6ECFA;
+border-radius: 10px;
+background: #fff;
+margin:30px 5%;
+box-shadow: 0px 0px 30px #ADC9FA; 
+-webkit-box-shadow: 0px 0px 30px #ADC9FA; 
+transform-origin: 120% 100%;
+-webkit-transform-origin:180% 200%;
+overflow: hidden;
+}
+#listWrap li:last-child{
+/*transition:all 300ms ease;
+-webkit-transition:all 300ms ease;*/
+}
+input{
+width:50%;
+height:20px;
+margin:10px;
+}
+.rotate{
+transition:all 800ms ease;
+-webkit-transition:all 800ms ease;
+-moz-transition:all 800ms ease;
+-o-transition:all 800ms ease;
+-ms-transition:all 800ms ease;
+ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+transform-origin: 180% 200%;
+-webkit-transform-origin:180% 200%;
+/*display:none;*/
+}
+.rotate2{
+/*transition:all 300ms ease;
+-webkit-transition:all 300ms ease;
+-moz-transition:all 300ms ease;
+-o-transition:all 300ms ease;
+-ms-transition:all 300ms ease;
+ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+transform-origin: 120% 100%;
+-webkit-transform-origin:180% 200%;*/
+}
+#nextBtn{
+	height: 40px;
+	width:80%;
+	line-height: 40px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.title{
+	padding:20px  10px;
+}
+#listWrap dd{
+	border-top: 1px solid #E6E6E6;
+	padding:10px; 
+	font-size:12px;
+	height:25px;
+	
+}
+#listWrap dt:after{
+	content: "";
+    position:absolute;
+    width: 20px;
+    height:3px;
+    background: #ff5a5a;
+    left:6px;
+    bottom: 7px;
+}
+.contentWrap dd{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.submitBtn{
+	bottom:5px;
+	z-index: 1000;
+}

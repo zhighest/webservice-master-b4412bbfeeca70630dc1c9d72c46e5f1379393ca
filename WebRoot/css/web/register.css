@@ -1,0 +1,287 @@
+.loginBkg {
+	width:100%;
+	min-height: 700px;
+	height: 100%;
+	_height: 100%;
+	position: relative;
+	background: url("../../pic/web/register/registerBkg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.loginBoxA {
+	position: absolute;
+	height: 520px;
+	top: 50%;
+	margin-top: -260px;
+}
+.loginBoxB {
+	position: absolute;
+	height: 400px;
+	top: 50%;
+	margin-top: -200px;
+}
+.loginFooter {
+	position: absolute;
+	bottom: 20px;
+}
+.forbid {
+	background:rgba(255,255,255,.2);
+	color:#FFFFFF;
+}
+.goWhere {
+	-webkit-filter: grayscale(1);/* Webkit */ 
+	filter:gray;/* IE6-9 */ 
+	filter: grayscale(1);/* W3C */ 
+}
+.goWhere:hover {
+	-webkit-filter: grayscale(0);/* Webkit */ 
+	filter:gray;/* IE6-9 */ 
+	filter: grayscale(0);/* W3C */ 
+}
+#gainCode {
+	padding-top:0;
+	padding-bottom: 0;
+	height:50px;
+	line-height:50px;
+	cursor: pointer;
+}
+.regAgreementWrap{
+	color: #d2d2d2;
+}
+.regAgreementWrap a{
+	color:#fb4148;
+}
+.regAgreementWrap img{
+}
+/* ######## 注册弹框 浮动层部分 begin ########## */
+.suspendDiv {
+	z-index:2;
+	left: 0;
+	margin-top: 60px;
+}
+.suspendDivL {
+	height: 220px;
+	margin-top: 80px;
+}
+.loginIcon{
+	width:80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 3px solid rgba(255, 255, 255, 0.3);
+}
+.bkgNone{
+	background: none;
+}
+.inputBtn{
+	line-height: 50px;
+	height: 50px;
+	width: 100px;
+	right: 0px;
+	bottom: 0px;
+	border-radius: 0 5px 5px 0px;
+}
+.shortShortLine {
+	width: 30px; 
+	height: 3px;
+	margin-bottom: 20px;
+}
+.loginContent {
+	z-index:2;
+	width: 420px;
+	height: auto;
+}
+.loginBox {
+	width: 340px;
+	background: rgba(61, 61, 61, 0.6);
+	border-radius: 10px;
+	padding: 30px 40px;
+}
+.inputBox {
+	overflow: hidden;
+	border: solid 1px #aeaeae;
+}
+.inputBoxR {
+	border: solid 1px #fb4148;	
+}
+.inputIcon{
+	left: 30px;
+	top: 16px;
+}
+.inputFiledR {
+	background-color: rgba(255, 255, 255, 0);
+	width: 270px;
+	margin-right: 10px;
+	background: none;
+	line-height:50px;
+	height:50px;
+	color:#d2d2d2;	
+}
+.inputFiledR::-webkit-input-placeholder { 
+    font-size: 16px;
+    color:#fb4148;
+}
+.inputFiledR:-moz-placeholder { 
+    font-size: 16px;
+    color:#fb4148;
+}
+.inputFiledR::-moz-placeholder { 
+    font-size: 16px;
+    color:#fb4148;
+}
+.inputFiledR:-ms-input-placeholder { 
+    font-size: 16px;
+    color:#fb4148;
+}
+.inputFiled {
+	width: 280px;
+	margin-right: 0;
+	background: none;
+	line-height:50px;
+	height:50px;
+	color:#d2d2d2;	
+}
+.inputFiled::-webkit-input-placeholder { 
+    font-size: 16px;
+    color:#acacac;
+}
+.inputFiled:-moz-placeholder { 
+    font-size: 16px;
+    color:#acacac;
+}
+.inputFiled::-moz-placeholder { 
+    font-size: 16px;
+    color:#acacac;
+}
+.inputFiled:-ms-input-placeholder { 
+    font-size: 16px;
+    color:#acacac;
+}
+.submitBtn {
+	text-align: center;
+	color: #FFF;
+	background: #fb4148;
+	line-height:50px;
+	height:50px;
+	cursor: pointer;
+}
+.accountShow  td{
+	height: 60px;
+}
+.goLeft {
+	position: absolute;
+	top: 45%;
+	left: -30px;
+}
+.goRight {
+	position: absolute;
+	top: 45%;
+	right: -30px;
+}
+@media screen and (max-width:768px) {
+	.loginBkg {
+		min-height: 100px;
+	}
+	.suspendDiv {
+		margin-top: 0;
+		height: 100%;
+		z-index:2;
+		left: 0;
+		top: 0;
+		bottom: 0;
+	}
+	.suspendDiv .lineHeight2x {
+		line-height: 150%;
+	}
+	.suspendDivL {
+		position: absolute;
+		height: 120px;
+		top: 50%;
+		margin-top: -40px;
+		font-size: 20px;
+	}
+	.suspendDivR {
+		display: none;
+	}
+	.shortShortLine {
+		margin-bottom: 10px;
+	}
+	.noSelectli {
+	 	width: 4px;
+	    height: 4px;
+	    border-radius: 2px;
+	    background-color: #b6b6b9;
+	 }
+	 .selectli {
+	 	width: 5px;
+	    height: 5px;
+	    border-radius: 50%;
+	 	background:#fb4148; 
+	 }
+}
+ /* 轮播样式 begin */
+ /* 变成灰度 */
+.grayThis { 
+	-webkit-filter: grayscale(1);/* Webkit */ 
+	filter:gray;/* IE6-9 */ 
+	filter: grayscale(1);/* W3C */ 
+} 
+ #logonUL {
+ 	width: 420px; 
+ 	height: 400px;
+ }
+ .focusBtnBox {
+ 	position: absolute;
+ 	bottom: -30px;
+	width: 100px;
+	left: 50%;
+	margin-left:-50px;
+ }
+ .focusBtnBox li {
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+    float: left;   
+ }
+ .noSelectli {
+ 	width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 1px;
+    background-color: #b6b6b9;
+ }
+ .selectli {
+ 	width: 12px;
+    height: 12px;
+    border-radius: 6px;
+ 	background:#fb4148; 
+ }
+ .MB12{
+ 	margin-bottom: 12px;
+ }
+.MB17{
+ 	margin-bottom: 17px;
+ }
+#QR_code {
+	background: #fff;
+	width: 239px;
+	height: 239px;
+	margin:auto;
+	margin:20px auto 10px auto;
+	position: relative;
+}
+#QR_code canvas{
+	width:219px;
+	height:219px;
+	margin: 10px 0 0 10px;
+}
+#QR_code .QRCodeLogo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+#QR_code .QRCodeLogo img{
+	width: 100%;
+	height: 100%;
+}

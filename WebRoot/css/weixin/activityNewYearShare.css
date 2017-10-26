@@ -1,0 +1,320 @@
+/*公用样式*/
+.swiper-slide{
+    box-sizing: border-box;
+}
+.goldColor{
+    color: #F2F0B2;
+}
+.colorD44535{
+    color: #D44535;
+}
+.slideTop{
+    width: 50px;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    animation: opacityAnimate 1s linear infinite alternate;
+    -webkit-animation: opacityAnimate 1s linear infinite alternate;
+}
+@keyframes opacityAnimate{
+    from{
+        opacity:0.3;
+        filter:alpha(opacity=30); /* IE */
+        -moz-opacity:0.3; /* 老版Mozilla */
+        -khtml-opacity:0.3; /* 老版Safari */
+    }
+    to{
+        opacity:1;
+        filter:alpha(opacity=100); /* IE */
+        -moz-opacity:1; /* 老版Mozilla */
+        -khtml-opacity:1; /* 老版Safari */
+    }
+}
+@-webkit-keyframes opacityAnimate{
+    from{
+        opacity:0.3;
+        filter:alpha(opacity=30); /* IE */
+        -moz-opacity:0.3; /* 老版Mozilla */
+        -khtml-opacity:0.3; /* 老版Safari */
+    }
+    to{
+        opacity:1;
+        filter:alpha(opacity=100); /* IE */
+        -moz-opacity:1; /* 老版Mozilla */
+        -khtml-opacity:1; /* 老版Safari */
+    }
+}
+/*第二页样式开始*/
+.slider2{
+    background: url("../../pic/weixin/activity/activity_newYear/secondPageBkg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.wordTop img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+@keyframes wordTopMove{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+@-webkit-keyframes wordTopMove{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+.wordTop{
+    height: 10%;
+    margin: 4% auto 14%;
+}
+.wordTop.curTop{
+    animation:wordTopMove 1s ease;
+    -webkit-animation:wordTopMove 1s ease; /*Safari and Chrome*/
+    -moz-animation:wordTopMove 1s ease;
+    -o-animation:wordTopMove 1s ease;
+}
+.flowerImg1{
+    width: 28%;
+    right:10%;
+    top: 15%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+.flowerImg1.curFlower1{
+    right: -7%;
+}
+.flowerImg2{
+    width: 40%;
+    left:0;
+    top: 13%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+.flowerImg2.curFlower2{
+    left: -22%;
+}
+.flowerImg4{
+    width: 20%;
+    left: 4%;
+    top: 38%;
+}
+.flowerImg3{
+    width: 35%;
+    right: -13%;
+    top: 34%;
+}
+.flowerImg5{
+    width: 35%;
+    left: -15%;
+    bottom: 2%;
+}
+.flowerImg6{
+    width: 20%;
+    right: -10%;
+    top: 62%;
+}
+@keyframes flowerMove{
+    from{
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes flowerMove{
+    from{
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+    }
+}
+.flowerImg4.curFlower3,.flowerImg3.curFlower3,.flowerImg5.curFlower3,.flowerImg6.curFlower3{
+    animation: flowerMove 10s linear infinite;
+    -webkit-animation: flowerMove 10s linear infinite;
+}
+/*第二页样式结束*/
+.slider3{
+    background: url("../../pic/weixin/activity/activity_newYear/firstPageBkg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+/*注册页面样式开始*/
+.imgDiv{
+    width: 80%;
+    height: 72%;
+    border-radius: 4px;
+    background: rgba(225,225,225,.95);
+    margin-top: -8%;
+}
+.content input{
+    border: none;
+    background: rgba(225,225,225,0);
+    border-bottom: 1px solid #D44535;
+    border-radius: 0;
+    line-height: 35px;
+}
+.logoImg1{
+    width: 35%;
+    margin: 6% auto 4%;
+}
+#imgcode{
+    bottom: 5px;
+    right:0;
+}
+#gainCode{
+    bottom: 5px;
+    right:0;
+    background: #D44535;
+    height: 28px;
+    line-height: 28px;
+}
+#loginSubmit{
+    background: #D44535;
+}
+.colorA9A9A9{
+    color: #A9A9A9;
+    text-decoration:underline;
+}
+.signInWrap{
+    color: #A9A9A9;
+}
+.rightSignIn{
+    color: #D44535;
+    text-decoration:underline;
+}
+.content .agree{
+    width: 15px;
+    height: 15px;
+    margin-right:2px;
+    background: url("../../pic/weixin/activity/activity_newYear/checkbox2.png") no-repeat;
+    background-size: 100% 100%;
+    border-bottom: none;
+    vertical-align: middle;
+}
+.content .agree.checkbox1{
+    background-image: url("../../pic/weixin/activity/activity_newYear/checkbox1.png");
+}
+.content .agree.checkbox2{
+    background-image: url("../../pic/weixin/activity/activity_newYear/checkbox2.png");
+}
+.commonA{
+    background: #D44535;
+}
+.delete{
+    top: 10px;
+    right: 0;
+    width: 16px;
+    z-index: 1000;
+}
+#step1,#step2{
+    display: none;
+    overflow:scroll;
+}
+/*注册页面样式结束*/
+
+
+.btmAreaFix {
+    background: rgba(33, 33, 33, 0.56);
+    padding: 3% 3%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 94%;
+    vertical-align: middle;
+    z-index: 1005;
+}
+.closed {
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height:20px;
+    height: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.logo {
+    line-height:35px;
+    display: inline-block;
+    height: 35px;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+}
+.rightArea {
+    color: #FFF;
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 3%;
+}
+.rightArea h4 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.rightArea p {
+    font-size: 0.6rem;
+}
+.leftArea {
+    float: left;
+    width: 21%;
+    box-sizing: border-box;
+}
+.btmFixBtn {
+    background: #ff5a5a;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 12px;
+    position: absolute;
+    right: 3%;
+    top: 7%;
+}
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+    .content input{
+        line-height: 28px;
+    }
+    .imgDiv{
+        margin-top: -12% !important;
+    }
+    #imgcode{
+        height: 30px;
+    }
+    #loginSubmit{
+        height: 32px;
+        line-height: 32px;
+    }
+    .agreenment{
+        margin-top: 5px;
+    }
+}

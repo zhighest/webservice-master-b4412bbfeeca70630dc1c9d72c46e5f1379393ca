@@ -1,0 +1,87 @@
+*{
+	padding:0;
+	margin:0;
+}
+.halfBkg{
+	background:rgba(255, 255, 255, 0.1);
+}
+.bottomBtn {
+	bottom:0;
+}
+.borderRL{
+	border-right:1px solid rgba(255,255,255,0.2);
+}
+.bottomPart{
+	overflow:visible;
+}
+.ColourE{
+	background-color: #efefef;
+	height: 2%;
+}
+.rightArrows{
+	top: 14px;
+}
+span.redTex.fr.font24.PB10 {
+    padding-top: 1%;
+}
+/*****************轮播**************************/
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+}
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.swipe-wrap > figure {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+#position{
+	position: absolute;
+	bottom: 79px;
+	left: 45%;
+	width: 100%;
+}
+#position li{
+	background-color: #e4e4e4;
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 3px;
+	display: inline-block;
+}
+#position li.on{
+	background-color: #ff5a5a;
+}
+/*****************轮播**************************/
+/*新增*/
+.figure{
+	width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 5px solid #fff;
+   /* transform: translateX(50px);*/
+}
+.msgB{
+	    white-space: nowrap;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	#msg{
+		font-size: 12px;
+	}
+	#msg .PTB5{
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	#msg .PLR10{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}

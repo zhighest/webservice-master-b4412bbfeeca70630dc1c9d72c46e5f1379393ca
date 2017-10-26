@@ -1,0 +1,19 @@
+
+.timeBox {
+	width:100px;
+	height:30px;
+	line-height:30px;
+	background:#cacaca;
+}
+.noticeN {
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:1;
+	padding-top: 5px;
+	padding-bottom:5px;
+	background-color: rgba(0,0,0,0.5); 
+}
+.ML60 {
+	margin-left:60px;
+}

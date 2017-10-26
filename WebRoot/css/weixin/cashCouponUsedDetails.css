@@ -1,0 +1,30 @@
+.PLR4P {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.width92{
+    width:92%;
+}
+.borderBc8{
+    border-bottom: 1px solid #c8c8c8;
+}
+.wrapper{
+    border-top:1px solid #ddd;
+}
+.color333{
+    color: #333;
+}
+.color666{
+    color: #666;
+}
+.height52{
+    height:52px;
+    line-height:52px;
+}
+.redText{
+    color: #ff5a5a;
+}
+.height68{
+    height:68px;
+    line-height:68px;
+}

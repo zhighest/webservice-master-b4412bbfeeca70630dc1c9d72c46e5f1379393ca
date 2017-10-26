@@ -1,0 +1,325 @@
+html,body {
+	font-size: 14px;
+}
+html{
+	
+}
+body {
+	overflow-x: hidden;
+} 
+#welfareExclusive{
+	overflow: hidden;
+	width: 6.6rem;
+	height: 6.6rem;
+	position: relative;
+	z-index: 10;
+	left: -3%;
+	top: -1%;
+    margin: 0 auto;
+	transform: transition3d(0,0,0);
+	-ms-transform:transition3d(0,0,0); 	/* IE 9 */
+	-moz-transform:transition3d(0,0,0);	/* Firefox */
+	-webkit-transform:translateX(-50%); /* Safari 和 Chrome */
+	-o-transform:transition3d(0,0,0);
+	-o-transform-origin:53% 53%;
+	-moz-transform-origin:53% 53%;
+	-ms-transform-origin:53% 53%;
+	-webkit-transform-origin:53% 53%; 
+	transform-origin:53% 53%; 
+	-o-transform: rotate(0);
+	-moz-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+	-o-transition:-o-transform ease-out 2s;
+	-moz-transition:-moz-transform ease-out 2s;
+	-ms-transition:-ms-transform ease-out 2s;
+	transition:transform ease-out 2s;
+	-webkit-transition: -webkit-transform ease-out 2s ;
+}
+#welfareExclusive li {
+	position: absolute;
+	font-size: 16px;
+	width: 3.5rem;
+	height: 3.5rem;
+	overflow: hidden;
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;		/* IE 9 */
+	-moz-transform-origin: 100% 100%;		/* Firefox */
+	-o-transform-origin: 100% 100%;
+}
+
+#welfareExclusive li:nth-of-type(1) {
+	transform: rotate(67deg) skew(45deg);
+	-ms-transform:rotate(67deg) skew(45deg); 	/* IE 9 */
+	-moz-transform:rotate(67deg) skew(45deg);	/* Firefox */
+	-webkit-transform:rotate(67deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(67deg) skew(45deg); 
+}
+
+#welfareExclusive li:nth-of-type(2) {
+	transform: rotate(112deg) skew(45deg);
+	-ms-transform: rotate(112deg) skew(45deg); 	/* IE 9 */
+	-moz-transform: rotate(112deg) skew(45deg);	/* Firefox */
+	-webkit-transform: rotate(112deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform: rotate(112deg) skew(45deg);
+}
+
+#welfareExclusive li:nth-of-type(3) {
+	transform: rotate(157deg) skew(45deg);
+	-ms-transform:rotate(157deg) skew(45deg); 	/* IE 9 */
+	-moz-transform:rotate(157deg) skew(45deg);	/* Firefox */
+	-webkit-transform:rotate(157deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(157deg) skew(45deg);
+}
+
+#welfareExclusive li:nth-of-type(4) {
+	transform: rotate(202deg) skew(45deg);
+	-ms-transform:rotate(202deg) skew(45deg); 	/* IE 9 */
+	-moz-transform:rotate(202deg) skew(45deg);	/* Firefox */
+	-webkit-transform:rotate(202deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(202deg) skew(45deg);
+}
+
+#welfareExclusive li:nth-of-type(5) {
+	transform: rotate(247deg) skew(45deg);
+	-ms-transform: rotate(247deg) skew(45deg); 	/* IE 9 */
+	-moz-transform: rotate(247deg) skew(45deg);	/* Firefox */
+	-webkit-transform: rotate(247deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform: rotate(247deg) skew(45deg);
+}
+
+#welfareExclusive li:nth-of-type(6) {
+	transform: rotate(292deg) skew(45deg);
+	-ms-transform:rotate(292deg) skew(45deg); 	/* IE 9 */
+	-moz-transform:rotate(292deg) skew(45deg);	/* Firefox */
+	-webkit-transform:rotate(292deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(292deg) skew(45deg); 
+}
+
+#welfareExclusive li:nth-of-type(7) {
+	transform: rotate(337deg) skew(45deg);
+	-ms-transform: rotate(337deg) skew(45deg); 	/* IE 9 */
+	-moz-transform: rotate(337deg) skew(45deg);/* Firefox */
+	-webkit-transform: rotate(337deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform: rotate(337deg) skew(45deg); 
+}
+
+#welfareExclusive li:nth-of-type(8) {
+	transform: rotate(382deg) skew(45deg);
+	-ms-transform: rotate(382deg) skew(45deg); 	/* IE 9 */
+	-moz-transform: rotate(382deg) skew(45deg);	/* Firefox */
+	-webkit-transform: rotate(382deg) skew(45deg); /* Safari 和 Chrome */
+	-o-transform: rotate(382deg) skew(45deg); 
+}
+
+#welfareExclusive li:nth-of-type(1)>a {
+	background-color: #ffbf29;
+}
+
+#welfareExclusive li:nth-of-type(2)>a {
+	background-color: #ffdf3e;
+}
+
+#welfareExclusive li:nth-of-type(3)>a {
+	background-color: #ffbf29;
+}
+
+#welfareExclusive li:nth-of-type(4)>a {
+	background-color: #ffdf3e;
+}
+
+#welfareExclusive li:nth-of-type(5)>a {
+	background-color: #ffbf29;
+}
+
+#welfareExclusive li:nth-of-type(6)>a {
+	background-color: #ffdf3e;
+}
+
+#welfareExclusive li:nth-of-type(7)>a {
+	background-color: #ffbf29;
+}
+
+#welfareExclusive li:nth-of-type(8)>a { 
+	background-color: #ffdf3e;
+}
+
+#welfareExclusive a {
+	transform: skew(-45deg) rotate(-70deg) scale(1);
+	-ms-transform:skew(-45deg) rotate(-70deg) scale(1); 	/* IE 9 */
+	-moz-transform:skew(-45deg) rotate(-70deg) scale(1);	/* Firefox */
+	-webkit-transform:skew(-45deg) rotate(-70deg) scale(1); /* Safari 和 Chrome */
+	-o-transform:skew(-45deg) rotate(-70deg) scale(1);
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+	height: 6rem;
+	width: 6rem;
+	position: absolute;
+	bottom: -3rem;
+	right: -3rem;
+	text-decoration: none;
+	color: white;
+}
+
+#welfareExclusive span {
+	padding-top: 0.2rem;
+	display: inline-block;
+	font-size: 16px;
+	background-size: cover;
+    padding-left: 0.2rem;
+    color: #f24b2b;
+    font-weight: bold;
+}
+
+#welfareExclusive li img {
+	padding-top: 0.12rem;
+    /* height: 0.4rem; */
+    width: 0.6rem;
+    margin: 0 auto;
+    padding-left: 0.16rem;
+}
+#drawImg{
+    width: 2rem;
+    position: absolute;
+    z-index: 11;
+    top: 50%;
+    left: 50%;
+    margin-left: -1rem;
+    margin-top: -0.9rem;
+}
+.wrap{
+	transform: scale(0.9) translateY(-0.2rem);
+	-ms-transform:scale(0.9) translateY(-0.2rem); 	/* IE 9 */
+	-moz-transform:scale(0.9) translateY(-0.2rem);	/* Firefox */
+	-webkit-transform:scale(0.9) translateY(-0.2rem); /* Safari 和 Chrome */
+	-o-transform:scale(0.9) translateY(-0.2rem); 
+	width: 6.99rem;
+	height: 6.99rem;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.welfareExclusiveImg{
+    height: 3.97rem;
+    background-size: cover;
+}
+.welfareExclusiveImg2{
+    top: 3.97rem;
+    left: 0;
+    position: absolute;
+    height: 7rem;
+}
+#check{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 4px;
+}
+.check{
+	height: 1.31rem;
+	background: url('../../pic/weixin/activity/welfareExclusive/welfareExclusive3.jpg') no-repeat;
+	background-size: cover;
+}
+.alertBox{
+	background:rgba(0,0,0,0.5);
+	left:0;top:0;
+	z-index: 1001;
+	height: 100%;
+	margin-top: 0;
+}
+#alert{
+    background: url(../../pic/weixin/activity/welfareExclusive/reminder.png) no-repeat;
+    background-size: cover;
+    min-height: 3.69rem;
+    width: 96%;
+    top: 3rem;
+    left: 2%;
+}
+.Winners{
+    background: url(../../pic/weixin/activity/welfareExclusive/Winners.png) no-repeat;
+    height: 8rem;
+    width: 90%;
+    background-size: cover;
+    top: 1.19rem;
+    margin: 0 auto;
+    left: 5%;
+}
+.content{
+	margin-top: 1.98rem;
+}
+#WinnersButton{
+	margin-top: 2.5rem;
+}
+
+.know{
+    height: 0.85rem;
+    width: 66%;
+    top: 7rem;
+    left: 16%;
+}
+.btnWrap{
+	height: 0.85rem;
+	width: 80%;
+	top: 7rem;
+	left: 10%;
+}
+.btnWrap a{
+	display: inline-block;
+	width:47%;
+	height: 0.75rem;
+	line-height: 0.75rem;
+}
+.btnWrap a.goExchange{
+	background: url(../../pic/weixin/activity/welfareExclusive/choujiangBtn.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.btnWrap a.cancleEx{
+	background: url(../../pic/weixin/activity/welfareExclusive/cancleCj.png) no-repeat;
+	background-size: 100% 100%;
+	float: right;
+}
+.Winning{
+    border: 1px solid #fff;
+    height: 0.7rem;
+    line-height: 0.7rem;
+}
+#WinnersDiv{
+	height: 4.9rem;
+	overflow: auto;
+}
+.congratulations{
+    background: url(../../pic/weixin/activity/welfareExclusive/Winners.png) no-repeat;
+    background-size: cover;
+    height: 3.69rem;
+    width: 90%;
+    left: 5%;
+    top: 3rem;
+}
+.light{
+    position: absolute;
+    left: 50%;
+	transform: translateX(-50%);
+	-ms-transform:translateX(-50%); 	/* IE 9 */
+	-moz-transform:translateX(-50%);	/* Firefox */
+	-webkit-transform:translateX(-50%); /* Safari 和 Chrome */
+	-o-transform:translateX(-50%); 
+}
+.bkg{
+    height: 6.99rem;
+    position: absolute;
+    width: 6.99rem;
+    background: rgba(0,0,0,0.1);
+    border-radius: 100%;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	#welfareExclusive span {
+	font-size: 14px;
+}
+	#WinnersUl .font14{
+	font-size: 12px;
+}
+}

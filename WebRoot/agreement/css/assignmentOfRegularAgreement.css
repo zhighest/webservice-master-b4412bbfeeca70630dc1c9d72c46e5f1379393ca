@@ -1,0 +1,21 @@
+table {
+	width: 70%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	margin-bottom: 100px;
+}
+
+table td {
+	width: 50%;
+	height: auto;
+	line-height: 30px;
+	padding: 5px;
+}
+
+body {
+	color: inherit;
+}
+
+.textUnderLine {
+	text-decoration: underline;
+}

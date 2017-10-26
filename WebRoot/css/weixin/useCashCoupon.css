@@ -1,0 +1,61 @@
+/*使用现金券样式开始*/
+.PLR4P {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.height44{
+	height: 44px;
+	line-height: 44px;
+}
+.borderTB{
+	border-top:1px solid #efefef;
+	border-bottom:1px solid #efefef;
+}
+.color333{
+	color: #333;
+}
+.color666{
+	color: #666;
+}
+.redText{
+	color: #ff5a5a;
+}
+.PT12{
+	padding-top:12px;
+}
+.MT2{
+	margin-top:2px;
+}
+.btn{
+	text-align: center;
+	color: #fff;
+	background: #ff5a5a;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	cursor: pointer;
+}
+.btn:hover{
+	color: #fff;
+}
+
+.wrapper{
+	border-top:1px solid #ddd;
+}
+.useCashCoupon .phoneIfo{
+	height:55px;
+	line-height:55px;
+	font-family: Arial;
+}
+.useCashCoupon .phoneIfo .phoneVal{
+	color: #9f9f9f;
+	height:100%;
+	border:none;
+}
+.howToUseIcon{
+	width:12px;
+	height:12px;
+}
+/*使用现金券样式结束*/
+/*使用帮助页面开始*/
+
+/*使用帮助页面结束*/

@@ -1,0 +1,181 @@
+.voucherLi{
+	background:#fff url(../../pic/weixin/voucherBkg.png) no-repeat top left;
+	background-size: 30%;
+	border-top: 3px solid #ff5a5a;
+	border-radius:5px;
+	box-shadow: 0px 1px 1px #ccc;
+}
+.voucherLi01{
+	background: url(../../pic/weixin/ver2_9/vocherBkg.png) no-repeat top left;
+	background-size: 100% 100%;
+}
+tr{height: 100px;}
+.yellowTex{
+	color: #fe9733;
+}
+.borderDashedT{
+	border-top: 1px dashed #b9b6b6;
+}
+.leftCircle,.rightCircle{
+	width:20px;
+	height: 20px;
+	border-radius: 10px;
+	background:#f4f4f4;
+	bottom: 30px;
+	z-index: 2;
+}
+.leftCircle{
+	left: -10px;
+}
+.rightCircle{
+	right: -10px;
+}
+.investAlertBg{
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.4);
+	z-index: 10;
+}
+.investAlertBox{
+	left: 50%;
+	top:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+}
+/* @media screen and (min-width:375px){
+	.investAlertBox{width:80%;}
+} */
+.closedBtn{
+	top:12px;
+	right: 5%;
+}
+.darkGrayTex{
+	color: #333333;
+}
+.sortType{
+	    -webkit-transition:all 1.5s;
+	    -moz-transition:all 1.5s;
+	    -ms-transition:all 1.5s;
+	    -o-transition:all 1.5s;
+	    transition:all 1.5s;
+	    -webkit-transform:translateY(-150px);
+	    -moz-transform:translateY(-150px);
+	    -ms-transform:translateY(-150px);
+	    -o-transform:translateY(-150px);
+	    transform:translateY(-150px);
+}
+.sortTypeAdd{
+	    -webkit-transition:all 0.8s;
+	    -moz-transition:all 0.8s;
+	    -ms-transition:all 0.8s;
+	    -o-transition:all 0.8s;
+	    transition:all 0.8s;
+	    -webkit-transform:translateY(0);
+	    -moz-transform:translateY(0);
+	    -ms-transform:translateY(0);
+	    -o-transform:translateY(0);
+	    transform:translateY(0);
+}
+/*  顶部左右滑的tab  start */
+#boxF{
+	height: 100%; 
+	background: rgba(113,113,113,0.7); 
+	z-index: 40;
+}
+.topWrapRight {
+	overflow: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.topWrapRight li{
+	left: -2%;
+}
+.topWrapRight li:nth-of-type(1){
+	width:25%
+}
+.topWrapRight li:nth-of-type(2){
+	width:30%
+}
+.topWrapRight li:nth-of-type(3){
+	width:35%
+}
+.topWrapRight li:nth-of-type(1):before{
+	right:4% ;
+}
+.topWrapRight li:nth-of-type(1):after{
+	right:4% ;
+}
+.topWrapRight li:nth-of-type(2):before{
+	right:1% ;
+}
+.topWrapRight li:nth-of-type(2):after{
+	right:1% ;
+}
+.topWrapRight li:nth-of-type(3):before{
+	right:0% ;
+}
+.topWrapRight li:nth-of-type(3):after{
+	right:0% ;
+}
+.sortTypeCur {
+    background: url(../../pic/weixin/icon_selected.png) no-repeat 92% center;
+    background-size: 20px auto;
+}
+.downArrow {
+    padding-right: 22px;
+}
+.upArrow{
+	padding-right: 22px;
+}
+#classify{
+	width: 22%;
+}
+#sortType{
+	width: 78%;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	.downArrow {
+    padding-right: 18px;
+}
+.upArrow{
+	padding-right: 18px;
+}
+.topWrapRight li:nth-of-type(1):before{
+	right:0 ;
+}
+.topWrapRight li:nth-of-type(1):after{
+	right:0 ;
+}
+.topWrapRight li:nth-of-type(2):before{
+	right:-3%;
+}
+.topWrapRight li:nth-of-type(2):after{
+	right:-3% ;
+}
+.topWrapRight li:nth-of-type(3):before{
+	right:-2% ;
+}
+.topWrapRight li:nth-of-type(3):after{
+	right:-2%;
+}
+.topWrapRight li:nth-of-type(1){
+	width:26%
+}
+.topWrapRight li:nth-of-type(2){
+	width:31%
+}
+.topWrapRight li:nth-of-type(3){
+	width:37%
+}
+#classify{
+	box-shadow: 0px 0px 20px #ddd;
+	width: 21%;
+}
+#sortType{
+	width: 79%;
+}
+}
+/*  顶部左右滑的tab  end */

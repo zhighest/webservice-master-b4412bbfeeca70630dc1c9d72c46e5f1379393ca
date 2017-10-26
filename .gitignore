@@ -1,0 +1,22 @@
+#compiler
+classes/
+*.class
+
+
+*.jar
+*.war
+*.ear
+
+/.project
+/.classpath
+
+
+# log
+log/
+logs/
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

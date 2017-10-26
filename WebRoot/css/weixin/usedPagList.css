@@ -1,0 +1,244 @@
+html{
+    font-size: 40px;
+}
+.k3Bag{
+    height: 180px;
+    border-radius: 4px;
+}
+.welfareBag{
+    height: 152px;
+}
+.bagLeft{
+    height: 115px;
+    width: 64%;
+}
+.k3Detail{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.welfareBagLeft{
+    height: 100px;
+}
+.bagRight{
+    margin-right: 14px;
+    width: 82px;
+}
+.exchangeBtn{
+    width: 80%;
+    margin: 14px auto 0;
+}
+.walfareBtn{
+    margin: 0 auto;
+}
+.colorA9{
+    color: #A9A9A9;
+}
+.wantSoon{
+    width: 80px;
+    border-radius: 50px;
+    margin: 8px auto 0;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.screenBkg{
+    background: rgba(0,0,0,.2);
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.k3DetailBox{
+    width: 80%;
+    z-index: 10;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    padding: 20px;
+}
+.closeBtn{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 13px;
+    right: 5%;
+    cursor: pointer;
+}
+.colorA3{
+    color: #A3A3A3;
+}
+.colorFD2150{
+    color: #FD2150;
+}
+.color727272{
+    color: #727272;
+}
+.bagDetail,.jsDetail{
+    height: 11.25rem;
+    overflow: auto;
+    -webkit-overflow-scrolling : touch;  /*可以让页面在Native端滚动时模拟原生的弹性滚动效果*/
+}
+.bagDetail{
+    height: 13rem;
+}
+.bagDetail li{
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+.bagDetail li:nth-child(2n){
+    background: #F2F2F2;
+}
+
+.voucherDetail{
+    width: 88%;
+    margin-left: 8px;
+}
+.voucherDetail p{
+    padding: 5px 0;
+}
+.voucherDetail p:nth-child(2){
+    padding-top: 0;
+}
+
+.aBtn{
+    width: 40%;
+    margin-top: 0.7rem;
+    height: 1.7rem;
+    line-height: 1.7rem;
+}
+.checkImg{
+    margin-top: 0.85rem;
+}
+.confirm{
+    margin-left: 20px;
+}
+.remFont32{
+    font-size: 0.8rem;
+}
+.remFont28{
+    font-size: 0.7rem;
+}
+.remFont24{
+    font-size: 0.6rem;
+}
+
+/* 兑换礼包动画开始 */
+.alertWrap {
+    /*background-color: rgba(42,42,42,0.7);*/
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.luckAlert {
+    width: 100%;
+}
+.confirmBtn {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 4rem;
+    z-index: 2;
+}
+.bthImg {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.24rem auto;
+}
+@-webkit-keyframes person-normal{
+    0% {background-position: 0 0;}
+    100% {background-position: -150rem 0;}
+}
+@keyframes person-normal{
+    0% {background-position: 0 0;}
+    100% {background-position: -150rem 0;}
+}
+.bthImg2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    width: 15rem;
+    height: 10.5rem;
+    background: url(../../pic/weixin/giftBag/giftBag.png) 0 0 no-repeat;
+    position: absolute;
+    background-size: cover;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -webkit-animation: person-normal 1500ms steps(10);
+    animation: person-normal 1500ms steps(10);
+    z-index: 1;
+}
+/* 兑换礼包动画结束 */
+
+/* 福利礼包兑换开始 */
+.alertWrap {
+    background-color: rgba(42,42,42,0.7);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+.opacity0 {
+    opacity: 0;
+    z-index: -1;
+}
+.clearAlertH {
+    height: 1.9rem;
+}
+.alertConent {
+    position: relative;
+    /* top: 1.9rem; */
+}
+.divImg {
+    margin-bottom: 0.1rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 9rem;
+}
+@media only screen and (max-device-width: 320px){
+    .KcodeBtn {
+        margin-top: 0.6rem;
+    }
+}
+.KcodeBtn {
+    height: 2rem;
+    line-height: 2rem;
+    background: #fbec14;
+    box-shadow: 0px 2px 0px #eea800;
+    margin-top: 0.6rem;
+}
+.clearAlertH8 {
+    height: 8rem;
+}
+
+ 
+/* 福利礼包兑换结束 */
+
+.prompt{
+    font-size: 12px;
+}
+.errorMessage{
+    font-size: 13px;
+}
+.PB35{
+	padding-bottom: 35px;
+}
+
+
+.transfer{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    background: url(../../pic/weixin/giftBag/used_icon_transfer.png) no-repeat;
+    background-size: 100% 100%;
+}

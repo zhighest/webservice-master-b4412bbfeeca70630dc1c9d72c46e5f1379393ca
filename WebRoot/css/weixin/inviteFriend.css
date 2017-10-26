@@ -1,0 +1,110 @@
+.inviteBtn a {
+    width: 90%;
+    text-align: center;
+   color: #333; 
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin-left: 5%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.inviteList a {
+	width:80%;
+	text-align: center;
+    border:1px solid #ff5a5a;
+    color: #ff5a5a;
+    border-radius: 100px;
+    margin-left: 10%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:30px;
+}
+.details a {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    color: #108ee9;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.wrap{
+	position: relative;
+}
+.wrapImg1{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	top: 30%;
+	color: #e9c184;
+	font-size: 20px;
+	/* letter-spacing: 2px; */
+}
+.wrapImg2{
+	font-size: 40px;
+	margin: 0 5px 0 5px;
+}
+.wrapImg3{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	bottom: 10%;
+	color: #929190;
+	font-size: 16px;
+}
+.content{
+	margin-top: 15%;
+	color: #000;
+}
+.content p{
+	line-height: 24px;
+}
+.newFont20{
+	font-size: 20px;
+}
+.newFont18{
+	font-size: 18px;
+}
+.newcolor{
+	color: #444;
+}
+.ML3{
+	margin-left: 3px;
+}
+.newMT40{
+	margin-top: 40px;
+}
+@media only screen
+and (max-device-width : 350px)
+{
+.wrapImg1{
+	font-size: 16px;
+}	
+.wrapImg2{
+	font-size: 34px;
+	margin: 0 3px 0 3px;
+}
+.newMT40{
+	margin-top: 30px;
+}
+.wrapImg3{
+	font-size: 14px;
+}
+.details a{
+	font-size: 14px;
+	margin-top: 20px;
+}
+.newFont20{
+	font-size: 18px;
+}
+.newFont18{
+	font-size: 16px;
+}
+.content p{
+	line-height: 20px;
+}
+}

@@ -1,0 +1,88 @@
+
+body {
+    background: #FDB163;
+}
+
+.teamWrap {
+    background: url("../../../pic/weixin/activity/team/reward-bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.bannerTex {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.bannerTex img {
+    width: 88%;
+    height: auto;
+    padding: 16px 0 0 30px;
+}
+
+.ruleTitle {
+    width: 175px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    background: url("../../../pic/weixin/activity/team/Titleshading.png") no-repeat;
+    background-size: 100% 100%;
+    top: 25px;
+    font-size: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.ruleTitle img {
+    width: 16px;
+    height: 16px;
+    margin: 0 6px 0 22px;
+}
+
+.reward {
+    /*min-height: 70px;*/
+    color: #F19E02;
+    padding: 40px 28px 40px;
+    letter-spacing: 1px;
+}
+.teamWrap .grayText1{
+    color: #8d6749;
+}
+.teamRule {
+    margin-top: -25px;
+}
+
+.teamRuleOne {
+    margin-top: -15px;
+}
+
+.rewardOne {
+    background: url("../../../pic/weixin/activity/team/team-bg.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: 16px;
+}
+
+.rewardTwo {
+    background: url("../../../pic/weixin/activity/team/captain-bg.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: 16px;
+}
+
+.rewardThree {
+    background: url("../../../pic/weixin/activity/team/star-bg.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: 16px;
+}
+
+.rewardFour {
+    background: url("../../../pic/weixin/activity/team/part-bg.png") no-repeat;
+    background-size: 100% 100%;
+    line-height: 16px;
+}
+
+.text {
+    margin-left: 6%;
+    margin-top: -5px;
+}
+
+

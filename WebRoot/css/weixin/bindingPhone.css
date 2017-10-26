@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+.mobelBind {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.mobelBind li {
+	padding-top: 20px;
+	position: relative;
+}
+
+.mobelBind li:after {
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+.mobelBind li label,
+li.city span {
+	font-size: 14px;
+	color: #333333;
+	display: block;
+	float: left;
+	width: 18%;
+	line-height: 34px;
+}
+
+.mobelBind li input,
+li.city p {
+	float: left;
+	width: 82%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ececec;
+	line-height: 33px;
+	font-size: 14px;
+	text-align: left;
+}
+
+#codeButton {
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	width: auto;
+	border: 1px solid #fc4b5b;
+	background-color: #ffffff;
+	color: #fc4b5b;
+	border-radius: 6px;
+	line-height: 24px;
+	text-align: center;
+	padding:2px 10px;
+}
+
+li.city p {
+	color: #cccccc;
+}
+
+li.city:before {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../../pic/weixin/rightArrow.jpg);
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+}
+
+#confirmButton {
+	display: block;
+	width: 100%;
+	color: #ffffff;
+	background-color: #fe495a;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 6px;
+	letter-spacing: 8px;
+}
+
+.mobelBind li input::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #cccccc;
+	font-size: 14px;
+}
+
+.mobelBind li input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #cccccc;
+	font-size: 14px;
+}
+
+.mobelBind li input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #cccccc;
+	font-size: 14px;
+}
+
+.mobelBind li input:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #cccccc;
+	font-size: 14px;
+}
+
+.ios-select-widget-box header.iosselect-header a {
+	color: #167ef4;
+	font-size: 14px;
+}
+
+.bindSuccess {
+	text-align: center;
+	color: #1fac20;
+	font-size: 17px;
+	margin-top:25px;
+}
+
+.displayNone {
+	display: none;
+}
+#successPic{
+	position: absolute;
+	width:100%;
+	left:0;
+	top:0%;
+	margin-top:130px;
+}

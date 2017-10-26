@@ -1,0 +1,37 @@
+html,body {
+	height: auto;
+}
+.wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 20%;
+}
+.imgDiv {
+	width: 100%;
+	background: #fef0bf;
+}
+.imgDiv img {
+	width: 100%;
+	float: left;
+}
+.ratesExplainDes {
+	width: 100%;
+	margin: auto;
+	top: 40%;
+}
+.tabContent {
+	padding-bottom: 0%;
+}
+.bkg1 {
+	background: #fa435e;
+}
+.bkg2 {
+	background: #ff5b5a;
+}
+@media screen and (max-height:568px) {
+	.wrapper {
+		padding-bottom: 60%;
+	}
+}

@@ -1,0 +1,606 @@
+/*基础类*/
+
+.imgInitial {
+	width: 100%;
+	height: initial;
+	display: block;
+}
+
+.height30 {
+	height: 30%;
+}
+
+.width100 {
+	width: 100%;
+}
+.height0 {
+	height: 0;
+}
+.height70 {
+	height: 70%;
+}
+
+.positionR {
+	position: relative;
+}
+
+.top50 {
+	top: 50%;
+}
+
+.top60 {
+	top: 60%;
+}
+
+.MT200 {
+	margin-top: 200px;
+}
+
+.left5 {
+	left: 5%;
+}
+
+.top20 {
+	top: 20%;
+}
+
+.top10 {
+	top: 10%;
+}
+
+.top7 {
+	top: 7%;
+}
+
+.top44 {
+	top: 44%;
+}
+
+.positionA {
+	position: absolute;
+}
+
+.colorfa324c {
+	color: #fa324c;
+}
+
+.clolrffdb85 {
+	color: #ffdb85;
+}
+.height225 {
+	height: 225px;
+}
+
+.overHidden {
+	overflow: hidden;
+}
+
+.zIndex2 {
+	z-index: 2;
+}
+
+.bottom50 {
+	bottom: 50px;
+}
+.bottom70{
+	bottom:70px;
+}
+
+.visibilityHidden {
+	visibility: hidden;
+}
+
+.top0 {
+	top: 0;
+}
+
+.top30 {
+	top: 30%;
+}
+.left7P5 {
+	left: 7.5%;
+}
+.animates .left30{
+	left:30%;
+}
+.animates .left70{
+	left:70%;
+}
+
+.width85 {
+	width: 85%;
+}
+
+.swiper-container {
+	height: 100%;
+}
+
+.swiper-slide {
+	position: relative;
+}
+
+.imgBanner {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+
+.yellowBackground {
+	height: 45px;
+	padding: 0 30px;
+	line-height: 45px;
+	background: url(../../../pic/weixin/anniversary/yellow_base.png);
+	background-size: 100% 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.totalOne {
+	position: absolute;
+	top:30%;
+	left:0;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.totalOneB {
+	position: absolute;
+	top: 23%;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.totalOneA {
+	position: absolute;
+	top: 18%;
+	left:0;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	font-weight: initial;
+}
+
+.totalTwo {
+	top: 43%;
+	left: 13%;
+	font-size: 20px;
+	width: 100%;
+	text-align: left;
+}
+
+.totalTwoB {
+	top: 56%;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.totalTwoA {
+	position: absolute;
+	top: 35%;
+	left: 13%;
+	font-size: 16px;
+	width: 100%;
+	text-align: left;
+	font-weight: initial;
+}
+
+.ticketOne {
+	top: 15%;
+	width: 100%;
+	text-align: center;
+}
+
+.ticketTwo {
+	text-align: center;
+	top: 33%;
+	width: 100%;
+}
+
+.ticketThree {
+	text-align: center;
+	top: 52%;
+	width: 100%;
+}
+
+.ticketFour {
+	text-align: center;
+	top: 72%;
+	width: 100%;
+}
+
+.inviteFriend {
+	width: 200px;
+	top: 80%;
+	left: 50%;
+	height: 50px;
+}
+
+.slogan {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	top: 70%;
+}
+
+.slogan img {
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+/*动画类---烟花的位置*
+/*动画类---烟花*/
+
+.startFlashOne {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 100px;
+	perspective: 1000px;
+	animation: rolateStar 4s 0s cubic-bezier(0.55, 0.54, 1, 1) forwards infinite;
+	transform: scale(0);
+}
+
+.startFlashTwo {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 50px;
+	perspective: 1000px;
+	animation: rolateStar 4s 0.5s cubic-bezier(0.55, 0.54, 1, 1) forwards infinite;
+	transform: scale(0);
+}
+
+
+.startFlashThree {
+	position: absolute;
+	top: 84%;
+	left: 30%;
+	width: 80px;
+	perspective: 1000px;
+	animation: rolateStar 4s 1s cubic-bezier(0.55, 0.54, 1, 1) forwards infinite;
+	transform: scale(0);
+}
+
+@-webkit-keyframes rolateStar {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0;
+	}
+	20% {
+		-webkit-transform: scale(0.2);
+		opacity: 0.4;
+	}
+	40% {
+		webkit-transform: scale(0.4);
+		opacity: 0.6;
+	}
+	60% {
+		-webkit-transform: scale(0.6);
+		opacity: 0.8;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 0;
+	}
+}
+
+
+/*动画类---飘带*/
+
+.ribbonOne {
+	width: 100px;
+	position: absolute;
+	top: -100px;
+	left: 10px;
+	animation: ribbon 20s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+.ribbonTwo {
+	width: 50px;
+	position: absolute;
+	top: 100px;
+	right: 10px;
+	top: -10%;
+	right: 10px;
+	animation: ribbon 15s 1s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+@-webkit-keyframes ribbon {
+	0% {
+		top: -10%;
+	}
+	100% {
+		top: 100%;
+	}
+}
+
+
+/*动画类---流星雨*/
+
+.meteoricOne {
+	position: absolute;
+	width: 150px;
+	left: 100%;
+	top: -60%;
+	animation: meteoric 0.5s 1s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+.meteoricTwo {
+	position: absolute;
+	width: 150px;
+	left: 100%;
+	top: -60%;
+	animation: meteoric 0.5s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+@-webkit-keyframes meteoric {
+	0% {
+		transform: translateX(-10px) translateY(100px);
+	}
+	100% {
+		transform: translateX(-600px) translateY(700px);
+	}
+}
+
+
+/*动画类---气球*/
+
+.balloon {
+	position: absolute;
+	width: 115px;
+	right: 2%;
+	top: 0;
+	animation: balloon 4s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48) infinite;
+}
+
+@-webkit-keyframes balloon {
+	0% {
+		transform: translateY(-20px);
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(-20px);
+	}
+}
+
+
+/*动画类---卷布*/
+
+.forBatchAnimate {
+	animation: forBatchAnimate 4s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+@-webkit-keyframes forBatchAnimate {
+	0% {
+		height: 0px;
+	}
+	50% {
+		height: 100px;
+	}
+	100% {
+		height: initial;
+	}
+}
+
+
+.transtion225px {
+	transition: all 2s 2s ease-in;
+}
+
+
+
+/*动画类---动画抖动*/
+
+.changePage {
+	position: absolute;
+	bottom: 20px;
+	width: 30px;
+	height: 30px;
+	left: 50%;
+	margin-left: -15px;
+	z-index: 10;
+	-webkit-animation: shakeLJ 2s infinite both;
+}
+
+@-webkit-keyframes shakeLJ {
+	0% {
+		bottom: 20px;
+	}
+	50% {
+		bottom: 30px;
+	}
+	100% {
+		bottom: 20px;
+	}
+}
+
+
+/*动画类---文字伸展*/
+
+.wordWidthChange {
+	-webkit-animation: wordWidthChange 2s infinite both;
+}
+
+@-webkit-keyframes wordWidthChange {
+	0% {
+		width: 30%;
+	}
+	50% {
+		width: 60%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+/*动画类---延时类*/
+
+.delay2P50 {
+	animation-delay: 2.5s;
+}
+.delay2P51 {
+	animation-delay: 2.7s;
+}
+.delay2P52 {
+	animation-delay: 2.9s;
+}
+.delay2P53 {
+	animation-delay: 3.1s;
+}
+
+
+/*动画类---文字*/
+
+.wordShow {
+	height: 0;
+	overflow: hidden;
+}
+
+.wordOne {
+	height: 0;
+	overflow: hidden;
+}
+
+.rolateIn {
+	animation: rolate 2s 0s infinite;
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+	background: url(../../../pic/weixin/anniversary/yellow_base3.png);
+	background-size: 100% 100%;
+	left: 10%;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fa324c;
+	font-weight: bold;
+	margin-top: 45px;
+}
+
+.titleTwo {
+	width: 100%;
+	height: 50px;
+	background: url(../../../pic/weixin/anniversary/yellow_base3.png);
+	background-size: 100% 100%;
+	left: 10%;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fa324c;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+
+
+.pageOneContent {
+	position: absolute;
+	top: 0;
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	left: 10%;
+}
+
+.pageFourContent {
+	top: 56%;
+	width: 80%;
+	margin: 0 auto;
+	left: 10%;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.animates .top0 {
+	top: 0px;
+}
+
+.animates .top30P {
+	top: 30%;
+}
+
+.animates .top78P {
+	top: 78%;
+}
+
+.animates .Left80P {
+	left: 80%;
+}
+
+
+/*邀请好友*/
+
+.sharePopup {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(53, 53, 53, 0.63);
+	z-index: 1000;
+}
+
+
+/*兼容iphone5*/
+
+@media only screen and (max-width:320px) {
+	.totalOneB {
+		font-size: 16px;
+	}
+	.totalTwoB {
+		font-size: 16px;
+	}
+	.font24 {
+		font-size: 20px;
+	}
+	.font30 {
+		font-size: 20px;
+	}
+	.title {
+		font-size: 16px;
+	}
+	.totalOne {
+		font-size: 16px;
+		top:28%;
+	}
+	.totalOneA {
+		font-size: 16px;
+		top:14%;
+	}
+	.totalTwo {
+		font-size: 16px;
+		top: 40%;
+	}
+	.totalTwoA {
+		top: 33%;
+	}
+	.titleTwo {
+		font-size: 16px;
+	}
+}

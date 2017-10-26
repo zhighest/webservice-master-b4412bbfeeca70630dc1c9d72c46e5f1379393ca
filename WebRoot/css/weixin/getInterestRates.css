@@ -1,0 +1,42 @@
+.acitivityBkg {
+	min-height: 480px;
+}
+.getbtnArea {
+	bottom: 10%;	
+}
+.MTB30P {
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+.closedPopBtn {
+    right: 8%;
+    top: -20px;
+}
+.largeTitle {
+	top: 30%;
+}
+.rateDec {
+	top: 43%;
+}
+#restnum0{position: absolute; bottom: 5%; text-align: center; width: 100%;}
+#restnum{font-size: 28px; color: #fe4c4c;}
+.btn22{bottom:12%;}
+#date{
+	position: absolute;
+    top: 22%;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-height:540px) {
+	#restnum0{position: absolute; bottom: -4%; text-align: center; width: 100%;}
+	#restnum{font-size: 28px; color: #fe4c4c;}
+	.btn22{bottom:5%;}
+	#date{
+		position: absolute;
+	    top: 24%;
+	    font-size: 1.2rem;
+	    width: 100%;
+	    text-align: center;
+	}
+}

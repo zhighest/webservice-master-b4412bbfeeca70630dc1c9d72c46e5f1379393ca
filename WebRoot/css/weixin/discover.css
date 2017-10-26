@@ -1,0 +1,91 @@
+body,html{
+	font-size: 14px;
+	background:#262c50
+}
+header{
+	background: url('../../pic/weixin/activity/Discover/background8.png') no-repeat;
+	background-size: 100%;
+	height: 12rem;
+}
+.content img{
+	position: absolute;
+	left: 0;
+	top: -0.3rem;
+	transform: translateX(4%);
+	-webkit-transform:translateX(4%) ;
+}
+.number{
+	color: #fffd3d; 
+}
+.wrap{
+	color: #fff;
+	text-align: center;
+}
+.wrapSpan {
+    letter-spacing: 1px;
+    top: -2.2rem;
+    font-size: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    width: 100%;
+}
+.phone{
+    color: #000;
+    top: -1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    width: 90%;
+    padding: 0.3rem 0;
+    border-radius: 3px;
+}
+.phoneC{
+	background: #fffd3d;
+    box-shadow: 0px 0.1rem 0px #dfad08;
+    color: #000;
+}
+.phoneC2{
+	    box-shadow: 0px 0.1rem 0px #9f9f9f;
+	     background: #c8c8c8;
+	     color: #9f9f9f;
+}
+.alert {
+    top: -2rem;
+}
+.alertA{
+    left: 0;
+    bottom: 0;
+   border-radius: 0 0 5px 5px;
+}
+.alertBox{
+	width: 5.5rem;
+	height: 4.8rem;
+	top: 50%;
+    margin-top: -2.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+ 	-webkit-transform:translateX(-50%) ;
+}
+.alertP{
+	    top: -1.6rem;
+	    color: #ff9801;
+}
+.alertP2{top: -1.5rem;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 0.1rem;}
+.alertBoxI{
+	top: 3%;
+    right: 3%;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	.alertBox{
+		height: 5.5rem;
+	}
+	.wrapSpan {
+    top: -2.3rem;
+}
+}

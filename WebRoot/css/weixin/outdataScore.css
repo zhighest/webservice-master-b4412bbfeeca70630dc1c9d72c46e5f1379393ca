@@ -1,0 +1,66 @@
+*{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.top{
+	top:0px;
+}
+.scoreWarp{
+	height: 170px;
+}
+.shadow{
+	border-radius: 50%;
+	background: radial-gradient(#DDCECE, #fff 50%);
+	background: -webkit-radial-gradient(#DDCECE, #fff 50%);
+	background: -mz-radial-gradient(#DDCECE, #fff 50%);
+	background: -ms-radial-gradient(#DDCECE, #fff 50%);
+	background: -o-radial-gradient(#DDCECE, #fff 50%);
+}
+.scoreDiv{
+	top: -10px;
+}
+.scoreNotice{
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	right: -26px;
+	background: url(../../pic/weixin/collectScore/noticeIcon.png) no-repeat;
+	background-size:100% 100%;
+}
+.scoreDetail{
+	line-height: 52px;
+	height: 52px;
+}
+#scorelist{
+	padding-top: 200px;
+}
+#outData{
+	line-height: 26px;
+}
+/* 弹框样式 */
+.scoreExplain{
+	background: #FFFFFF;
+	position: fixed;
+	width: 90%;
+	color: #9f9f9f;
+	z-index: 1000;
+	left: 0;
+	height:100%;
+}
+.scoreExplain .closeBtn{
+	bottom: 20px;
+	left: 0;
+}
+#scoreListRule{
+	padding: 20px 0 0 20px;
+}
+#scoreListRule li{
+	line-height: 20px;
+	text-indent: -1em;
+    margin-bottom:10px;
+}
+#scoreListRule span{
+	color: #ff5a5a;
+}
+.listNull{
+	padding-top: 40%;
+}

@@ -1,0 +1,429 @@
+body{
+	background:#f5f5f5;
+}
+
+.lineHeight2x {
+	padding-bottom: 1px;
+}
+.subnav li {
+	float: left;
+	background-color: #616161;
+	font-size: 12px;
+	color: #FFF;
+	margin-left:6px;
+}
+.subnav li a{
+	display: inline-block;
+	padding: 3px 10px;
+	
+
+}
+.subnav li:hover {
+	color: #fb4148;
+	background: #fb4148;
+}
+.subnav li.currentA {
+	color: #fb4148;
+	background: #fb4148;
+}
+.subnav li a:hover {
+	color: #FFF;
+}
+.helpCenterBanner {
+	width:100%;
+	height: 280px;
+	overflow: hidden;
+}
+.banner1 {
+	background: url(../../pic/web/help/helpBannerWeb.png) no-repeat top center;
+}
+.rightGuild {
+	padding-top: 5px;
+}
+.topUpImg,.fixProductImg,.demandProductImg,.transferOutImg,.withdrawImg,.signInImg,.NameBindCardImg,.KcodeActivationImg{
+	left:7.5%; 
+	top:13%;
+}
+.menuLarge {
+		display: block;
+}
+@media screen and (max-width:768px) {
+	.contentWrapper .wrapper {
+		margin-top: 10px;
+	}
+	.contentWrapper .PTB30 {
+		padding-bottom: 20px;
+	}
+	.recharge {
+		background: #fff;
+		box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.recharge .redTex {
+		font-size: 12px;
+	}
+	.recharge .font48 {
+		font-size: 32px;
+	}
+	.recharge .font20 {
+		font-size: 16px;
+	}
+	.recharge .font14 {
+		font-size: 12px;
+	}
+	.recharge .lineHeight2x {
+		line-height: 120%;
+	}
+	.recharge ul li {
+		width: 60%;
+		margin-left: 20%;
+	}
+	.rightGuild {
+		display: none;
+	}
+	.helpCenterBanner {
+		width:100%;
+		height: 180px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	.helpCenterBanner .MT180 {
+		margin-top: 100px;
+	}
+	.subnav {
+		width:100%;
+		margin: 0 auto;
+	}
+	.subnav li {
+		text-align: center;
+		width: 32%;
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+		margin-bottom: 3px; 
+	}
+	.subnav li a{
+		display: inline-block;
+		width: 100%;
+		padding: 3px 0;
+	}
+	.menuLarge {
+		display: none;
+	}
+	.menuLittle {
+		display: block;
+	}
+}
+
+/*基础文字类*/
+
+
+.Color9c{
+	color:#9c9c9c; /*底部文案*/
+}
+.Color97{
+	color:#979797
+}
+.Color4a{
+	color:#fc3e4a;
+}
+.Color2c{
+	color:#2c2c2c;
+}
+.Color4c{
+	color:#4c4c4c;
+}
+.WordBreakAll{
+	word-break:break-all;
+}
+.fontBold{
+	font-weight:bold;
+}
+.fontWeightIntial{
+	font-weight:initial;
+}
+.ActiveProductS7{
+	margin:0px auto;
+	text-align:left;
+	line-height:20px;
+}
+.problemTitle{
+}
+.heightAuto{
+	height:auto;
+}
+.bottomGray{
+	border-bottom:1px solid gainsboro;	
+}
+.ProblemBlock{
+	display:block;
+}
+.ProblemNone{
+	display:none;
+}
+.ProblemInlineBlock{
+	display:inline-block;
+}
+.ProblemClassification ul li {
+	line-height:30px;
+	background:#FFFFFF;
+	padding:0 20px;
+	color:#4c4c4c;
+}
+.ProblemClassification ul li div{
+	word-break: break-all;
+}
+.marginLeft0Im{
+	margin-left:0 !important;
+}
+.ProblemClassification ul li p{
+	position:relative;
+}
+.ProblemClassification ul li img{
+	position:absolute;
+	top:50%;
+	right:0px;
+	display:inline-block;
+	margin-top:-10px;
+}
+@-webkit-keyframes 'name'{
+	0%{
+		-webkit-transform:rotateZ(0deg);
+	}
+	50%{
+		-webkit-transform:rotateZ(-90deg);
+	}
+	100%{
+		-webkit-transform:rotateZ(-180deg);
+	}
+	
+}
+.rolateImage{
+	-webkit-animation:'name' 0.3s  forwards;
+}
+
+
+
+
+/*
+ 帮助中心页面更新 lj  web端
+ * */
+	.ActiveProductList{
+		width:1080px;
+		margin:20px auto;
+		text-align:left;
+	}
+	.ActiveProductList a{
+		text-decoration:none;
+		color:inherit;
+		width:100%;
+		height:100%;
+		display:inline-block;
+	}
+	.ActiveProductList>p{
+		font-size:20px;
+	}
+	.ActiveProductList ul{
+	}
+	.ActiveProductList ul li{
+		width:32%;
+		margin-left:2%;
+		float:left;
+		margin-top:20px;
+		cursor:pointer;
+		background:#ffffff;
+	}
+	.ActiveProductList ul li span{
+		display:none;
+	}
+	.ActiveProductList ul li:nth-child(1){
+		margin-left:0;
+	}
+	.ActiveProductList ul li:nth-child(4){
+		margin-left:0;
+	}
+	.ActiveProductList ul li img{
+		display:block;
+		width:40%;
+		height:auto;
+		float:left;
+		padding:20px;
+	}
+	.ActiveProductList ul li .productDetail{
+		display:inline-block;
+		width:40%;
+		margin-left:20px;
+		height:100%;
+	}
+
+
+
+
+
+
+/*手机端*/
+@media only screen and (max-width:768px ) {
+	.ActiveProductList{
+		width:90%;
+		margin:20px auto;
+		text-align:left;
+		font-size:14px;
+	}
+	.ActiveProductList>p{
+		font-size:18px;
+		font-weight:bold;
+	}
+	.ActiveProductList ul{
+		width:100%;
+		padding:10px 0;
+	}
+	.ActiveProductList ul li{
+		width:100%;
+		float:left;
+		margin-top:10px;
+		background:#ffffff;
+		margin-left:0;
+		position:relative;
+	}
+	.ActiveProductList ul li img{
+		display:block;
+		width:30%;
+		margin:0 auto;
+		padding:10px;
+	}
+	.ActiveProductList ul li .productDetail p:nth-child(2){
+		font-size:12px;
+	}
+	.ActiveProductList ul li .productDetail{
+		position:absolute;
+		top:50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		height:initial;
+	}
+	.ActiveProductList ul li .productDetail p{
+		margin-top:0;
+	}
+	
+	.ActiveProductList ul li span{
+		display:inline-block;
+		position: absolute;
+		top:50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		right:20px;
+		width:20px;
+		height:20px;
+	}
+	.ActiveProductList ul li span img{
+		width:100%;
+		height:100%;
+	}
+	.ProblemClassification{
+		margin-top:20px;
+	}
+	.ProblemClassification ul{
+		margin-top:10px;
+	}
+	.ProblemClassification ul li{
+		margin-bottom:10px;
+	}
+	
+	.ProblemClassification ul p{
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+}
+
+
+
+
+
+/*步骤详情*/
+/*
+ 帮助中心页面更新 lj  web端
+ * */
+	.ActiveProductDetail{
+		width:1080px;
+		margin:20px auto 60px;
+		text-align:left;
+	}
+	.ActiveProductDetail>p{
+		font-size:20px;
+	}
+	.ActiveProductDetail>ul{
+	}
+	.ActiveProductDetail>ul>li{
+		width:28%;
+		margin-left:8%;
+		float:left;
+		margin-bottom:60px;
+	}
+	.ActiveProductDetail>ul>li p span{
+		font-size:16px;
+	}
+	.ActiveProductDetail>ul>li:nth-child(1){
+		margin-left:0;
+	}
+	.ActiveProductDetail>ul>li:nth-child(4){
+		margin-left:0;
+	}
+	.ActiveProductDetail>ul>li>img{
+		display:block;
+		width:100%;
+		height:auto;
+		margin-top: 20px;
+	}
+
+	
+
+
+
+
+
+/*手机端*/
+@media only screen and (max-width:768px ) {
+	.ActiveProductDetail{
+		width:90%;
+		margin:30px auto;
+		text-align:left;
+		font-size:14px;
+	}
+	.ActiveProductDetail>p{
+		font-size:18px;
+		font-weight:bold;
+	}
+	.ActiveProductDetail>ul{
+		width:100%;
+	}
+	.ActiveProductDetail>ul>li{
+		width:100%;
+		float:left;
+		margin-bottom:40px;
+		margin-left:0;
+	}
+	.ActiveProductDetail>ul>li p span{
+		font-size:14px;
+	}
+	.ActiveProductDetail>ul>li>img{
+		display:block;
+		width:95%;
+		margin:0 auto;
+		margin-top:5px;
+	}
+	.ActiveProductDetail>ul>li>p{
+		font-size:16px;
+	}
+	.ProblemClassification ul li {
+		line-height:30px;
+		background:#FFFFFF;
+		padding:0 20px;
+	}
+	
+}

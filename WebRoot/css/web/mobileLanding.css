@@ -1,0 +1,95 @@
+html.body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-size: 1rem;
+}
+.wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.imgDiv {
+	width: 100%;
+	background: #fef0bf;
+}
+.imgDiv img {
+	width: 100%;
+	float: left;
+}
+.bkg1 {
+	background: #aedde6;
+}
+.btmAreaFix {
+	background: rgba(33, 33, 33, 0.56);
+	padding: 3% 3%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 94%;
+	vertical-align: middle;
+}
+.closed {
+	margin-top: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height:20px;
+	height: 20px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+.logo {
+	line-height:35px;
+	display: inline-block;
+	height: 35px;
+	vertical-align: middle;
+	position: relative;
+	top: 3px;
+}
+.rightArea {
+	color: #FFF;
+	float: right;
+	width: 75%;
+	box-sizing: border-box;
+	position: relative;
+	margin-left: 3%;
+} 
+.rightArea h4 {
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+.rightArea p {
+	font-size: 0.6rem;
+}
+.leftArea {
+	float: left;
+	width: 21%;
+	box-sizing: border-box;
+}
+.btn {
+	background: #ff5a5a;
+	color: #FFF;
+	border-radius: 5px;
+	padding: 7px 10px;
+	font-size: 12px;
+	position: absolute;
+	right: 3%;
+	top: 7%;
+}
+.PositionR  {
+	position: relative;
+}
+.rightIcon {
+	position: absolute;
+	top: 2%;
+	right: 0%;
+	width: 50%;
+}
+.rightIcon img {
+	float: none;
+	width: 100%;
+}

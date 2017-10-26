@@ -1,0 +1,28 @@
+.color9f{
+	color:#9f9f9f;;
+}
+.borderTopC8{
+	border-top: 1px solid #c8c8c8;
+}
+.showZQHHelp{
+	top:2000px; 
+}
+.tipsList{
+	padding: 20px 0 0 20px;
+    word-break: normal;
+}
+.tipsList li{
+	line-height: 20px;
+    text-indent: -1em;
+    margin-bottom: 10px;
+}
+.textRed{
+	color:#fa5a5a;
+}
+.closeBtn {
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+}
+

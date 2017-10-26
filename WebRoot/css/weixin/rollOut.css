@@ -1,0 +1,56 @@
+.rollOff{
+	color: #c8c8c8;
+}
+.fontFwr{
+	color: #9f9f9f;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	margin-top: 8px;
+}
+.moneyInput{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 30px;
+	font-size:50px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.moneyInput:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 18px;
+    line-height: 63px;
+    height: 63px;
+}
+.moneyInput::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 18px;
+    line-height: 63px;
+    height: 63px;
+}
+.moneyInput:-ms-input-placeholder{
+    font-size: 18px;
+    line-height: 63px;
+    height: 63px;
+}
+
+.moneyInput::-webkit-input-placeholder{
+    font-size: 18px;
+    line-height: 63px;
+    height: 63px;
+}
+.rollOutBtn{
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	border-radius: 50%;
+	background: #FF5A5A;
+}
+.rollOutBtn a{
+ display: block;
+ height: 100px;
+ border-radius: 50%;
+ color: #ffffff;
+ -webkit-tap-highlight-color:rgba(0,0,0,0);
+ padding-top: 10px;
+ line-height: 1.2em;
+}

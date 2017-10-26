@@ -1,0 +1,840 @@
+body, html {
+	height: 100%;
+}
+body{
+	line-height: 200%;
+	color: #333;
+	font-size: 14px;
+	color: #070707;
+	background: #f4f4f4;
+	text-align: left;
+}
+h1{
+	text-align: center;
+	font-size: 26px;
+	margin: 10% 0 20px;
+}
+h2{
+	font-size: 16px;
+	margin: 5px 0;
+}
+h3{
+	font-size: 18px;
+}
+p{
+	margin: 5px 20px;
+	line-height: 1.5em;
+	text-indent: 30px;
+	font-size: 16px;
+}
+.piecewise{
+	padding: 10px 0;
+	border: 1px dashed #ccc;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+.piecewise.last{
+	border-bottom: 1px dashed #ccc;
+}
+ol.level1{
+	margin:10px 10px 10px 40px;
+	font-size: 16px;
+}
+ol.level1>li{
+	list-style:upper-roman;
+}
+ol.level2{
+	margin:20px 10px 20px 20px;
+	font-size: 16px;
+}
+ol.level2>li{
+	list-style:decimal;
+}
+ol.level3{
+	margin:30px 10px 30px 20px;
+	font-size: 16px;
+}
+ol.level3>li{
+	list-style:decimal;
+}
+html {
+	width: 100%;
+}
+body.letterBkg{
+	color: #2f2200;
+	background: url("../pic/weixin/guaranteeLetter/bkg.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.title {
+	text-align: center;
+}
+.viewIcon {
+	top: 5px;
+	right: 3px;
+	z-index: 60;
+}
+.closedLetterBtn {
+	right: 5%;
+	top: 10px;
+}
+.popCon {
+	overflow-y: scroll;
+}
+.positionTop {
+	top: 30px;
+	line-height: 40px;
+	height: 40px;
+	z-index: 50;
+}
+.agreenmentCon {
+	overflow-y: scroll;
+}
+.popup {
+	z-index: 100;
+}
+.imgAgreenment {
+	width: 90%;
+}
+@media only screen and (max-device-height :480px){ 
+	.imgAgreenment {
+		width: 80%;
+	}
+}
+@charset "utf-8";
+/*Common style*/
+.btn {
+ *overflow:visible;/*æ¶ˆé™¤IEæŒ‰é’®å·¦å³paddingéšå­—æ•°é•¿åº¦å˜åŒ–çš„BUG*/
+}
+/*Custom layout
+--------------------------------------------------------------------*/
+a {
+	-webkit-appearance: none;
+	outline: none;
+}
+.textC {
+	text-align: center;
+}
+.textL {
+	text-align: left;
+}
+.textR {
+	text-align: right;
+}
+.blockC {
+	margin: auto;
+}
+.font12 {
+	font-size: 12px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font16 {
+	font-size: 16px;
+}
+.font18 {
+	font-size: 18px;
+}
+.font20 {
+	font-size: 20px;
+}
+.font22 {
+	font-size: 22px;
+}
+.font24 {
+	font-size: 24px;
+}
+.font26 {
+	font-size: 26px;
+}
+.font28 {
+	font-size: 28px;
+}
+.font30 {
+	font-size: 30px;
+}
+.font32 {
+	font-size: 32px;
+}
+.font34 {
+	font-size: 34px;
+}
+.font36 {
+	font-size: 36px;
+}
+.font40 {
+	font-size: 40px;
+}
+.font48 {
+	font-size: 48px;
+}
+.font60 {
+	font-size: 60px;
+}
+.fontIt {
+	font-style: italic;
+}
+.font150P {
+	font-size: 150%;
+}
+.whiteTex {
+	color: #FFF;
+}
+.lineHeight1_5x {
+	line-height: 1.5em;
+}
+.lineHeight1_8x {
+	line-height: 1.8em;
+}
+.lineHeight2x {
+	line-height: 2em;
+}
+.lineHeight3x {
+	line-height: 3em;
+}
+.lineHeight100 {
+	line-height: 100%;
+}
+.lineHeigt20 {
+	line-height: 20px;
+}
+.pTB2P {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.PTB5P {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.PB10P {
+	padding-bottom: 10%;
+}
+.PTB2 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.PTB5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.PTB10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.PTB15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.PTB20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.PTB30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.PTB40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.PTB10P {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.PLR5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.PT5 {
+	padding-top: 5px;
+}
+.PT10 {
+	padding-top: 10px;
+}
+.PT15 {
+	padding-top: 15px;
+}
+.PT20 {
+	padding-top: 20px;
+}
+.PT30 {
+	padding-top: 30px;
+}
+.PT50 {
+	padding-top: 50px;
+}
+.PT60 {
+	padding-top: 60px;
+}
+.PT10P {
+	padding-top: 10%;
+}
+.PT15P {
+	padding-top: 15%;
+}
+.PT20P {
+	padding-top: 20%;
+}
+.PT40P {
+	padding-top: 40%;
+}
+.PT5P {
+	padding-top: 5%;
+}
+.PB0 {
+	padding-bottom: 0;
+}
+.PB5 {
+	padding-bottom: 5px;
+}
+.PB10 {
+	padding-bottom: 10px;
+}
+.PB15 {
+	padding-bottom: 15px;
+}
+.PB20 {
+	padding-bottom: 20px;
+}
+.PB30 {
+	padding-bottom: 30px;
+}
+.PB40 {
+	padding-bottom: 40px;
+}
+.PB50 {
+	padding-bottom: 50px;
+}
+.PB70 {
+	padding-bottom: 70px;
+}
+.PB80 {
+	padding-bottom: 80px;
+}
+.PB100 {
+	padding-bottom: 100px;
+}
+.PB130 {
+	padding-bottom: 130px;
+}
+.PB150 {
+	padding-bottom: 150px;
+}
+.PB20P {
+	padding-bottom: 20%;
+}
+.PL5P {
+	padding-left: 5%;
+}
+.PL10P {
+	padding-left: 10%;
+}
+.PL10 {
+	padding-left: 10px;
+}
+.PL15 {
+	padding-left: 15px;
+}
+.PL20 {
+	padding-left: 20px;
+}
+.PL25 {
+	padding-left: 25px;
+}
+.PL30 {
+	padding-left: 30px;
+}
+.PLR1P {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.PLR5P {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.PL30 {
+	padding-left: 30px;
+}
+.PR10 {
+	padding-right: 10px;
+}
+.PR20 {
+	padding-right: 20px;
+}
+.ML5P {
+	margin-left: 5%;
+}
+.ML5 {
+	margin-left: 5px;
+}
+.ML10 {
+	margin-left: 10px;
+}
+.ML20 {
+	margin-left: 20px;
+}
+.ML30 {
+	margin-left: 30px;
+}
+.ML100 {
+	margin-left: 100px;
+}
+.ML100P {
+	margin-left: 100%;
+}
+.MR2P {
+	margin-right: 2%;
+}
+.MR5P {
+	margin-right: 5%;
+}
+.MR10P {
+	margin-right: 10%;
+}
+.MR15P {
+	margin-right: 15%;
+}
+.MR5 {
+	margin-right: 5px;
+}
+.MR10 {
+	margin-right: 10px;
+}
+.MR20 {
+	margin-right: 20px;
+}
+.MR30 {
+	margin-right: 30px;
+}
+.MR50 {
+	margin-right: 50px;
+}
+.MT5 {
+	margin-top: 5px;
+}
+.MT7 {
+	margin-top: 7px;
+}
+.MT10 {
+	margin-top: 10px;
+}
+.MT15 {
+	margin-top: 15px;
+}
+.MT20 {
+	margin-top: 20px;
+}
+.MT25 {
+	margin-top: 25px;
+}
+.MT30 {
+	margin-top: 30px;
+}
+.MT40 {
+	margin-top: 40px;
+}
+.MT50 {
+	margin-top: 50px;
+}
+.MT70 {
+	margin-top: 70px;
+}
+.MT75 {
+	margin-top: 75px;
+}
+.MA0 {
+	margin: 0;
+}
+.MB0 {
+	margin-bottom: 0;
+}
+.MB5 {
+	margin-bottom: 5px;
+}
+.MB10 {
+	margin-bottom: 10px;
+}
+.MB15 {
+	margin-bottom: 15px;
+}
+.MB20 {
+	margin-bottom: 20px;
+}
+.MB30 {
+	margin-bottom: 30px;
+}
+.MB50 {
+	margin-bottom: 50px;
+}
+.PA0 {
+	padding: 0;
+}
+.MT5P {
+	margin-top: 5%;
+}
+.MT10P {
+	margin-top: 10%;
+}
+.MB5P {
+	margin-bottom: 5%;
+}
+.MB10P {
+	margin-bottom: 10%;
+}
+.block {
+	display: block;
+}
+.none {
+	display:none;
+}
+.inlineB {
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+}
+.inlineBUl li {
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+}
+.strong {
+	font-weight: bold;
+}
+.width150P {
+	width: 150px;
+}
+.width120P {
+	width: 120px;
+}
+.width100 {
+	width: 100%;
+}
+.width95 {
+	width: 95%;
+}
+.width94 {
+	width: 94%;
+}
+.width90 {
+	width: 90%;
+}
+.width85 {
+	width: 85%;
+}
+.width80 {
+	width: 80%;
+}
+.width75 {
+	width: 75%;
+}
+.width70 {
+	width: 70%;
+}
+.width65 {
+	width: 65%;
+}
+.width60 {
+	width: 60%;
+}
+.width55 {
+	width: 55%;
+}
+.width50 {
+	width: 50%;
+}
+.width49 {
+	width: 49%;
+}
+.width45 {
+	width: 45%;
+}
+.width47 {
+	width: 47%;
+}
+.width46 {
+	width: 46%;
+}
+.width40 {
+	width: 40%;
+}
+.width44 {
+	width: 44%;
+}
+.width38 {
+	width: 38%;
+}
+.width37 {
+	width: 37%;
+}
+.width35 {
+	width: 35%;
+}
+.width30 {
+	width: 30%;
+}
+.width33_3 {
+	width: 33.3%;
+}
+.width28 {
+	width: 28%;
+}
+.width25 {
+	width: 25%;
+}
+.width24 {
+	width: 24%;
+}
+.width23 {
+	width: 23%;
+}
+.width22 {
+	width: 22%;
+}
+.width20 {
+	width: 20%;
+}
+.width15 {
+	width: 15%;
+}
+.width5 {
+	width: 5%;
+}
+.width20P {
+	width: 20px;
+}
+.width40P {
+	width: 40px;
+}
+.boxSizing {
+	box-sizing: border-box;
+}
+.height100P {
+	height: 100%;
+}
+.positionR {
+	position: relative;
+}
+.positionA {
+	position: absolute;
+}
+.positionF {
+	position:fixed;
+}
+.borderT {
+	border-top: 1px solid #E6E6E6;
+}
+.borderB {
+	border-bottom: 1px solid #E6E6E6;
+}
+.borderTB {
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+}
+.borderTBLight {
+	border-top: 1px solid #EBEAEA;
+	border-bottom: 1px solid #EBEAEA;
+}
+.borderTSL {
+	box-shadow: -1px 0px 1px #CCC;
+}
+.borderTS {
+	box-shadow: -1px 0px 1px #CCC;
+}
+.borderBS {
+	box-shadow: 1px 0px 1px #CCC;
+}
+.textBS {
+	text-shadow: 1px 0px 1px #CCC;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.MLR5 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.outHide {
+	overflow: hidden;
+}
+.verTop {
+	vertical-align: top;
+}
+.verMid {
+	vertical-align: middle;
+}
+.radius3 {
+	border-radius: 3px;
+}
+.radius5 {
+	border-radius: 5px;
+}
+.radius100 {
+	border-radius: 100px;
+}
+.opacity50 {
+	opacity: 0.5;
+}
+/****************é¢œè‰²å€¼******************/
+.whiteBkg {
+	background-color: #FFF;
+}
+.blackTex {
+	color: #373737;
+}
+.blackTex1 {
+	color: #7d7d7d;
+}
+.blackBkg {
+	background: #3b3b3b;
+}
+.grayBkg {
+	background: #f4f4f4;
+}
+.bkg1 {
+	background-color: #f6f6f6;
+}
+.bkg2 {
+	background-color: #BBB;
+}
+.bkg3 {
+	background-color: #ff5a5a;
+}
+.redTex {
+	color: #ff5a5a;
+}
+.grayTex {
+	color: #9f9f9f;
+}
+.redBkg {
+	background: #ff5a5a;
+}
+.yellowTex {
+	color: #fdd23e;
+}
+.redBorder {
+	border: 1px solid #ff5a5a;
+}
+.yellowTex01 {
+	color: #f1b702;
+}
+.fixTex {
+	color: #f1b702;
+}
+.fixBkg {
+	background: #dda347;
+}
+.fixTex01 {
+	color: #fc9660;
+}
+.hasTBBorder {
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+}
+.hasLRBorder {
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+}
+.border {
+	border: 1px solid #E6E6E6;
+}
+.borderR {
+	border-right: 1px solid #E6E6E6;
+}
+.borderRWhite {
+	border-right: 1px solid rgba(255,255,255,0.3);
+}
+.borderL {
+	border-left: 1px solid #E6E6E6;
+}
+.borderTGray {
+	border-top: 1px solid #DDD;
+}
+.heigh40 {
+	height: 40px;
+	line-height: 40px;
+}
+.heigh50 {
+	height: 50px;
+	line-height: 50px;
+}
+.height60 {
+	height: 60px;
+	line-height: 60px;
+}
+.textIndent25 {
+	text-indent: 25px;
+}
+.textIndent30 {
+	text-indent: 30px;
+}
+.borderDottedB {
+	border-bottom: 1px dotted #d2d2d2;
+}
+.verticalM li {
+	vertical-align: middle;
+}
+.underLine {
+	text-decoration: underline;
+}
+.PL30 {
+	padding-left: 30px;
+}
+.agreenmentArea span {
+	color: #FFF;
+	line-height: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+.agreenmentArea a {
+	color: #FFF;
+}
+.pop1 {
+	padding: 5% 0;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.85);
+}
+.popup {
+	background: rgba(81, 80, 80, 0.71);
+	position: fixed;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+.popupDiv {
+	width: 70%;
+	margin: 20% auto 0;
+	background: #f7f7f7;
+	padding: 5% 5%;
+	position: relative;
+}
+.letterB {
+	background: #FFF;
+	width: 30px;
+	height: 26px;
+	border-radius: 50px;
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+	text-align: center;
+	color: #ff5a5a;
+	font-size: 25px;
+	padding-top: 4px;
+	line-height: 26px;
+}
+.PTB15 li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.PLR10P li {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+

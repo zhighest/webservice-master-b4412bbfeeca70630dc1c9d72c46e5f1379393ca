@@ -1,0 +1,41 @@
+.blueTxt{
+	color:#408dd1;
+}
+.blueTxt:before{
+	content:"";
+	display:block;
+	position: absolute;
+	left:0;
+	top:0;
+	width:30px;
+	height:40px;
+	background: url(../../pic/running/leftImg.png) no-repeat;
+	background-size: 100%;
+}
+.blueTxt:after{
+	content:"";
+	display:block;
+	position: absolute;
+	right:0;
+	top:0;
+	width:24px;
+	height:40px;
+	background: url(../../pic/running/rightImg.png) no-repeat;
+	background-size: 100%;
+}
+.infoList{
+	border:1px solid #EEE;
+}
+.infoList li{
+	border-bottom:1px dotted #E3E3E3;
+}
+.infoList li:nth-child(6){
+	border:0;
+}
+.time{
+	text-indent: 3em;
+}
+.foot{
+	left:0;
+	bottom:0;
+}

@@ -1,0 +1,72 @@
+body{
+	background: #fff;
+}
+.dealTex{
+	border-left:2px solid #ff5a5a;
+}
+.heigh25{
+	height: 25px; 
+	line-height: 25px;
+}
+#rateCouponsList li{
+	border: solid 1px #ececec;
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.liBorder {
+	margin: 5px;
+	border: solid 1px #e7e7e7;
+}
+.tabBorder {
+	padding:10px 20px;
+	border: solid 1px #cfcfcf;
+}
+.useIcon{
+	width:42px; 
+	height:42px; 
+	top:0; 
+	right:0; 
+}
+/* 三角形 */
+.topleft {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #ff5a5a;/* 高度30px，从上往下颜色红色 */
+    border-left: 50px solid transparent;/* 宽度40px，从左往右部分为透明 */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.fix{
+	 -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.demand .unused{
+	background: url(../../pic/web/unusedDemand.png) no-repeat; 
+	background-size: 100%;
+}
+.fix .unused{
+	background: url(../../pic/web/unusedFix.png) no-repeat; 
+	background-size: 100%;
+}
+.used{
+	background: url(../../pic/web/used.png) no-repeat; 
+	background-size: 100%;
+}
+.pass{
+	background: url(../../pic/web/pass.png) no-repeat; 
+	background-size: 100%;
+}
+.expireDate{
+	background: rgba(255,255,255,0.2);
+}

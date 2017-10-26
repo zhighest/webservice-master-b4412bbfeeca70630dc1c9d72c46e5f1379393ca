@@ -1,0 +1,82 @@
+.acitivityBkg {
+	background: url("../../pic/weixin/activity/activity_20151029/bkg.jpg") no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+	background-attachment: fixed;
+}     
+.title img {
+	width: 100%;
+	height: auto;
+}
+.bkgOp {
+	background: rgba(102, 102, 102, 0.28);
+}
+.inputAct {
+	background: #e0f3f7;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border: none;
+}
+.btn.actBtn {
+	background: #0178a6;
+}
+.emTex {
+	color: #fc9461;
+}
+.linkAct {
+	border: 1px solid #8d7255;
+	color: #8d7255;
+	padding: 4px 5px;
+	border-radius: 3px;
+}
+.btmImg {
+	margin-top: 40px;
+	text-align: center;
+}
+.btmImg img {
+	width: 130px;
+}
+.rightBtn {
+	background: #fc9461;
+	top: 2%;
+	right: 0;
+	padding: 6px 5px;
+}
+.img1 {
+	position: relative;
+    top: -60px;
+    z-index: 1;
+    margin: auto;
+    width: 170px;
+}
+.zIndex3 {
+	z-index: 3;
+}
+.btmBtnAct {
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	box-shadow: 1px 0px 2px #2D2B2B;
+}
+.topBtn {
+	background: #fc9461;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(55, 50, 50, 0.6);
+	z-index: 100;
+}
+.popCon {
+	margin-top: 30%;
+	background: #FFF;
+}
+.pop2 img {
+	margin-right: -5%;
+}

@@ -1,0 +1,60 @@
+.loginBkg {
+	left:0;
+	top:0; 
+	z-index: -1;
+	width:100%;
+}
+.loginBkg #main {
+	padding-bottom: 0;
+}
+.loginFooter #footer {
+	background: rgba(7, 7, 7, 0.58);	
+}
+.loginArea {
+	margin-top: 15%;
+	margin-right: 5%;
+	background: url("../../pic/web/loginbkg.png") repeat;
+	width: 380px;
+	padding-bottom:10px;
+	height:430px;
+}
+.input {
+	background: none;
+	border:0;
+	padding-left:40px;
+	line-height:50px;
+	height:50px;
+	color:#d2d2d2;
+}
+.btn.smallBtn1 {
+	right:0;
+	width:30%;
+	background-color: #ff5a5a;
+	height:40px;
+	line-height:40px;
+	padding-bottom:0;
+	padding-top:0;
+}
+.btn.smallBtn1.forbid{
+	background-color: #989898;
+}
+.btn.PTB10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+} 
+#tabNav li {
+	color:#cbcbcb;
+	border-bottom:3px solid #cbcbcb;
+
+}
+#tabNav .current {
+	color:#fe5751;
+	border-bottom:3px solid #fe5751;
+}
+.borderB {
+	border-bottom:1px solid #675a53;
+}
+.loginIcon{
+	left:10px;
+	top:16px;
+}

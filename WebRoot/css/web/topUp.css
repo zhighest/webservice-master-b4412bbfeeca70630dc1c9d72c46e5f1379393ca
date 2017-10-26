@@ -1,0 +1,90 @@
+body { 
+	background: #fff;
+}
+.dealTex {
+	border-left:2px solid #ff5a5a;
+}
+.moneyOd {
+	border:1px solid #a8a8a8; 
+	width:250px;
+}
+.moneyOd:hover {
+	border:1px solid #ff5a5a;
+}
+.moneyOd:focus {
+	border:1px solid #ff5a5a; 
+}
+.bankIcon{
+	width:637px;
+}
+.bankIcon span{
+	width:112px;
+}
+.hover {
+	border: solid 1px #a8a8a8;
+	background: #ffffff;
+}
+.hover.current{
+	border:1px solid #ff5a5a; 
+	background: #ffffff url(../../pic/web/selected.png) right bottom no-repeat; 
+	background-size: 20px;
+}
+.hover:hover{
+	border:1px solid #ff5a5a;
+}
+.bankImg{
+	width:35px; 
+	height:35px;
+}
+.enterBtn{
+	margin-left:82px;
+}
+.kjzf{
+	top:15px; 
+	left: 40px;
+}
+.redBorder{
+	border:1px solid #ff5a5a;
+}
+.bankInfo{
+	line-height: 25px;
+}
+.phoneAlertBg{
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);z-index: 100;
+}
+.phoneAlertBox{
+	background:#fff; 
+	border-radius: 10px;
+	width: 382px;
+	height: 238px;
+	left: 50%;
+	top: 50%;
+	margin-left: -191px;
+	margin-top: -119px;
+	z-index: 110;
+}
+.mobile{
+	width:250px;
+}
+.PLR25{
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.verification{
+	width:155px;
+}
+.grayBkg1{
+	background:#ccc;
+}
+#gainCode{
+	width: 70px;
+}
+/* 充值成功页 */
+.footer{
+	left:0; 
+	bottom: 0;
+}

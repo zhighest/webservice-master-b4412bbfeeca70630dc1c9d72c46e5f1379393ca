@@ -1,0 +1,16 @@
+﻿.saleManagWrap{
+	background-color: #efefef;
+}
+.saleMonth{
+	border-bottom:1px solid #dddddd;
+}
+.saleMonthTotal{
+	height:40px;
+}
+.saleAmount{
+	line-height:40px;
+}
+.saleMonthDetail{
+	height:25px;
+	line-height:25px
+}

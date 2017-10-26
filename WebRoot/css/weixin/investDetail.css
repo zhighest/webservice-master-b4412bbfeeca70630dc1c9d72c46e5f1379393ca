@@ -1,0 +1,136 @@
+body{
+	height: auto;
+	padding-bottom: 65px;
+}
+.popSire {
+	position: relative;
+	height: auto;
+}
+.PL10P{
+	padding-left: 10%;
+
+}
+.desIcon1,.desIcon2,.desIcon3{
+	width:17px;
+	height:20px;
+	top:15px;
+	left:0;
+}
+.desIcon1{
+	background:url(../../pic/weixin/desIcon1.png) no-repeat;
+	background-size: 100%;
+}
+.desIcon2{
+	background:url(../../pic/weixin/desIcon2.png) no-repeat;
+	background-size: 100%;
+}
+.desIcon3{
+	background:url(../../pic/weixin/desIcon3.png) no-repeat;
+	background-size: 100%;
+}
+.dealIcon:before,.transferIcon:before{
+	content:"";
+	display: block;
+	position: absolute;
+	height:20px;
+	top:15px;
+	left:0;
+}
+.dealIcon:before{
+	background:url(../../pic/weixin/dealIcon.png) no-repeat;
+	background-size: 100%;
+	width:20px;
+}
+.transferIcon:before{
+	background:url(../../pic/weixin/transferIcon.png) no-repeat;
+	background-size: 100%;
+	width:20px;
+}
+.dealIcon:after,.transferIcon:after{
+	content:"";
+	display: block;
+	position: absolute;
+	width:8px;
+	height:15px;
+	background:url(../../pic/weixin/rightIcon.png) no-repeat;
+	background-size: 100%;
+	top:18px;
+	right:0;
+}
+.vipHint {
+    right: -30px;
+    top: 3px;
+}
+.vipHintUl {
+    right: -100px;
+    top: 24px;
+}
+.vipHintUl li {
+    width: 78px;
+    padding: 3px 3px;
+    border: 1px solid #FFF;
+    margin-bottom: 4px;
+}
+.investDicon2{
+	width:100px;
+	left:50%;
+	top:0;
+	margin-left: -50px;
+}
+.dashedLine1,.dashedLine2{
+	width:20%;
+	border-top: 1px dashed #e5e5e5;
+	top:20px;
+}
+.dashedLine1{
+	left: 20%;
+}
+.dashedLine2{
+	right: 20%;
+}
+.newfont{
+	position: absolute;
+    top: -13px;
+}
+a#loanAgreement {
+    padding-left: 9%;
+}
+a.transferIcon {
+	padding-left: 9%;
+}
+.newPL8P{
+	padding-left: 8%;
+}
+@media screen and (max-width: 320px){
+	.dashedLine1,.dashedLine2{
+		width:18%;
+	}
+	.dashedLine1{
+		left: 22%;
+	}
+	.dashedLine2{
+		right: 22%;
+	}
+}
+.dashedB{
+	border-bottom: 1px dashed #e5e5e5;
+}
+.dashedT{
+	border-top: 1px dashed #e5e5e5;
+}
+.thinStick{
+	width:15px;
+	height: 10px;
+	background: url(../../pic/weixin/ver2_7/thinStick.png) no-repeat;
+	background-size: 100%;
+	right: 0;
+	top: 20px;
+	transform: rotate(180deg);
+}
+.rotate{
+	transform: rotate(0deg);
+}
+.creditTranferBtn{
+	bottom:0;
+	left: 0;
+}

@@ -1,0 +1,11 @@
+body{
+		color:inherit;
+	}
+	li{
+		text-align:left;
+		text-indent: 30px;
+	}
+	p{
+		margin:0;
+		padding: 0;
+	}

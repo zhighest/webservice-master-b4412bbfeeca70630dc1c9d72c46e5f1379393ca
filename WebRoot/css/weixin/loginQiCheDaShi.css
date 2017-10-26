@@ -1,0 +1,308 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+.BlueBkg{
+	background-color: #19b5ff;
+}
+.wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.imgDiv {
+	width: 100%;
+	background: #fef0bf;
+}
+.imgDiv img {
+	width: 100%;
+	float: left;
+}
+.inputBkg1 {
+	border: none;
+	height: 30px;
+	margin: 6px 0;
+	background: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.ML50{
+	margin-left: 50px;
+}
+.MR100{
+	margin-right:100px;
+}
+.inputBkg2 {
+	border: none;
+	border-bottom: 1px solid #e2dad5;
+	padding: 3% 0%;
+	width: 58%;
+	margin-left: 35px;
+}
+.inputIcon {
+	left: 0;
+	top: 5px;
+}
+
+.agreenmentArea{
+	color: #fff;
+	line-height: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+.agreenmentArea a {
+	color: #fff;
+	text-decoration: underline;
+}
+.smallBtn1 {
+	font-size: 12px;
+	padding: 5px 0px;
+	background: #FFA922;
+	width: 100px;
+	height: 32px;
+	line-height: 16px;
+}
+.codeSecond{
+	line-height: 32px!important;
+}
+.loginBtn {
+	border-radius: 8px;
+	height: 42px;
+	font-size: 18px;
+	background: url(../../pic/weixin/landingPageTemplate/registeBtnBkg.png) no-repeat;
+	background-size: cover;
+	color: #ff5a5a;
+	padding: 0px;
+	line-height: 42px;
+}
+.forbid.codeSecond {
+    line-height: 24px;
+    font-size: 14px;
+}
+.arrowDown {
+	position: fixed;
+	bottom: 0;
+	left: 50%;	
+}
+.arrowsIcon{
+	z-index: 100;
+	bottom:30px;
+	left:50%;
+	margin-left: -20px;
+	animation: upDown 0.5s infinite;
+	-moz-animation: upDown 0.5s infinite;
+	-webkit-animation: upDown 0.5s infinite;
+	-o-animation: upDown 0.5s infinite;
+	position: absolute;
+}
+#Agreement{
+	width: 15px;
+	height: 15px;
+	border: 2px solid #fff;
+}
+.Advantage{
+color: #fff;
+}
+.advantageTxt1{
+	font-size: 20px;
+	margin-top:3%;
+	box-sizing: border-box;
+}
+.advantageTxt2{
+	bottom: 0;
+	/* height: 23%; */
+	font-size: 10px;
+	vertical-align:middle;
+}
+.imgDivTxtR{
+	right: 0;
+	top: 40%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.imgDivTxtL{
+	padding-left: 12%;
+	left:0;
+	top: 40%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.activityDetailBtn{
+	width:16%;
+	right:30px;
+	bottom: 35%;
+	z-index: 100;
+}
+.activityDetailBtn span{
+	top: 0;
+	width: 100%;
+	height: 75px;
+	border-radius: 50%;
+}
+.activityDetailBkg{
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5000;
+	margin: 0 7%;
+}
+.activityTxt{
+	height: 65%;
+	top:22%;
+	padding: 0 6%;
+	width: 88%;
+	line-height: 1.6em;
+	overflow: auto;
+	color: #f54a3b;
+	
+}
+.activityTxt ul{
+	margin:0 10px;
+	font-size: 12px;
+}
+.closeBtn{
+	width: 30px;
+	height: 30px;
+	top: -10px;
+	right:-10px;
+	background: url(../../pic/weixin/landingPageTemplate/closeBtn.png);
+	background-size: cover;
+}
+@keyframes upDown
+{
+	0 {bottom:30px;}
+	25% {bottom:35px;}
+	50% {bottom:30px;}
+	75% {bottom:25px;}
+	100%{bottom:30px;}
+}
+
+@-moz-keyframes upDown /* Firefox */
+{
+	0 {bottom:30px;}
+	25% {bottom:35px;}
+	50% {bottom:30px;}
+	75% {bottom:25px;}
+	100%{bottom:30px;}
+}
+
+@-webkit-keyframes upDown /* Safari 和 Chrome */
+{
+	0 {bottom:30px;}
+	25% {bottom:35px;}
+	50% {bottom:30px;}
+	75% {bottom:25px;}
+	100%{bottom:30px;}
+}
+
+@-o-keyframes upDown /* Opera */
+{
+	0 {bottom:30px;}
+	25% {bottom:35px;}
+	50% {bottom:30px;}
+	75% {bottom:25px;}
+	100%{bottom:30px;}
+}
+.btmAreaFix {
+	background: rgba(33, 33, 33, 0.56);
+	padding: 3% 3%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 94%;
+	vertical-align: middle;
+}
+.closed {
+	margin-top: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height:20px;
+	height: 20px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+.logo {
+	line-height:35px;
+	display: inline-block;
+	height: 35px;
+	vertical-align: middle;
+	position: relative;
+	top: 3px;
+}
+.rightArea {
+	color: #FFF;
+	float: right;
+	width: 75%;
+	box-sizing: border-box;
+	position: relative;
+	margin-left: 3%;
+} 
+.rightArea h4 {
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+.rightArea p {
+	font-size: 0.6rem;
+}
+.leftArea {
+	float: left;
+	width: 21%;
+	box-sizing: border-box;
+}
+.btmFixBtn {
+	background: #ff5a5a;
+	color: #FFF;
+	border-radius: 5px;
+	padding: 7px 10px;
+	font-size: 12px;
+	position: absolute;
+	right: 3%;
+	top: 7%;
+}
+/*2016-6-27修改*/
+.imgDiv a {
+    height: 3rem;
+    width: 83%;
+    display: inline-block;
+    margin-left: 8.5%;
+    margin-top: 5%;
+   
+}
+.newimg{
+	height: 5rem;
+	background-color: #dcf5fa;
+}
+.loginArea{
+	color: #1ea8e7;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #fff;
+}
+#loginArea span{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background: url(../../pic/weixin/wojiatisu/img_03.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+/*	vertical-align: middle;*/
+	margin-bottom: -8px;
+}
+.agreenmentArea img{
+	height: 19px;
+	width: 19px;
+	margin-bottom: -6px;
+}
+
+.blueText{
+	color: #1ea8e7;
+}
+@media (max-width: 320px){
+	.activityDetailBtn{
+	width:16%;
+	right:30px;
+	bottom: 20%;
+	z-index: 100;
+}
+}

@@ -1,0 +1,107 @@
+.inputTex {
+	border: 1px solid #575757;
+	padding: 3% 5%;
+	background: #fff;
+	text-align: center;
+	border-radius: 60px;
+	background: #ececec;
+}
+.content {
+	top: 0%;
+	width: 100%;
+}
+.content1 {
+	top: 0%;
+	width: 100%;
+}
+.contentBkg {
+	top: 0;
+	left: 0;	
+}
+.step1 {
+	bottom: 30%;
+	left: 8%;
+	width: 84%;
+}
+.btnAct {
+	padding: 3% 0;
+	background: #f8dd29;
+	cursor: pointer;
+	color: #FFF;
+	text-align: center;
+	border: 1px solid #f8dd29;
+}
+.pop {
+	background: rgba(0, 0, 0, 0.52);
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.popCon {
+	margin-top: 20%;
+}
+.popCon img {
+	width: 60%;
+}
+.contentBkg1 {
+	background: url("../../pic/weixin/activity/activity_20151202/bkg.png") no-repeat center bottom;
+	background-size: cover;
+}
+.step2 {
+	bottom: 7%;
+	left: 8%;
+	width: 84%;	
+}
+.step2 img {
+	width: 80%;
+	float: none;	
+}
+@media screen and (max-height:480px) {
+	.step1 {
+		bottom: 35%;
+	}
+	.step2 {
+		bottom: 6%;
+	}
+	.step2 img {
+		width: 80%;
+		float: none;	
+	}	
+}
+@-webkit-keyframes hand_move {
+    0% {
+        -webkit-transform: translateY(0);
+           -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+             -o-transform: translateY(0);
+                transform: translateY(0); }
+    100% {
+        -webkit-transform: translateY(-5px);
+           -moz-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+             -o-transform: translateY(-5px);
+                transform: translateY(-5px); }
+}
+.translate {
+	-webkit-animation: hand_move infinite .3s ease alternate;
+	-moz-animation: hand_move infinite .3s ease alternate;
+	-ms-animation: hand_move infinite .3s ease alternate;
+	-o-animation: hand_move infinite .3s ease alternate;
+	animation: hand_move infinite .3s ease alternate;
+}
+.activityTex {
+	color: #37474b;
+}
+.actvityTexEm {
+	color: #e70b18;
+}
+.imgDiv img.actBtn2,.imgDiv img.actBtn1 {
+	width: 100px;
+	float: none;
+}
+.NumtextArea {
+	top: 5%;
+	left: 0;
+}

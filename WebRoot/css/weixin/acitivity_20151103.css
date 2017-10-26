@@ -1,0 +1,62 @@
+.content {
+	min-height: 270px;
+}
+.contentBkg {
+	top: 0;
+	left: 0;
+	
+}
+.step1 {
+	bottom: 10%;
+	left: 8%;
+	width: 84%;
+}
+.step2 {
+	bottom: 30%;
+	left: 8%;
+	width: 84%;
+}
+.inputTex {
+	/* box-shadow: 1px 1px 1px #51b2dd; */
+	border: none;
+	padding: 2% 5%;
+}
+.btnAct {
+	padding: 2% 0;
+	background: #f0843b;
+	cursor: pointer;
+	color: #FFF;
+	text-align: center;
+	/* border: 1px solid #f0843b; */
+}
+.btnAct.bkg1 {
+	background: #fcbd1c;
+	border: 1px solid #fcbd1c;
+}
+.agreenment img {
+	width: 14px;	
+}
+.act03Tex {
+	color: #FFFFFF;
+}
+.act03Tex1 {
+	color: #ff5a5a;
+}
+#loginSubmit.forbid {
+    background-color: rgba(0,0,0,0.3);
+    /* border:1px solid rgba(255,255,255,0.3); */
+}
+.gradient{
+	    background: -webkit-linear-gradient(#40b5c7, #41b5ef); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#40b5c7, #41b5ef); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#40b5c7, #41b5ef); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#40b5c7, #41b5ef); /* 标准的语法（必须放在最后） */
+}
+@media screen and (max-width:320px) {
+	.step1 {
+		bottom: 10%;
+	}
+	.step2 {
+		bottom: 35%;
+	}	
+}

@@ -1,0 +1,749 @@
+body,
+html {
+	padding: 0;
+	margin: 0;
+	height:100vh;
+	overflow: hidden;
+}
+
+.changePage {
+	position: fixed;
+	bottom: 20px;
+	width: 30px;
+	height: 30px;
+	left: 50%;
+	margin-left: -15px;
+	z-index: 10;
+	-webkit-animation: shake 2s infinite both;
+}
+
+@-webkit-keyframes shake {
+	0% {
+		bottom: 20px;
+	}
+	50% {
+		bottom: 30px;
+	}
+	100% {
+		bottom: 20px;
+	}
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+}
+
+.height30 {
+	height: 30%;
+}
+.height26{
+	height:26%;
+}
+.height74{
+	height:74%;
+}
+
+.imgBanner {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.swiper-container {
+	height: 100%;
+}
+
+.swiper-slide {
+	height: 100%;
+	position:relative;
+}
+
+.top30 {
+	top: 30%;
+}
+
+.left5 {
+	left: 5%;
+}
+
+.width100p {
+	width: 100px;
+}
+
+.colorfa324c {
+	color: #FA324C;
+}
+
+.borderRadius5500 {
+	border-radius: 5px 5px 0 0;
+}
+
+.blue {
+	background: #3471ef;
+	background: -webkit-linear-gradient(left, #2e3ee7, #3997f4);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #2e3ee7, #3997f4);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #2e3ee7, #3997f4);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #2e3ee7, #3997f4);
+	/* 标准的语法 */
+}
+
+.input::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #fb4148;
+}
+
+.input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #fb4148;
+}
+
+#heightInitail {
+	height: initial;
+}
+
+.input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #fb4148;
+}
+
+.input:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #fb4148;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight div input {
+	width: 244px;
+}
+
+.downloadContent {
+	width: 100%;
+	text-align: left;
+}
+
+.downloadContent .reminder {
+	top: -76px;
+	left: 0;
+	width: 100%;
+	height: 76px;
+	line-height: 76px;
+	background: rgba(83, 65, 123, 0.9);
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	z-index: 1000;
+	transition: all 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.downloadContent .bannerWrapper .bannerPic {
+	position: relative;
+	height: 800px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.downloadContent .bannerWrapper .bannerContent {
+	width: 80%;
+	margin: 0 auto;
+	height: initial;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight {
+	height: 100%;
+	text-align: right;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .register {
+	display: block;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight div {
+	width: 100%;
+	height: 44px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight div input {
+	height: 44px;
+	line-height: 44px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight div input .verification {
+	width: 50px;
+	height: 44px;
+	background-color: #ff063c;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .verifycode input {
+	width: 244px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .password input {
+	width: 244px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .phoneNum input {
+	width: 244px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .captcha {
+	overflow: visible;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .captcha input {
+	width: 180px;
+	left: 25px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight .captcha span {
+	width: 86px;
+	right: -1px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight a {
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.downloadContent .bannerWrapper .bannerContent .contentRight span {
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+}
+
+.column img {
+	width: 100%;
+	display: block;
+	height: initial;
+}
+
+.DownLoadApp {
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 0px;
+	height: 80px;
+	width: 100%;
+}
+
+.DownLoadApp>div {
+	width: 95%;
+	margin: 0 auto;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.DownLoadApp>div img {
+	height: 80%;
+	margin-top: 5px;
+}
+
+
+/*基础类*/
+
+.backgroundEfb843 {
+	background: #efb843;
+}
+
+.forbid {
+	background: #dddddd !important;
+	color: #FFFFFF !important;
+}
+
+.overHidden {
+	overflow: hidden;
+}
+
+.padding10P {
+	padding: 10px;
+}
+
+.backgroundEfb843 {
+	background: #efb843;
+}
+
+.backgroundImg {
+	background:url(../../../pic/weixin/anniversary/middle.jpg);
+	background-size: 100% 100%;
+}
+
+.colore9f842 {
+	color: #e9f842;
+}
+
+.textWhite {
+	color: #FFFFFF;
+}
+
+.ML5P {
+	margin-left: 5px;
+}
+
+.MT10P {
+	margin-top: 10px;
+}
+
+.height40P {
+	height: 40px;
+}
+
+.radius5 {
+	border-radius: 5px;
+}
+
+.lineHeight40 {
+	line-height: 40px;
+}
+
+.border1pxWhite {
+	border: 1px solid #FFFFFF;
+}
+
+.bottom0 {
+	bottom: 0;
+}
+
+#width60 {
+	width: 60%;
+}
+
+#Countdown {
+	width: 35%;
+	right: 0;
+	top: 0;
+}
+
+.opacity7 {
+	opacity: 0.7;
+}
+
+.colorWhiteImportant {
+	color: #FFFFFF !important;
+}
+
+.height300 {
+	height: 300px;
+	overflow-y: scroll;
+}
+
+.overFlowS {
+	overflow-y: scroll;
+}
+
+.lineHeight25px {
+	line-height: 25px;
+}
+
+.height90P {
+	height: 90%;
+}
+
+.MT2point5 {
+	margin-top: 2.5px;
+}
+
+.colorBlack {
+	color: #000000;
+}
+
+.color2d982e {
+	color: #2d982e;
+}
+
+.borderRightGray {
+	border-right: 1px solid gainsboro;
+}
+
+
+/*立即下载*/
+
+.RightNowDownLoad {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 0 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: block;
+	float: right;
+	color: #FFFFFF;
+	background: #fe495a;
+}
+
+
+
+.rigistered {
+	width: 92%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 1280px) {
+	#nav .navWrap .logo[data-v-088a0d5a] {
+		margin-left: 50px;
+	}
+	#nav .navWrap .navContent[data-v-088a0d5a] {
+		margin-right: 60px;
+	}
+	.downloadContent .bannerWrapper .bannerPic {
+		height: 620px;
+	}
+	.downloadContent .bannerWrapper .bannerContent {
+		width: 910px;
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 798px) {
+	/*基础类*/
+	/*基础类*/
+	.overHidden {
+		overflow: hidden;
+	}
+	.padding10P {
+		padding: 10px;
+	}
+	.backgroundEfb843 {
+		background:url(../../../pic/weixin/anniversary/button.png);
+		background-size: 100% 100%;
+		color: #FFFFFF;
+	}
+	.colore9f842 {
+		color: #e9f842;
+	}
+	.textWhite {
+		color: #FFFFFF;
+	}
+	.ML5P {
+		margin-left: 5px;
+	}
+	.MT10P {
+		margin-top: 10px;
+	}
+	.height40P {
+		height: 40px;
+	}
+	.radius5 {
+		border-radius: 5px;
+	}
+	.lineHeight40 {
+		line-height: 40px;
+	}
+	.border1pxWhite {
+		border: 1px solid #FFFFFF;
+	}
+	.bottom0 {
+		bottom: 0;
+	}
+	.opacity7 {
+		opacity: 0.7;
+	}
+	.colorWhiteImportant {
+		color: #FFFFFF !important;
+	}
+	.height300 {
+		height: 300px;
+		overflow-y: scroll;
+	}
+	.lineHeight25px {
+		line-height: 25px;
+	}
+	.height90P {
+		height: 90%;
+	}
+	.MT2point5 {
+		margin-top: 2.5px;
+	}
+	.colorBlack {
+		color: #000000;
+	}
+	/*立即下载*/
+	.RightNowDownLoad {
+		height: 30px;
+		line-height: 30px;
+		margin-top: 10px;
+		font-size: 14px;
+		padding: 0 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		display: block;
+		float: right;
+		color: #FFFFFF;
+	}
+	.borderRightGray {
+		border-right: 1px solid gainsboro;
+	}
+	.color2d982e {
+		color: #2d982e;
+	}
+	
+	.downloadContent {
+		display: block;
+	}
+	.downloadContent .column img {
+		width: 100%;
+		display: block;
+	}
+	.column .swiper-slide-img {
+		height: 100%;
+	}
+	.column .rigistered img {
+		width: 44%;
+		height: initial;
+		margin-left: 28%;
+	}
+	.downloadContent .column #bannerContentDiv {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 0px;
+		height: initial;
+		position: static;
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		padding-bottom: 50px;
+	}
+	.DownLoadApp {
+		background: rgba(0, 0, 0, 0.5);
+		position: fixed;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+	}
+	.DownLoadApp>div {
+		width: 95%;
+		margin: 0 auto;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.DownLoadApp>div img {
+		height: 80%;
+		margin-top: 5px;
+	}
+	.DownLoadApp>div .close {
+		height: 40%;
+		margin-top: 15px;
+		margin-right: 10px;
+	}
+	.downloadContent .bannerWrapper .bannerContent .contentRight div input {
+		width: 100%;
+		height: 20px;
+		margin-top: 12px;
+		line-height: initial;
+	}
+	.downloadContent {
+		padding-top: 0;
+		padding-bottom: 80px;
+		background-size: 100%;
+		height: 100%;
+		width: 100%;
+		background:url(../../../pic/weixin/anniversary/middle.jpg);
+		background-size: 100% 100%;
+	}
+	.downloadContent .reminder {
+		height: 70px;
+		line-height: 70px;
+		font-size: 18px;
+	}
+	.downloadContent .bannerWrapper .bannerContent {
+		width: 90%;
+		height: initial;
+		position: static;
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+		margin: 0 auto;
+	}
+	.downloadContent .bannerWrapper .bannerContent .contentLeft {
+		float: none;
+		text-align: center;
+		left: 50%;
+		position: relative;
+		-webkit-transform: translateX(-51%);
+		-moz-transform: translateX(-51%);
+		-ms-transform: translateX(-51%);
+		-o-transform: translateX(-51%);
+		transform: translateX(-51%);
+	}
+	.downloadContent .bannerWrapper .bannerContent .contentLeft .special {
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-size: 12px;
+	}
+	.downloadContent .bannerWrapper .bannerContent .contentRight {
+		width: 90%;
+		padding-top: 50px;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.downloadContent .bannerWrapper .bannerContent .contentRight .register {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.DownLoadApp>div div p:nth-child(1) {
+		font-size: 16px;
+	}
+	.DownLoadApp .RightNowDownLoad {
+		padding: 0 15px;
+		font-size: 12px;
+		position: absolute;
+		right: 2.5%;
+	}
+}
+
+
+/*动画类---烟花*/
+
+.startFlashOne {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 100px;
+	perspective: 1000px;
+	animation: rolateStar 4s 0s cubic-bezier(0.55, 0.54, 1, 1) forwards infinite;
+	transform: scale(0);
+}
+
+.startFlashTwo {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 50px;
+	perspective: 1000px;
+	animation: rolateStar 4s 0.5s cubic-bezier(0.55, 0.54, 1, 1) forwards infinite;
+	transform: scale(0);
+}
+
+.startFlashThree {
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	width: 80px;
+	perspective: 1000px;
+	animation: rolateStar 4s 1s cubic-bezier(0.55, 0.54, 1, 1) forwards infinite;
+	transform: scale(0);
+}
+
+@-webkit-keyframes rolateStar {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0;
+	}
+	40% {
+		-webkit-transform: scale(0.2);
+		opacity: 0.5;
+	}
+	60% {
+		-webkit-transform: scale(0.5);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 0;
+	}
+}
+
+
+/*动画类---飘带*/
+
+.ribbonOne {
+	width: 100px;
+	position: absolute;
+	top: -100px;
+	right: 10px;
+	animation: ribbon 20s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+.ribbonTwo {
+	width: 50px;
+	position: absolute;
+	top: 100px;
+	right: 10px;
+	top: -10%;
+	left: 10px;
+	animation: ribbon 15s 1s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+@-webkit-keyframes ribbon {
+	0% {
+		top: -10%;
+	}
+	100% {
+		top: 100%;
+	}
+}
+
+
+/*动画类---流星雨*/
+
+.meteoricOne {
+	position: absolute;
+	width: 150px;
+	left: 100%;
+	top: -60%;
+	animation: meteoric 1.5s 1s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+.meteoricTwo {
+	position: absolute;
+	width: 150px;
+	left: 100%;
+	top: -60%;
+	animation: meteoric 1s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+@-webkit-keyframes meteoric {
+	0% {
+		transform: translateX(-10px) translateY(100px);
+	}
+	100% {
+		transform: translateX(-600px) translateY(700px);
+	}
+}
+
+
+/*动画类---气球*/
+
+.balloon {
+	position: absolute;
+	width: 150px;
+	bottom: -300px;
+	left: 100px;
+	animation: balloon 4s 0s cubic-bezier(0.49, 0.48, 0.49, 0.48);
+}
+
+@-webkit-keyframes balloon {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-1000px);
+	}
+}
+
+#Agreement {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #FFFFFF;
+	outline: initial;
+}

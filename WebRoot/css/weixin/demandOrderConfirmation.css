@@ -1,0 +1,72 @@
+
+.turnAround90{
+	transform: rotate(90deg);
+}
+.stick {
+	margin-top:21px;
+}
+.btmDiv {
+	color: #FFF;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	padding: 4% 0;
+	z-index: 100;
+	box-shadow:0px -1px 2px #ccc;
+}
+.amountDiv {
+	margin: 0 auto 0px;
+	border: 1px solid #eee;
+	padding: 10px 0px 10px 10px; 
+	
+}
+.inputAmount {
+	border: none;
+	width: 70%;
+	margin-left: 50px;
+	background: none;
+}
+.moneyBtn li{
+	margin:0 10px 0 0;
+	padding: 0 6px;
+	height:30px;
+	line-height: 30px;
+}
+.moneyBtn li:last-child{
+	margin-right: 0;
+}
+.moneyBtn li:active{
+	background: #ff5a5a;
+	color:#fff;
+}
+.vipHint {
+	right: -30px;
+    top: 3px;
+}
+.vipHintUl {
+	right: -100px;
+    top: 24px;
+}
+.vipHintUl li {
+	width: 78px;
+	padding: 3px 3px;
+	border: 1px solid #FFF;
+	margin-bottom: 4px;
+}
+.desIcon2{
+	background:url(../../pic/weixin/ver2_7/describe.png) no-repeat;	
+	background-size: 100%;
+	width:20px;
+	height:20px;
+	top:15px;
+	left:0;
+}
+.voucherIcon{
+	background:url(../../pic/weixin/ver2_8/voucherIcon.png) no-repeat;
+	background-size: 100%;
+	width:20px;
+	height:20px;
+	top:15px;
+	left:0;
+}

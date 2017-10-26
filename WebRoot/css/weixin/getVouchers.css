@@ -1,0 +1,36 @@
+.radius15 {
+	border-radius: 15px;
+}
+.titleP {
+	width:200px;
+	top: -20px; 
+	left: 50%;
+	margin-left: -100px;
+}
+.firstPart {
+	padding: 20px 10px 15px 10px;
+}
+.textIn24 {
+	margin-left: 60px;
+}
+
+.numP {
+	padding-left: 60px;
+}
+.radius20 {
+	border-radius: 20px;
+}
+.openBtn {
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 25px;
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+.lineH80P {
+	line-height: 80px;
+}
+.lineH45P {
+	line-height: 45px;
+}

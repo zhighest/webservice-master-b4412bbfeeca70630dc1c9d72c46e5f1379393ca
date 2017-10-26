@@ -1,0 +1,179 @@
+.loginWrapper {
+	background: #ffffff;
+	min-height: 100%;
+	height: auto;
+	background-size: cover;
+}
+.avatar {
+	width: 40%;
+	margin-left: 30%;
+}
+.avatar img {
+	width: 100%;
+}
+.title1 {
+	padding: 5px 10px;
+	color: #e8e6e6;
+	background: url("../../pic/weixin/bkg1.jpg") repeat;
+}
+
+.inputBkg1 {
+	height: 50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height: 30px;
+	border:none;
+	text-indent: 1em;
+	background: #ffffff;
+}
+.inputContent{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #dddddd;
+}
+.inputContent1{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #dddddd;
+}
+#imgcode{
+	margin-top: 2px;
+}
+.btn.smallBtn1 {
+	padding: 6px 0;
+	line-height: 1.2em;
+}
+/*#gainCode.forbid {
+	line-height: 34px;
+}*/
+#loginSubmit.forbid {
+	background-color: rgba(0,0,0,0.3);
+}
+.downIcon{
+	width:16px;
+	height:10px;
+	background: url("../../pic/weixin/downIcon.png");
+	background-size: 100%;
+	right:5%;
+	top: 20px;
+}
+/* 重置密码页面样式 */
+.tips{
+	top:15px;
+	left:4%;
+}
+.tips1{
+	top:15px;
+	left:0;
+}
+.PL75{
+	padding-left: 75px;
+}
+.PL85{
+	padding-left: 85px;
+}
+.PL120{
+	padding-left: 120px;
+}
+.alertBkg{
+	background: rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+}
+.alertBox{
+	top:50%;
+	left:5%;
+	margin-top:-65px;
+}
+/* 解绑银行卡 */
+.ML25{
+	margin-left: 25px;
+}
+.height45{
+	height:45px;
+	line-height: 45px;
+}
+.selectIcon{
+	right: 5%;
+	top:20px;
+}
+.agreenmentArea01 span {
+	color: #9f9f9f;
+	line-height: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+.agreenmentArea01 a {
+	color: #108ee9;
+}
+/**/
+.eye{
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 32px;
+}
+.delete{
+	right: 34px;
+    top: 0;
+   width: 30px;
+   height: 100%;
+}
+.deleteImg{
+	left: 6px;
+    margin-top: -8px;
+    top: 50%;
+}
+.eyeImg{
+    margin-top: -3px;
+    left: 4px;
+    top: 50%;
+}
+html,body{
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select: none; 
+	-khtml-user-select: none; 
+	user-select: none; 
+}
+
+
+/* 交易密码修改的优化样式   2017/3/30  */
+.changeWrap{
+	height: 500px;
+}
+.inputContent span{
+	width: 80px;
+}
+.color59{
+	color: #595959;
+}
+#VerificationCode #gainCode{
+	width: 90px; 
+}
+#gainCode{
+	width: 80px;
+}
+.alertBkg {
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+}
+.alertBox {
+	top: 50%;
+	left: 5%;
+	margin-top: -75px;
+	height:160px;
+}
+#comfirmBtn{
+	width: 100px;
+	margin-left: 20px;
+}
+#cancel{
+	width: 100px;
+	margin-right: 20px;
+}
+#JS-phoneCall{
+	width: 100px;
+	margin-left: 20px;
+}

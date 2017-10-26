@@ -1,0 +1,28 @@
+label{
+	left:10px;
+	top:0;
+}
+.inputTitle{
+	width: 25%;
+	top:0;
+	left: 0;
+	padding: 12px 0;
+}
+#inputNum{
+	background: #f3f3f3;
+	padding:12px 0 12px 25%;
+	box-sizing: border-box;
+}
+.bankList li:nth-child(1){
+	padding-left: 0;
+}
+.bankList li{
+	height: 25px;
+	line-height: 25px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.bankList li img{
+	left:0;
+	top:0;
+}

@@ -1,0 +1,11 @@
+body{background: #fff;}
+.recharge{width:946px;}
+.dealTex{border-left:2px solid #ff5a5a;}
+.recharge li{width:413px;}
+.investUl li:nth-child(2n) {
+	background: #f6f6f6;
+}
+.investUl li:nth-child(2n+1) {
+	background: #FFF;
+}
+.greenTex{color: #32b16c;}

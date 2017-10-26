@@ -1,0 +1,448 @@
+*{-webkit-tap-highlight-color:rgba(0,0,0,0); text-decoration:none};#notice{-webkit-transform: scale(0.9);}/* 取消浏览器默认点击样式 */
+.topBar {
+	height: 25px;
+	width: 90%;
+	padding: 10px 5%;
+	background: #FFF;
+	text-align: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 501;
+}
+.height25 {
+	height: 25px;
+	line-height: 25px;
+}
+.height45 {
+	height: 45px;
+	line-height: 45px;
+}
+#accoutBtn {
+	display: inline-block;
+	width: 100%;
+	margin-top: -10px;
+}
+#accoutBtn img {
+	vertical-align: middle;
+}
+.camnpr-rotate-180 {
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+.verM {
+	vertical-align: middle;
+}
+.whiteOpacity {
+	background: rgba(255, 255, 255, 0.95);
+}
+@media screen and (max-height:480px) {
+	#accoutArea {
+		padding-top: 2%;
+	}
+	.grade.PT5P {
+		padding-top: 2%;
+	}
+}
+.accoutArea {
+	position: fixed;
+	top: 45px;
+	left: 0;
+	width: 100%;
+	z-index: 502;
+	background: rgba(255, 255, 255, 0.95);
+}
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	background: #FFF;
+}
+.avatar img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+}
+.grade {
+}
+.grade li {
+	width: 32%;
+	text-align: center;
+	padding: 5% 0;
+	display: none;
+	float: left;
+}
+.grade li:hover {
+	background: #f2f6f5;
+}
+.iconArea img {
+	height: 60px;
+}
+.grade li a {
+	display: block;
+}
+.blueArea {
+	background: #58aef1;
+	padding: 60px 0 30px;
+}
+.sumUL {
+}
+.sumUL li {
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+	font-size: 34px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 3px 3px 0;
+	margin-right: 3px;
+	vertical-align: middle;
+}
+.sumUL li.mark {
+	border: none;
+}
+.sumUL li.whiteBlock {
+	background: #FFF;
+	color: #185a8d;
+}
+.rechargeSite {
+	left: 50%;
+	margin-left: -46px;
+	bottom: -50px;
+	z-index: 500;
+}
+.tab5P li {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.corner {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.tabRowFour li {
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+	width: 23%;
+	font-size: 14px;
+	position: relative;
+}
+.tabRowFour a {
+	color: #c6c6c6;
+	display: block;
+	padding: 20px 0;
+}
+.tabRowFour a.acitive {
+	color: #FFF;
+}
+.tabArrow {
+	position: absolute;
+	border-radius: 60px;
+	width: 12px;
+	height: 12px;
+	left: 50%;
+	bottom: -6px;
+	display: block;
+	margin-left: -6px;
+}
+.PTB15 li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.itemCon {
+	border-radius: 5px;
+	position: relative;
+	padding: 5% 5%;
+	width: 90%;
+	background: #FFF;
+	margin: 10px auto 0;
+	box-shadow: 0.5px 0.5px 2px #CCC;
+}
+.progress {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	margin-right: 5%;
+	margin-top: 15px;
+	margin-left: 1%;
+}
+.progress.largeProgress {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	float: left;
+	margin-right: 5%;
+	margin-top: 15px;
+	margin-left: 1%;
+}
+.progress.largeProgress1 {
+	position: relative;
+	width: 90px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	margin-right: 5%;
+	margin-top: 10px;
+	margin-left: 1%;
+}
+.progress.largeProgress .detailTex {
+}
+.progress.largeProgress1 .detailTex {
+}
+.detailTex {
+	position: absolute;
+	width: 100%;
+	margin: auto;
+	height: auto;
+	top: 50%;
+	margin-top: -30%;
+	line-height: 1.0em;
+}
+.itemRow {
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+	width: 130px;
+}
+.PR15P {
+	padding-right: 15%;
+}
+.rightState {
+	height: 85px;
+}
+.borderLDotted {
+	border-left: 3px dotted #dddddd;
+}
+.itemLeftArrow {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	margin-top: -15px;
+	background: #f4f4f4;
+	z-index: 100;/* 	box-shadow: 0.5px 0.5px 2px #CCC inset; */
+}
+.itemRightArrow {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	position: absolute;
+	right: -15px;
+	top: 50%;
+	margin-top: -15px;
+	background: #f4f4f4;
+	z-index: 100;/* 	box-shadow: 0.5px 0.5px 2px #CCC inset; */
+}
+.detailsPopup {
+	position: relative;
+	height: auto;
+}
+.detailsPopupDiv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #FFF;
+	height: auto;
+}
+.detailsFlowUl li {
+	padding: 15px 5%;
+	border-bottom: 1px solid #CACACA;
+	text-align: left;
+}
+.topBarRight {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	margin-top: -13px;
+	width: 100%;
+	text-align: right;
+}
+.siteIcon18 {
+	top: -1px;
+	left: -25px;
+}
+.redArea {
+	background: url("../../pic/weixin/version1125/bkg1.jpg") bottom center;
+	background-size: cover;
+	padding: 25px 0 15px;
+}
+.accountInfoArea {
+	background: rgb(214, 117, 120);
+	overflow: hidden;
+}
+.arrowWhiteArea {
+	left: 50%;
+	margin-left: -10px;
+	bottom: 10px;
+}
+#icon5,#icon4 {
+	position: relative;
+    top: 5px;
+}
+.line50 {
+	height: 50px;
+	background: #EEE;
+	width: 1px;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+}
+.linefourTab {
+	height: 100%;
+	background: #EEE;
+	width: 1px;
+	right: 0;
+	top: 0;
+}
+.icon11Area {
+	right: 5%;
+	top: 20px;
+}
+.investUserNum{
+	color:#7d7d7d;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.ratesIcon {
+	border: 1px solid #ff5a5a;
+}
+.progress.largeProgress1.MT5,.progress.largeProgress.MT5 {
+	margin-top: 5px;
+}
+.positionRB {
+	top: 6px;
+	display: block;
+	width: 75px;
+	left: -8px;
+	padding: 2px 5px;
+}
+.investposition {
+	width: 75px;
+	position: relative;
+	top: 5px;
+	margin-left: -8px;
+	display: block;
+	padding: 2px 5px;
+}
+
+/* 活期订单确认 */
+.PLR3P {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.lineHeight100{
+	line-height: 100%;
+}
+.heigh35{
+	height: 35px;
+	line-height: 35px;
+}
+.width95P{
+	width:95px;
+}
+.icon1,.icon2,.icon3{
+	width:20px;
+	height:20px;
+	left:0;
+	top:7px;
+	background-size: 100%;
+}
+.icon4,.icon5{
+	width:20px;
+	height:22px;
+	left:0;
+	top:0;
+	background-size: 100%;
+}
+.icon1{
+	background-image:url(../../pic/weixin/demandIcon1.png);
+}
+.icon2{
+	background-image:url(../../pic/weixin/demandIcon2.png);
+}
+.icon3{
+	background-image:url(../../pic/weixin/demandIcon3.png);
+}
+.icon4{
+	background-image:url(../../pic/weixin/demandIcon4.png);
+}
+.icon5{
+	background-image:url(../../pic/weixin/demandIcon5.png);
+}
+.annualBox{
+	width:70px;
+	height: 70px;
+	background-image:url(../../pic/weixin/annualBg.jpg);
+	background-size: 100%;
+}
+#point{
+	width:5px;
+	height: 5px;
+	background: #ff5a5a;
+	border-radius: 50%;
+	top:-2px;
+	left:35px;
+}
+.itemLeftTopArrow {
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	position: absolute;
+	left: -12px;
+	top: 50px;
+	margin-top: -15px;
+	background: #f4f4f4;
+	z-index: 100;/* 	box-shadow: 0.5px 0.5px 2px #CCC inset; */
+}
+.itemRightTopArrow {
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	position: absolute;
+	right: -12px;
+	top: 50px;
+	margin-top: -15px;
+	background: #f4f4f4;
+	z-index: 100;/* 	box-shadow: 0.5px 0.5px 2px #CCC inset; */
+}
+.WH20{
+	width:20px;
+	height:20px;
+}
+.greenIcon{
+	top:4px;
+	left:0;
+}
+.yellowIcon{
+	top:2px;
+	left:0;
+}
+.redIcon{
+	top:4px;
+	left:0;
+}
+.PL25{
+	padding-left: 25px;
+}
+/**************会员专享图标**********************/
+.vipIcon2 {
+	top: 0;
+	left: 0;
+}
+#notice{-webkit-transform: scale(0.85);}
+
+#momeyBox{
+	padding: 3% 0 0 0;
+}

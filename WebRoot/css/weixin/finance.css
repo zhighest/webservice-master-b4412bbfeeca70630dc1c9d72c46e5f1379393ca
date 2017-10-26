@@ -1,0 +1,681 @@
+.banner {
+	background: url(../../pic/weixin/ver2_9/bannerBkg.png) no-repeat center center;
+	background-size: 35%;
+}
+.banner img {
+	width: 100%;
+}
+#position{
+	position: absolute;
+	bottom: 6px;
+	z-index: 10;
+	width: 100%;
+}
+#position li{
+	background-color: #ffffff;
+	width: 15px;
+	height: 3px;
+	border-radius: 3px; 
+	margin: 0 3px;
+	display: inline-block;
+	opacity: 0.5;
+}
+#position li.on{
+	opacity:1.0;
+	width:40px
+}
+.bkgArea {
+	position: relative;
+	overflow: hidden;
+}
+.proItem {
+	margin: 15px 0;
+}
+.proItem:active .proCon,.proItem:focus .proCon{
+	background-color:#f5f5f5;
+}
+.proCon {
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+	background: #FFF;
+	min-height: 200px;
+}
+.titleBkg1 {
+	width: 60%;
+	margin: 0px auto;
+}
+.proTitle {
+	width: 100%;
+	text-align: center;
+	color: #7d7d7d;
+	font-size: 16px;
+	line-height: 1.5em;
+    position: relative;
+}
+.detailIcon2 {
+	position: absolute;
+	left: 4%;
+	top: 12%;
+}
+.detailIcon1 {
+	position: absolute;
+	right: 4%;
+	top: 12%;
+}
+.dateTitle {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	display: block;
+	line-height: 1.0em;
+}
+.largeDetails {
+	position: relative;
+	top: 30%;
+	width: 80px;
+	height: 80px;
+	margin: 10px auto;
+}
+.largeDetailsTex {
+	margin: auto;
+	top: 50%;
+	margin-top: -20%;
+	left: 50%;
+	margin-left: -30%;
+	position: absolute;
+	text-align: center;
+	height: auto;
+	line-height: 1.0em;
+}
+.largeDetailsTex1 {
+	margin: auto;
+	top: 50%;
+	margin-top: -12%;
+	position: absolute;
+	text-align: center;
+	height: auto;
+	line-height: 1.0em;
+	width: 100%;
+}
+.largeDetailsTex1.largeDetailsTex2 {
+}
+.progressBar {
+	height: 30px;
+	width: 65%;
+	border-radius: 20px;
+	background: #cbcbcb;
+	margin: 20px auto;
+	line-height: 30px;
+	position: relative;
+}
+.progressBar.pink{
+	background: #f5caca;
+}
+.progressControl {
+	border-radius: 20px;
+	background: #ff5a5a;
+	height: 30px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.icon16 {
+	position: relative;
+	top: 3px;
+}
+.progressTex {
+	position: absolute;
+	top: 0;
+	line-height: 30px;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+.progressControl.fullTarget {
+	background: #b4b4b4;
+}
+.detailsTopDiv {
+	background: #ebebeb;
+	padding: 1%;
+	width: 98%;
+	margin: 0;
+}
+.amountDiv {
+	margin: 0 auto 0px;
+	border: 1px solid #eee;
+	padding: 10px 0px 10px 10px; 
+	
+}
+.detailsTop {
+	padding: 6% 0 2%;
+}
+.inputAmount {
+	border: none;
+	width: 70%;
+	margin-left: 50px;
+	background: none;
+}
+.siteLT {
+	left: 2%;
+    top: 15px;
+}
+.darkBlueBkg {
+	background: #2d2929;
+}
+.rowUl li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding: 0px 0px;
+	margin-right: 2px;
+	color: #FFF;
+}
+.rowUl.blackBkgUl {
+	  margin: 0 auto;
+	  width: 100%;
+}
+.rowUl.blackBkgUl li {
+	background: rgba(124, 124, 124, 0.83);
+	padding: 2px 2px;
+}
+.rowUl.blackBkgUl.redLi li {
+	border: 1px solid #ff5a5a;
+	background: none;
+	color: #ff5a5a;
+}
+.rowUl li.mark {
+	padding: 0px 0;
+	background: none;
+}
+.rowUl.redLi li.mark {
+	padding: 3px 0;
+	color: #2d2929;
+	background: none;
+	border: none;
+}
+.cardUl {
+	
+}
+.cardUl li {
+	background: #FFF;
+	padding: 3% 5%;
+	margin: 10px 0%;
+}
+.popSire {
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#f73261',endColorStr='#ff5a5a',gradientType='0');
+    background: -moz-linear-gradient(top, #f73261, #ff5a5a);
+    background: -o-linear-gradient(top,#f73261, #ff5a5a);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f73261), to(#ff5a5a));
+	padding-bottom: 7%;
+}
+.popSireRed {
+	background: #f28e82;
+}
+.redBkg2 {
+	background: #f28e82;
+}
+.popupSmall {
+	position: absolute;
+	width: 100%;
+	background: rgba(53, 53, 53, 0.45);
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 100%;
+}
+.popupSmall.popDiv4 {
+	background: rgba(255, 255, 255, 0);
+}
+.popupSmallCon {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+}
+.popDiv4 .popupSmallCon {
+	position: absolute;
+	top: 20px;
+	right: -10%;
+	width: 90%;
+	text-align: right;
+	margin: auto;
+}
+.btmDiv {
+	color: #FFF;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	padding: 10px 0;
+	z-index: 100;
+	box-shadow:0px -1px 2px #ccc;
+}
+.redBtn {
+	color: #FFF;
+	background: #ff5a5a;
+	display: block;
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+}
+.redBtn.inactiveBtn{
+	background: #e9e9e9 none repeat scroll 0 0;
+    color: #c8c8c8;
+    cursor: default;
+}
+.itemLeftArrowPro {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	position: absolute;
+	left: -15px;
+	top: 20%;
+	z-index: 100;
+}
+.itemRightArrowPro {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	position: absolute;
+	right: -15px;
+	top: 20%;
+	z-index: 100;
+}
+.itemLeftArrowPro.Mid, .itemRightArrowPro.Mid {
+	top: 22%;
+	margin-top: -15px;	
+}
+.borderTDotted {
+	border-top: 2px dotted #dddddd;
+}
+.P5Table tr td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.P10Table tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.inviteItem {
+	width: 90%;
+	border-radius: 5px;
+	background: #FFF;
+	padding: 15px 5%;
+}
+.closedBtn2 {
+	position: absolute;
+	top: 13px;
+	right: 5%;
+	cursor: pointer;
+}
+.endIconArea {
+	position: absolute;
+	width: auto;
+	right: 0%;
+	top: 12%;
+	text-align: right;
+	z-index: 100;
+
+}
+.icon17 {
+	position: absolute;
+	width: auto;
+	left: 50%;
+	margin-left: 13px;
+	top: 5%;
+}
+.siteH4 {
+	background: #f6f6f6;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+	padding: 3px 3%;
+}
+.btn.smallBtn {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.icon19 {
+	position: relative;
+	top: 4px;
+	left: 0;
+}
+.prdTable tr td {
+	padding: 2px 0;
+}
+.btn.inactiveBtn2, .btn.fixBtn.inactiveBtn2 {
+  background: #c8c8c8;
+  color: #FFF;
+  cursor: default;
+}
+.bkg3 {
+	background: #f7f7f7;
+}
+/*****************banner**************************/
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+}
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.swipe-wrap > figure {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+.bannerBtm {
+	position: absolute;
+	bottom: -1px;
+	width: 100%;
+	z-index: 5;
+}
+.bannerBtm img {
+	width: 100%;
+	height: 20px;
+	float: left;
+}
+/********************index************************/
+.icon10 {
+	right: -30px;
+    top: 0px;
+}
+.icon19 {
+}
+.rightIcon {
+	display: inline-block;
+    padding: 3px;
+    right: 0;
+    top: 12px;
+}
+.progressHead {
+	width: 80px;
+    height: 80px;
+    top: 10px;
+}
+.progressState {
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+}
+.dotted {
+	
+}
+.dotted li {
+	background-color: #dedede;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    margin: 0 3px;
+    display: inline-block;
+}
+.dotted li.redBkg {
+	background: #ff5a5a;
+}
+.lineHeight50 {
+	line-height: 50px;
+}
+.rateIcon {
+	padding: 2px;
+	top: 15px;
+	right: 6%;	
+	border-radius: 3px;
+}
+.redDotted {
+	width: 8px;
+	height: 8px;
+	top: -6px;
+	right: 2px;
+	border-radius: 50px;
+}
+.borderLLine {
+	border-left: 1px solid #FFF;
+	box-sizing: border-box;
+}
+.addRateRisesBkg {
+	right: -65px;
+	top: -10px;
+}
+.addRateRises {
+	top:9px;
+	width: 100%;
+	left: 0;
+}
+.greenTex01 {
+	color: #5aaba0;
+}
+.greenBkg01 {
+	background: #5aaba0;
+}
+.borderGreen {
+	border: 1px solid #5aaba0;
+}
+.greenLi {
+	border: 1px solid #5aaba0;
+	color: #5aaba0;
+	padding: 5px 0;
+	width: 90px;
+	margin: 0 5px;
+	font-size: 12px;
+}
+.redLi {
+	border: 1px solid #ff5a5a;
+	color: #ff5a5a;
+	padding: 5px 0;
+	width: 90px;
+	margin: 0 5px;
+	font-size: 12px;
+}
+.PL15P{
+	padding-left: 15%;
+}
+.desIcon1,.desIcon2,.desIcon3{
+	width:20px;
+	height:25px;
+	top:13px;
+	left:5%;
+}
+.desIcon1{
+	background:url(../../pic/weixin/desIcon1.png) no-repeat;
+	background-size: 100%;
+}
+.desIcon2{
+	background:url(../../pic/weixin/desIcon2.png) no-repeat;
+	background-size: 100%;
+	width:22px;
+}
+.desIcon3{
+	background:url(../../pic/weixin/desIcon3.png) no-repeat;
+	background-size: 100%;
+	width:26px;
+	top:15px;
+}
+.linkIcon1:before,.linkIcon2:before,.linkIcon3:before,.dealIcon:before{
+	content:"";
+	display: block;
+	position: absolute;
+	width:20px;
+	height:22px;
+	top:14px;
+	left:0;
+}
+.linkIcon1:before{
+	background:url(../../pic/weixin/linkIcon1.png) no-repeat;
+	background-size: 100%;
+}
+.linkIcon2:before{
+	background:url(../../pic/weixin/linkIcon2.png) no-repeat;
+	background-size: 100%;
+}
+.linkIcon3:before{
+	background:url(../../pic/weixin/linkIcon3.png) no-repeat;
+	background-size: 100%;
+}
+.dealIcon:before{
+	background:url(../../pic/weixin/dealIcon.png) no-repeat;
+	background-size: 100%;
+	width:22px;
+}
+.linkIcon1:after,.linkIcon2:after,.linkIcon3:after,.dealIcon:after{
+	content:"";
+	display: block;
+	position: absolute;
+	width:12px;
+	height:20px;
+	background:url(../../pic/weixin/rightIcon.png) no-repeat;
+	background-size: 100%;
+	top:15px;
+	right:0;
+}
+.moneyBtn li{
+	margin:0 10px 0 0;
+	padding: 0 6px;
+	height:30px;
+	line-height: 30px;
+}
+.moneyBtn li:last-child{
+	margin-right: 0;
+}
+.moneyBtn li.active{
+	background: #0F8DE8;
+	color:#fff;
+}
+/*************首页改版20160413*********************/
+.tabSubTitle {
+	border: 1px solid #ff5a5a;
+	border-radius: 5px;
+	color: #ff5a5a;
+	padding: 2px 4px;
+}
+.ML10P {
+	margin-left: 10%;
+}
+.ML2P {
+	margin-left: 3%;
+}
+.productListItem {
+/*	box-shadow: 0 0 2px #c2c1c1;*/
+	padding-top: 0%;
+	padding-bottom: 5%;
+}
+.iconTex {
+	display: inline-block;
+	height: 16px;
+	margin-left: 3px;
+}
+.line .lineIndex {
+	height: 60px;
+	width: 1px;
+	margin-top:10px;
+}
+.font40P {
+	font-size: 2.4rem;
+    line-height: 100%;
+}
+.btnIndex {
+	border-radius: 40px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border: 1px solid #ff5a5a;
+	background: #FFF;
+	color: #ff5a5a;
+}
+.btnIndex:hover {
+	background: #ff5a5a;
+	color: #FFF;
+}
+.btnIndexInactivite {
+	border: 1px solid #c8c8c8;
+	background: #FFF;
+	cursor: default;
+	border-radius: 40px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #9f9f9f;
+}
+.btnIndexInactivite:hover {
+	background: #FFF;
+	color: #9f9f9f;
+}
+.heigh45 {
+	height: 45px;
+    line-height: 45px;
+}
+/**************加息icon********************/
+.vipIcon {
+	right: 0;
+	top: 50%;
+	margin-top: -35px;
+}
+/*首页改版20160624*/
+.newfont{
+	font-size: 235%;
+}
+.btnIndex{
+	background-color: #ff5a5a;
+	color: #fff;
+}
+.newdiv {
+    height: 20px;
+    width: 100%;
+    background-color: #efefef;
+}
+.btnIndexInactivite{
+	background-color: #e9e9e9;
+	color: #fff;
+	border: 1px solid #e9e9e9;
+}
+/*首版改版20160906--黄守风*/
+/*jsp中的class属性*/
+.financeTitle{
+	height:40px;
+	line-height:40px;
+	border-left: 3px solid #ff5a5a;
+	border-bottom:1px solid #dddddd;
+	overflow-x:hidden;
+}
+.FinanceArrow{
+	display:block;
+	height: 30%;
+	margin-top:14px;
+	margin-left: 5px;
+}
+.financeAdvanWrap{
+	width:100%;
+	font-size:10px;
+}
+.financeAdvan>li{
+	margin:5px 0px 10px 0px;
+}
+.financeAdvan>li>img{
+	width:65%;
+}
+.financeAdvan>li>p{
+	margin-top:-4px;
+}
+.spaceLi{
+	width: 1px;
+}
+
+/**************js中的class属性**************/
+/*setProductLoanList部分*/
+.loanBorder{
+	border-bottom:1px solid #dddddd;
+}
+.helveticaFont{
+	font-family:helvetica;
+	font-family: sans-serif;
+}
+.loanHeight38{
+	line-height:38px;
+}
+.loanHeight38>img{
+	margin-left:10px;
+	margin-top:8px;
+}

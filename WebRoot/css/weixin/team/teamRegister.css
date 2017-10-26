@@ -1,0 +1,229 @@
+body{
+    background: #FDB163;
+}
+
+.teamWrapper {
+    font-size: 14px;
+    background: url("../../../pic/weixin/activity/team/registration-bg.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: auto;
+}
+
+.opacity80{
+    opacity: 0.8;
+}
+.teamWrapper .teamText{
+    padding-top: 18%;
+}
+.teamWrapper .teamText img {
+    width: 80%;
+    height: auto;
+}
+
+.regsiter-wrapper {
+    margin-top: 13%;
+}
+
+.phoneNum, .verification {
+    height: 50px;
+    line-height: 50px;
+    background: url("../../../pic/weixin/activity/team/import-btn.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.verification .code {
+    top: 4%;
+    right: 1%;
+    width: 38%;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 22px;
+    background: #fe5260;
+    color: #fff;
+}
+.teamWrapper .grayText1{
+    color: #8d6749;
+}
+
+@media screen and (max-width: 320px) {
+
+    .content .contentList .contentBg{
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 321px ) and (max-width: 374px) {
+
+    .content .contentList .contentBg{
+        height: 160px;
+    }
+
+}
+
+@media screen and (min-width: 375px ) and (max-width: 413px) {
+
+    .content .contentList .contentBg{
+        height: 170px;
+    }
+}
+
+@media screen and (min-width: 414px ) {
+
+    .content .contentList .contentBg{
+        height: 170px;
+    }
+}
+
+.phoneNum input, .verification input {
+    width: 70%;
+    height: 92%;
+    font-size: 14px;
+
+    background: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.verification input {
+    width: 40%;
+    margin-left: -30%;
+}
+
+.regsiter {
+    height: 50px;
+    line-height: 50px;
+    background: url("../../../pic/weixin/activity/team/loginBtn.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+
+.regsiter a {
+    display: inline-block;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 3%;
+    padding-bottom: 17%;
+}
+
+.content .title {
+    margin-top: 10%;
+    background: url("../../../pic/weixin/activity/team/wordDecoration.png") no-repeat 50% 50%;
+    -webkit-background-size: 70%;
+    background-size: 70%;
+    height: auto;
+}
+
+.content .contentList {
+    padding: 0 2%;
+    margin-top: 7%;
+}
+
+.content .contentList .contentBg {
+    width: 48%;
+    /*height: 27%;*/
+    margin: 1%;
+    background: url("../../../pic/weixin/activity/team/underside.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100% 100%;
+}
+
+.content .contentList .contentBg .MT10P {
+    /*margin-top: 12%;*/
+}
+
+.content .contentList li img {
+    width: 130px;
+    height: auto;
+}
+
+.content .contentList .contentBg .desc {
+    padding: 0 8%;
+    line-height: 16px;
+    text-align: center;
+}
+
+.qrCode {
+    margin: 5% auto;
+}
+
+.qrCode img {
+    width: 56%;
+}
+
+/* APP下载（底部固定栏） */
+.btmAreaFix {
+    background: rgba(33, 33, 33, 0.7);
+    padding: 2% 3%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 94%;
+    vertical-align: middle;
+}
+
+.closed {
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    height: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.logo {
+    line-height: 35px;
+    display: inline-block;
+    height: 35px;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+
+    margin-left: 3%;
+}
+
+.rightArea {
+    color: #FFF;
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 3%;
+}
+
+.rightArea h4 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.rightArea p {
+    font-size: 0.6rem;
+}
+
+.leftArea {
+    float: left;
+    width: 21%;
+    box-sizing: border-box;
+}
+
+.btmFixBtn {
+    background: #ff5a5a;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 12px;
+    position: absolute;
+    right: 3%;
+    top: 7%;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #a1a1a1;
+    /*line-height: normal;*/
+}

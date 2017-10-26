@@ -1,0 +1,206 @@
+body{
+	background: #fff;
+}
+.redTitleSign {
+	position: absolute;
+	background: #fb4148;
+	width: 3px;
+	height: 16px; 
+	top:2px;
+	left: -10px;
+}
+.ckeckIcon {
+	display: inline-block;
+	height: 14px;
+	line-height: 24px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.stateBox {
+	height: 40px;
+}
+.stateBox img {
+	vertical-align: middle;
+	line-height: 26px;
+}
+.stateBox span {
+	vertical-align: middle;
+	line-height: 26px;
+}
+.accountBtn {
+	padding-top: 5px;
+	height: 35px;	
+}
+.accountBtn a {
+	display: block;
+	width: 60px;
+	height: 30px;
+	color: #ffffff;
+	line-height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	background: #fb4148;
+}
+.accountBtn:hover a {
+	background-color: #ff1f27;
+	color: #fff;
+}
+.investPlan span{
+	color:#9f9f9f;
+}
+.width32{
+	width: 32%;
+}
+.width48{
+	width: 48%;
+}
+.MR2P{
+	margin-right: 2%;
+}
+/* 活期 */
+.vipHintUl {
+	padding: 10px 10px;
+	position: absolute;
+	background: #ffffff;
+    border-radius: 5px;
+    top: -54%;
+    color: #e18d28;
+    padding: 5px;
+    left: 170px; 
+	margin-left: -20px;
+    z-index: 120;
+    box-shadow: 2px 2px 2px #d5d5d5;
+}
+.vipHintUlF {
+	padding: 10px 10px;
+	position: absolute;
+	background: #ffffff;
+    border-radius: 5px;
+    top: -60%;
+    color: #e18d28;
+    padding: 5px;
+    left: 160px; 
+	margin-left: -20px;
+    z-index: 120;
+    border: 1px solid #d5d5d5;
+    box-shadow: 2px 2px 2px #d5d5d5;
+}
+.vipHintUl li {
+	width: 100px;
+}
+.vipHintUlF li {
+	width: 100px;
+}
+.vipHintUl:after{
+	content: '';
+	position: absolute;
+	top: 20%;
+	left: -6px;
+	width: 0;
+	height: 0;
+	border-right: 8px solid white;
+	border-bottom: 8px solid transparent;
+	border-top: 8px solid transparent;
+}
+/*****************轮播**************************/
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+}
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+.swipe-wrap > figure {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0;
+}
+/* 折现轮播的焦点div */
+#position{
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+	width: 100%;
+}
+#position li{
+	background-color: #e4e4e4;
+	width: 7px;
+	height: 7px;
+	border-radius: 7px;
+	margin: 0 3px;
+	display: inline-block;
+}
+#position li.on{
+	background-color: #ff5a5a;
+}
+#main1,#main2,#main3 {
+	height: 300px;
+}
+/*****************轮播**************************/
+.spanBorderR99 {
+	border-right: solid 1px #999999;
+}
+.spanBorderR {
+	border-right: solid 1px #939393;
+}
+/* 定期 */
+.titleBox {
+	height: 50px;
+	line-height: 50px;
+}
+.titleBox img {
+	vertical-align: middle;
+}
+.titleBox p {
+	vertical-align: middle;
+}
+.contractCon li{
+	line-height: 30px;
+}
+/* 加息券 */
+.couNumCon {
+	padding-right: 30px;
+	border-right: dotted 2px #df2e2e;
+}
+.couNumUsedCon {
+	padding-right: 30px;
+	border-right: dotted 2px #888888;
+}
+.upIcon {
+	top: 10px;
+	right: -15px;
+}
+.signImg {
+	top: 10px;
+	right: 20px;
+}
+.heigh25 {
+	height: 25px; 
+	line-height: 25px;
+}
+.selectType {
+	right:0px; 
+	top:7px;
+}
+.selectType .current {
+	color:#ff5a5a; 
+}
+.selectType li:hover {
+	color:#ff5a5a; 
+}
+.rateCouponsList li {
+	width:31%; 
+	margin: 10px 1%;
+}
+.couponBkg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}

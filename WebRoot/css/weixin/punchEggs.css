@@ -1,0 +1,757 @@
+.content{
+	top:0;
+}
+.textWrap{
+	padding:0 13.3%;
+	margin-bottom:50%;
+}
+.cover{
+	top:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.6);
+	z-index: 10000;
+}
+
+.numberWrap{
+	width:16%;
+	left: 36%;
+	top:-10%;
+}
+.numberWrap img{
+	width:28%;
+	float: left;
+}
+.textPic1{
+	margin-left: 6%;
+}
+.textPic2{
+	margin-right: 6%;
+}
+.eggsPic{
+	/*padding-top: 20%;*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.shadow{
+	top:88%;
+
+}
+.middleEgg{
+ margin: 0 3%;
+}
+.hummer{
+	width:14%;
+	top:-90%;
+	left:10%;
+	transition: all 1s;
+}
+
+.hummerMove{
+	transition: all 300ms;
+	-webkit-transition: all 300ms;
+	-webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    top:-40%;
+    /* animation: punch 300ms;
+    -webkit-animation: punch 300ms; /* Safari 与 Chrome */*/
+}
+/*@-webkit-keyframes punch{
+	0%{
+		top:-90%;
+		transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+	100%{
+		top:-40%;
+		transform: rotate(30deg);
+		-webkit-transform: rotate(30deg);
+	}
+}*/
+
+.shake{
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	 animation: shake 300ms;
+    -webkit-animation: shake 300ms; /* Safari 与 Chrome */
+}
+@-webkit-keyframes shake{
+	0%{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+	}
+	20%{
+		transform: rotate(-1deg);
+		-webkit-transform: rotate(-1deg);
+	}
+	60%{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	80%{
+		transform: rotate(1deg);
+		-webkit-transform: rotate(1deg);
+	}
+	100%{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+	}
+}
+.brokenEggs{
+	top: 0;
+	width:100%;
+}
+.opacity0{
+	opacity:0;
+}
+.eggShell{
+	height:44vw;
+	width:100%;
+	top:1vw;
+	left:-40%;
+}
+.eggShellPic{
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform: rotate(0deg) scale(0);
+	-webkit-transform: rotate(0deg)  scale(0);
+	top:0;
+	left: 50%;
+	z-index: 10;
+}
+.paperFlower{
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform:rotate(0deg) scale(0);
+	-webkit-transform:rotate(0deg) scale(0);
+	top:0;
+	left: 50%;
+}
+
+.shell1{
+	transition: all 800ms;
+    -webkit-transition: all 800ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:40%;
+	left:30%;
+}
+.shell2{
+	transition: all 900ms;
+    -webkit-transition: all 900ms;
+	transform: rotate(-360deg) scale(1);
+	-webkit-transform: rotate(-360deg) scale(1);
+    top:54%;
+	left:30%;
+}
+.shell3{
+	transition: all 800ms;
+    -webkit-transition: all 800ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:45%;
+	left:57%;
+}
+.shell4{
+	transition: all 1200ms ;
+    -webkit-transition: all 1200ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:60%;
+	left:60%;
+}
+.shell5{
+	transition: all 1200ms ;
+    -webkit-transition: all 1200ms;
+	transform: rotate(2000deg) scale(1);
+	-webkit-transform: rotate(2000deg) scale(1);
+    top:-80%;
+	left:300%;
+}
+.shell6{
+	transition: all 800ms ;
+    -webkit-transition: all 800ms;
+	transform: scale(1);
+	-webkit-transform:scale(1);
+    top:67%;
+	left:25%;
+}
+.shell7{
+	transition: all 900ms ;
+    -webkit-transition: all 900ms;
+	transform: rotate(20deg) scale(1);
+	-webkit-transform: rotate(20deg) scale(1);
+    top:63%;
+	left:45%;
+}
+.shell8{
+	transition: all 800ms ;
+    -webkit-transition: all 800ms;
+	transform: rotate(12deg) scale(1);
+	-webkit-transform: rotate(12deg) scale(1);
+    top:50%;
+	left:65%;
+}
+.shell9{
+	transition: all 2000ms ;
+    -webkit-transition: all 2000ms;
+	transform: rotate(72deg) scale(1);
+	-webkit-transform: rotate(720deg) scale(1);
+    top:-30%;
+	left:-165%;
+}
+
+/*蛋壳上方光线和彩带*/
+.eggLightWrap{
+	height:44vw;
+	width:100%;
+	top:-45vw;
+	left:-50%;
+}
+.eggLightPic,.eggFlowerPic{
+	top:33%;
+	left: 44%;
+	z-index: 10;
+	opacity: 0;
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+}
+.eggFlowerPic{
+	top:24%;
+}
+.eggLight{
+	animation: eggLight 5000ms forwards;
+    -webkit-animation: eggLight 5000ms forwards; /* Safari 与 Chrome */
+}
+@-webkit-keyframes eggLight{
+	0%{
+		transform: scale(0);
+        -webkit-transform: scale(0);
+	}
+	30%{
+	   opacity: 1;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+	70%{
+	   opacity: 1;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+	100%{
+		opacity:0;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+}
+.eggFlower{
+	animation: eggFlower 4000ms forwards;
+    -webkit-animation: eggFlower 4000ms forwards; /* Safari 与 Chrome */
+}
+@-webkit-keyframes eggFlower{
+	0%{
+		transform: scale(0);
+        -webkit-transform: scale(0);
+	}
+	50%{
+	   opacity: 0.8;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+	70%{
+	   opacity: 1;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+	100%{
+		opacity:0;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+}
+
+/*星星*/
+.twinkleLightPic{
+    top:33%;
+	left: 50%;
+	z-index: 10;
+	opacity: 0;
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+}
+.twinkleLight{
+	animation: twinkleLight 4000ms forwards;
+    -webkit-animation: twinkleLight 4000ms forwards; /* Safari 与 Chrome */
+}
+@-webkit-keyframes twinkleLight{
+	0%{
+		transform: scale(0);
+        -webkit-transform: scale(0);
+	}
+	50%{
+	   opacity: 0.8;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+	70%{
+	   opacity: 1;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+	100%{
+		opacity:0;
+	   transform: scale(1);
+	   -webkit-transform: scale(1);
+	}
+}
+.wallet{
+    top:89%;
+	left: 62%;
+	z-index: 10;
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform:rotate(0deg) scale(0);
+	-webkit-transform:rotate(0deg) scale(0);
+}
+.wallet1{
+	transition: all 2000ms 800ms;
+    -webkit-transition: all 2000ms 800ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:10%;
+	left:73%;
+}
+.wallet2{
+	transition: all 1100ms 900ms;
+    -webkit-transition: all 1100ms 900ms;
+	transform: rotate(300deg) scale(1);
+	-webkit-transform: rotate(300deg) scale(1);
+    top:30%;
+	left:53%;
+}
+.wallet3{
+	transition: all 1100ms 1000ms;
+    -webkit-transition: all 1100ms 1000ms;
+	transform: rotate(180deg) scale(1);
+	-webkit-transform: rotate(180deg) scale(1);
+    top:34%;
+	left:93%;
+}
+.wallet4{
+	transition: all 1200ms ;
+    -webkit-transition: all 1200ms ;
+	transform: rotate(180deg) scale(1);
+	-webkit-transform: rotate(180deg) scale(1);
+    top:45%;
+	left:74%;
+}
+.wallet5{
+	transition: all 1000ms;
+    -webkit-transition: all 1000ms;
+	transform: rotate(280deg) scale(1);
+	-webkit-transform: rotate(280deg) scale(1);
+    top:48%;
+	left:61%;
+}
+.gift{
+	width:0%;
+	top:12%;
+	left:17%;
+	overflow: hidden;
+}
+.giftMove{
+	animation: giftMove 2000ms 300ms forwards;
+    -webkit-animation: giftMove 2000ms 300ms forwards; /* Safari 与 Chrome */
+}
+@-webkit-keyframes giftMove{
+	0%{
+		top:12%;
+		width:0%;
+		transform: rotateZ(0deg) scale(1);
+		-webkit-transform: rotateZ(0deg) scale(1);
+	}
+	70%{
+		top:-196%;
+		width:50%;
+		left:25%;
+		transform: rotateZ(720deg) scale(1);
+		-webkit-transform: rotateZ(720deg) scale(1);
+	}
+	80%{
+		top:-196%;
+		width:50%;
+		left:25%;
+		transform: rotateZ(720deg) scale(1);
+		-webkit-transform: rotateZ(720deg) scale(1);
+	}
+	90%{
+		top:-196%;
+		width:50%;
+		left:25%;
+		transform: rotateZ(720deg) scale(1.1);
+		-webkit-transform: rotateZ(720deg) scale(1.1);
+	}
+	100%{
+		top:-196%;
+		width:50%;
+		left:25%;
+		transform: rotateZ(720deg)  scale(1);
+		-webkit-transform: rotateZ(720deg)  scale(1);
+	}
+}
+/*弹框*/
+.messageBoxWrap{
+	width: 90%;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-55%);
+	-webkit-transform: translate(-50%,-55%);
+	line-height: 100%;
+
+}
+.messageBox span{
+	color:#ff9801;
+}
+.messageBox .img{
+	padding-top: 10px;
+}
+.messageBoxBtn{
+	height:20%;
+	color: #fff;
+	padding:4% 0;
+}
+.scale0{
+	transform: scale(0);
+	-webkit-transform: scale(0);
+}
+.oldManPic{
+	left:9%;
+	top:-14%;
+}
+.recordTitle{
+	border:1px solid #fff;
+}
+.borderR{
+	border-right: 1px solid #fff;
+}
+.borderB{
+	border-bottom: 1px solid #fff;
+}
+.borderL{
+	border-left: 1px solid #fff;
+}
+.borderR{
+	border-right: 1px solid #fff;
+}
+#recordUlCut{
+	height:330px;
+	border-bottom: 1px solid #fff;
+}
+.prePage,.nextPage{
+	display: inline-block;
+	width:20%;
+	height:20px;
+}
+#recordUl span{
+   word-break:keep-all;/* 不换行 */
+   white-space:nowrap;/* 不换行 */
+   overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+   text-overflow:ellipsis;
+}
+#eggs{
+	z-index: 1000;
+}
+
+/*砸银蛋*/
+.silverCover{
+	top:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.6);
+	z-index: 1000;
+}
+.punchSilverEgg{
+	margin:30% 10% 0;
+}
+.bulblesBkg{
+	top:1%;
+	left:1%;
+}
+.silverEgg{
+	top:45%;
+	width:100%;
+	height:20%;
+}
+.silverEggPic,.brokenSilverEggPic,.shadowPic{
+	left:28%;
+
+}
+.brokenSilverEggPic{
+    margin-bottom: 0.1%;
+}
+.shadowPic{
+	top:144%;
+}
+.silverHummer{
+	transform-origin: 0% 100%;
+	-webkit-transform-origin:0% 100%;
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+	width:16%;
+    height:30%;
+    top:28%;
+    left:10%;
+}
+.silverHummerMove{
+	animation: silverHummerMove 1500ms infinite;
+    -webkit-animation: silverHummerMove 1500ms infinite; /* Safari 与 Chrome */
+}
+@-webkit-keyframes silverHummerMove{
+	0%{
+		transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+	100%{
+		transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
+	}
+}
+.silverHummerMove2{
+	animation: silverHummerMove2 1900ms forwards;
+    -webkit-animation: silverHummerMove2 1900ms forwards; /* Safari 与 Chrome */
+}
+@-webkit-keyframes silverHummerMove2{
+	0%{
+		transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+	100%{
+		transform: rotate(25deg);
+		-webkit-transform: rotate(25deg);
+	}
+}
+.silverEggShell{
+	height:31%;
+	top:45%;
+	width:50%;
+	left: 24%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.circleContent{
+	width:90%;
+	height:90%;
+	top:5%;
+	left:5%;
+	border-radius: 50%;
+}
+.silverEggShell img{
+
+}
+.silverEggShellPic{
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform: rotate(0deg) scale(0);
+	-webkit-transform: rotate(0deg)  scale(0);
+	top:0;
+	left: 20%;
+	z-index: 10;
+}
+.silverPaperFlower{
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform:rotate(0deg) scale(0);
+	-webkit-transform:rotate(0deg) scale(0);
+	top:0;
+	left: 20%;
+}
+.silverShell1{
+	transition: all 800ms;
+    -webkit-transition: all 800ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:119%;
+	left:5%;
+}
+.silverShell2{
+	transition: all 900ms;
+    -webkit-transition: all 900ms;
+	transform: rotate(-360deg) scale(1);
+	-webkit-transform: rotate(-360deg) scale(1);
+    top:87%;
+	left:-7%;
+}
+.silverShell3{
+	transition: all 800ms;
+    -webkit-transition: all 800ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:101%;
+	left:80%;
+}
+.silverShell4{
+	transition: all 1200ms ;
+    -webkit-transition: all 1200ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+    top:87%;
+	left:80%;
+}
+.silverShell5{
+	transition: all 2200ms ;
+    -webkit-transition: all 2200ms;
+	transform: rotate(720deg) scale(2);
+	-webkit-transform: rotate(720deg) scale(2);
+    top:-80%;
+	left:200%;
+}
+.silverShell6{
+	transition: all 800ms ;
+    -webkit-transition: all 800ms;
+	transform: scale(1.2);
+	-webkit-transform:scale(1.2);
+    top:106%;
+	left:18%;
+}
+.silverShell7{
+	transition: all 900ms ;
+    -webkit-transition: all 900ms;
+	transform: rotate(2deg) scale(1.3);
+	-webkit-transform: rotate(2deg) scale(1.3);
+    top:128%;
+	left:45%;
+}
+.silverShell8{
+	transition: all 800ms ;
+    -webkit-transition: all 800ms;
+	transform: rotate(12deg) scale(1);
+	-webkit-transform: rotate(12deg) scale(1);
+    top:108%;
+	left:78%;
+}
+.silverEggLightWrap{
+	height:31%;
+	top:14%;
+	width:50%;
+	left: 19%;
+}
+.silverEggLightPic,.silverTwinkleLightPic,.silverEggFlowerPic{
+    bottom:-25%;
+    left:1%;
+    z-index: 10;
+	opacity: 0;
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+}
+.silverWallet{
+	bottom:-29%;
+	left: 45%;
+	z-index: 10;
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	transform:rotate(0deg) scale(0);
+	-webkit-transform:rotate(0deg) scale(0);
+}
+.silverWallet1{
+	transition: all 2000ms 800ms;
+    -webkit-transition: all 2000ms 800ms;
+	transform: rotate(360deg) scale(1);
+	-webkit-transform: rotate(360deg) scale(1);
+	bottom:32%;
+	left: 16%;
+}
+.silverWallet2{
+	transition: all 1100ms 900ms;
+    -webkit-transition: all 1100ms 900ms;
+	transform: rotate(180deg) scale(1);
+	-webkit-transform: rotate(180deg) scale(1);
+	bottom:42%;
+	left: 100%;
+}
+.silverWallet3{
+	transition: all 1100ms 1000ms;
+    -webkit-transition: all 1100ms 1000ms;
+	transform: rotate(200deg) scale(1);
+	-webkit-transform: rotate(200deg) scale(1);
+	bottom:102%;
+	left: 75%;
+}
+.silverWallet4{
+	transition: all 1200ms ;
+    -webkit-transition: all 1200ms ;
+	transform: rotate(180deg) scale(1);
+	-webkit-transform: rotate(180deg) scale(1);
+	bottom:49%;
+	left: 75%;
+}
+.silverWallet5{
+	transition: all 1000ms;
+    -webkit-transition: all 1000ms;
+	transform: rotate(100deg) scale(1);
+	-webkit-transform: rotate(100deg) scale(1);
+	bottom:64%;
+	left: 30%;
+}
+.silverGift{
+	width:0%;
+	left:45%;
+	overflow: hidden;
+}  	
+.silverGiftMove{
+	animation: silverGiftMove 2000ms 300ms forwards;
+    -webkit-animation: silverGiftMove 2000ms 300ms forwards; /* Safari 与 Chrome */
+}
+@-webkit-keyframes silverGiftMove{
+	0%{
+		top:46%;
+		width:0%;
+		left:45%;
+		transform: rotateZ(0deg) scale(1);
+		-webkit-transform: rotateZ(0deg) scale(1);
+	}
+	70%{
+        width:67%;
+	    top:-10%;
+	    left:17%;
+		transform: rotateZ(720deg) scale(1);
+		-webkit-transform: rotateZ(720deg) scale(1);
+	}
+	80%{
+        width:67%;
+	    top:-10%;
+	    left:17%;
+		transform: rotateZ(720deg) scale(1);
+		-webkit-transform: rotateZ(720deg) scale(1);
+	}
+	90%{
+		width:67%;
+	    top:-10%;
+	    left:17%;
+		transform: rotateZ(720deg) scale(1.1);
+		-webkit-transform: rotateZ(720deg) scale(1.1);
+	}
+	100%{
+		width:67%;
+	    top:-10%;
+	    left:17%;
+		transform: rotateZ(720deg)  scale(1);
+		-webkit-transform: rotateZ(720deg)  scale(1);
+	}
+}
+.congratulation{
+	   top:80%;
+	   z-index: 1000;
+}
+#punchSilverEgg{
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

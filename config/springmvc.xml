@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+
+	<!-- 配置自动扫描的包 -->
+	<context:component-scan base-package="com.web"></context:component-scan>
+
+	<!-- 配置视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+	<!-- default-servlet-handler 将在 SpringMVC 上下文中定义一个 DefaultServletHttpRequestHandler, 
+		它会对进入 DispatcherServlet 的请求进行筛查, 如果发现是没有经过映射的请求, 就将该请求交由 WEB 应用服务器默认的 Servlet 
+		处理. 如果不是静态资源的请求，才由 DispatcherServlet 继续处理 一般 WEB 应用服务器默认的 Servlet 的名称都是 default. 
+		若所使用的 WEB 服务器的默认 Servlet 名称不是 default，则需要通过 default-servlet-name 属性显式指定 -->
+	<mvc:default-servlet-handler />
+	<mvc:annotation-driven></mvc:annotation-driven>	<!-- <mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven> -->
+
+	<!-- 配置 ConversionService -->
+	<!-- <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean"> 
+		<property name="converters"> <set> <ref bean="employeeConverter"/> </set> 
+		</property> </bean> -->
+
+	<!-- 配置国际化资源文件 -->
+	<!-- <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource"> 
+		<property name="basename" value="i18n"></property> </bean> -->
+
+	<!-- 配置 SessionLocalResolver -->
+	<!-- <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"></bean> -->
+
+	<!-- <mvc:interceptors> -->
+	<!-- 配置自定义的拦截器 --><!-- <bean class="com.atguigu.springmvc.interceptors.FirstInterceptor"></bean> -->
+
+	<!-- 配置拦截器(不)作用的路径 -->
+	<!-- <mvc:interceptor> <mvc:mapping path="/emps"/> <bean class="com.atguigu.springmvc.interceptors.SecondInterceptor"></bean> 
+		</mvc:interceptor> -->
+
+	<!-- 配置 LocaleChanceInterceptor --><!-- <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"></bean> -->
+	<!-- </mvc:interceptors> -->
+
+	<!-- <mvc:view-controller path="/i18n" view-name="i18n"/> -->
+	<!-- <mvc:view-controller path="/file" view-name="index"/> -->
+
+	<!-- 配置 MultipartResolver -->
+	<!-- <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"> 
+		<property name="defaultEncoding" value="UTF-8"></property> <property name="maxUploadSize" 
+		value="1024000"></property> </bean> -->
+
+	<!-- 配置使用 SimpleMappingExceptionResolver 来映射异常 -->
+	<!-- <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver"> 
+		<property name="exceptionAttribute" value="ex"></property> <property name="exceptionMappings"> 
+		<props> <prop key="java.lang.ArrayIndexOutOfBoundsException">error</prop> 
+		</props> </property> </bean> -->
+	<mvc:interceptors>
+		<!-- 防止重复提交 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/trade/goTopUpcz" /><!-- 网站，微信充值防止重复提交 /wxtrade/topUp 提交验证 -->
+			<mvc:mapping path="/wxtrade/goTopUpcz" />
+			<mvc:mapping path="/wxtrade/topUp" />
+			<mvc:mapping path="/trade/goWithdraw" /> <!-- 网站，微信提现防止重复提交 /wxtrade/withdrawDeposit(提交验证) -->
+			<mvc:mapping path="/wxtrade/goWithdrawDeposit" />
+			<mvc:mapping path="/wxtrade/withdrawDeposit" />
+			<mvc:mapping path="/wxdeposit/goTransfer" /><!-- 转出防止重复提交 /wxdeposit/trunOut(提交验证) -->
+			<mvc:mapping path="/wxdeposit/trunOut" />
+			<mvc:mapping path="/wxproduct/goDemandOrderConfirmation" /><!-- （活期，定期）购买防止重复提交 /wxdeposit/join(提交验证)-->
+			<mvc:mapping path="/wxdeposit/join" />
+			<mvc:mapping path="/wxtrade/orderConfirm" />
+			<bean class="com.web.Interceptor.AvoidDuplicateSubmissionInterceptor" />
+		</mvc:interceptor>
+		
+		<!-- 网站端 登录拦截 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/trade/*" />
+			<mvc:mapping path="/webindex/goInvestDetail" />
+			<mvc:mapping path="/webindex/goDemandProperty" />
+			<mvc:mapping path="/webindex/historyAmount" />
+			<mvc:mapping path="/webindex/goFixedProperty" />
+			<mvc:mapping path="/coupons/goMyInterest" />
+			<mvc:exclude-mapping path="/trade/getOrderFormDetails" />
+			<mvc:exclude-mapping path="/trade/getBorrowerCompanyInfo" />
+			<mvc:exclude-mapping path="/trade/llpayNotify" />
+			<mvc:exclude-mapping path="/trade/limitTable" />
+			<bean class="com.web.Interceptor.SessionInterceptorByWeb" />
+		</mvc:interceptor>
+
+		<mvc:interceptor>
+			<mvc:mapping path="/load/goLoadApplication" />
+			<bean class="com.web.Interceptor.SessionInterceptor" />
+		</mvc:interceptor>
+
+		<!-- 微信端 登录拦截 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/wxtrade/*" />
+			<mvc:mapping path="/wxcoupons/*" />
+			<mvc:mapping path="/wxdeposit/*" />
+
+			<mvc:mapping path="/wxproduct/goDemandOrderConfirmation" />
+			<mvc:mapping path="/wxproduct/goFixAssetList" />
+			<mvc:mapping path="/wxproduct/goProductBuy" />
+			<mvc:mapping path="/wxproduct/goDemandProductIndex" />
+			<mvc:mapping path="/wxabout/getAllProvince" />
+			<mvc:mapping path="/wxabout/getCityListByProvinceId" />
+			<mvc:mapping path="/wxabout/getProvinceAndCity" />
+			<mvc:mapping path="/wxabout/withdrawNeedProvinceAndCity" />
+			<mvc:mapping path="/wxquest/goDailyQuest" />
+			<mvc:mapping path="/wxactivity/gainWxCouponByActivity" />
+			<mvc:mapping path="/wxabout/goMessage" />
+			
+			<!-- 自定义菜单-->
+			<mvc:mapping path="/wxuser/goVoucher"/>
+			<mvc:mapping path="/wxuser/goResetPasswordCaptcha"/>
+			<mvc:mapping path="/wxInvest/getVoucherList"/>
+			<mvc:mapping path="/wxmenu/goCustomizeMenus"/>
+			
+			<mvc:mapping path="/wxactivity/goSignIn" />
+			
+			<!-- 优享计划与活期-->		
+			<mvc:mapping path="/wxproduct/goDemandOrderConfirmation"/>
+			<mvc:mapping path="/wxInvest/getRolloutIndex"/>
+			<mvc:mapping path="/wxInvest/getInvestConfirmation"/>
+			
+			<!-- 积分 -->
+			<mvc:mapping path="/wxPoint/*"/>
+			<mvc:exclude-mapping path="/wxPoint/getPointInfo" />
+			<mvc:exclude-mapping path="/wxPoint/scoreRule" />
+			
+			<mvc:exclude-mapping path="/wxtrade/getOrderFormDetails" />
+			<mvc:exclude-mapping path="/wxtrade/getBorrowerCompanyInfo" />
+			<mvc:exclude-mapping path="/wxtrade/llpayNotify" />
+			<mvc:exclude-mapping path="/wxtrade/zshtPayNotify" />
+			<mvc:exclude-mapping path="/wxtrade/withdrawDepositNotify" />
+			<mvc:exclude-mapping path="/wxtrade/zshtWithdrawNotify" />
+			<mvc:exclude-mapping path="/wxtrade/limitTable" />
+			
+			<mvc:exclude-mapping path="/wxtrade/goRiskEvaluation" />
+			<mvc:exclude-mapping path="/wxtrade/goRiskEvaluationResult" />
+			<mvc:exclude-mapping path="/wxtrade/goRiskEvaluationType" />
+			<mvc:exclude-mapping path="/wxtrade/goRiskEvaluationEntrance" />
+			<mvc:exclude-mapping path="/wxtrade/queryRiskEvaluation" />
+			<mvc:exclude-mapping path="/wxtrade/getRiskEvaluationById" />
+			
+			<mvc:exclude-mapping path="/wxcoupons/userCouponsLuckDraw" />
+			<mvc:exclude-mapping path="/wxcoupons/showCouponsLuckDraw" />
+			<mvc:exclude-mapping path="/wxactivity/activity_20151212" />
+			<mvc:exclude-mapping path="/wxactivity/activity_20160501" />
+			
+			<mvc:exclude-mapping path="/wxdeposit/showInvestmentList" />
+			<mvc:exclude-mapping path="/wxdeposit/getServAgreementByFid" />
+			<mvc:exclude-mapping path="/wxtrade/goMyQuickMark"/>
+			
+			<mvc:exclude-mapping path="/wxcoupons/userWechatSign"/>
+			<mvc:exclude-mapping path="/wxcoupons/queryUserCurrentSign"/>
+			
+			<mvc:exclude-mapping path="/wxdeposit/goRatesExplain" />
+			<mvc:exclude-mapping path="/wxdeposit/showInvestmentListInfo"/>
+			
+			<mvc:exclude-mapping path="/wxpay/llSinglePayReturn" />
+			<mvc:exclude-mapping path="/wxpay/cjSinglePayReturn" />
+			<mvc:exclude-mapping path="/wxpay/llpayNotify" />
+			<mvc:exclude-mapping path="/wxpay/cjpayNotify" />
+			<mvc:exclude-mapping path="/wxpay/goPay" />
+			
+			<!-- 加速卷，台数卷不拦截的页面 -->
+			<mvc:exclude-mapping path="/wxcoupons/tsVoucher" />
+			<mvc:exclude-mapping path="/wxcoupons/jsVoucher" />
+
+			<mvc:exclude-mapping path="/wxcoupons/changeVoucher" />
+			<mvc:exclude-mapping path="/wxcoupons/usedVoucher" />
+
+			<!--第三方券-->
+			<mvc:exclude-mapping path="/wxcoupons/useCashCoupon" />
+			<mvc:exclude-mapping path="/wxcoupons/cashCouponUsedDetails" />
+			<mvc:exclude-mapping path="/wxcoupons/showZQHHelp" />
+			
+			<!-- 注册登录密码验证 -->
+			<mvc:exclude-mapping path="/wxuser/loginPasswordCheck"/>
+
+			<bean class="com.web.Interceptor.SessionInterceptor" />
+		</mvc:interceptor>
+		
+		<!-- 统计用户点击率拦截 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/wxactivity/activity_20151212" />
+			<mvc:mapping path="/wxproduct/goDemandProductIndex" />
+			<mvc:mapping path="/wxtrade/goMyAsset" />
+			<mvc:mapping path="/wxtrade/topUp" />
+			<bean class="com.web.Interceptor.FuncClickInterceptor" />
+		</mvc:interceptor>
+	
+		<!--
+		<mvc:interceptor>
+			<mvc:mapping path="/wxactivity/goLDActivityStep" />
+			<mvc:mapping path="/wxactivity/activitiyKCodeUse" />
+			<mvc:mapping path="/wxactivity/activitiyShareNotify" />
+			<mvc:mapping path="/wxactivity/activitiyPraiseUpload" />
+			<bean class="com.web.Interceptor.SessionInterceptorByAct" />
+		</mvc:interceptor>
+		<mvc:interceptor > <mvc:mapping path="/wxproduct/*" />
+			<mvc:exclude-mapping path="/wxproduct/goProductList"/> <mvc:exclude-mapping path="/wxproduct/productListInfo"/> 
+			<bean class="com.web.Interceptor.SessionInterceptor" />
+		</mvc:interceptor>
+		-->
+	</mvc:interceptors>
+</beans>

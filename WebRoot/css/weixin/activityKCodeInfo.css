@@ -1,0 +1,52 @@
+.MT15P{
+	margin-top: 15%;
+}
+.MT20P{
+	margin-top: 20%;
+}
+.MT3P{
+	margin-top: 3%;
+}
+.redTex1{
+	color:#DE1620;
+}
+.infoBkg {
+	background: #DE1620 url("../../pic/weixin/activity/activityLCode/infoBkg.png") no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+	/* min-height: 700px; */
+}
+@media (device-height : 480px ) and (-webkit-min-device-pixel-ratio: 2 ){ /* 兼容iphone4/4s */
+   .infoBkg {background-image: url("../../pic/weixin/activity/activityLCode/infoBkg4s.png");}
+} 
+.title{
+	margin-top: 20%;
+}
+.yellowBox{
+	background: url("../../pic/weixin/activity/activityLCode/yellowBkg.png") no-repeat;
+	background-size: 100%;
+	color:#DE1620;
+}
+.activateBtn{
+	border-left: 2px dashed #DE1620;
+}
+.redBox{
+	background: url("../../pic/weixin/activity/activityLCode/redBkg.png") no-repeat;
+	background-size: 100%;
+	color:#fff;
+	margin-top: 6%;
+}
+@media (device-height : 480px ) and (-webkit-min-device-pixel-ratio: 2 ){ /* 兼容iphone4/4s */
+   .redBox{margin-top: 5%;}
+} 
+@media screen and (min-width: 321px) {
+	.activateNum{margin-top: 5%;}
+	.redBox{margin-top: 10%;}
+}
+.goIndex{
+	background: #fee30b;
+	border-radius: 10px;
+	letter-spacing:3px;
+	box-shadow: 3px 3px 3px #892a2a;
+}

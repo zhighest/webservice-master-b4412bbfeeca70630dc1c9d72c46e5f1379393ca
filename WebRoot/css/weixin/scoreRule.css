@@ -1,0 +1,33 @@
+*{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.scoreExplain{
+	background: url(../../pic/weixin/collectScore/ruleBkg.png) repeat;
+	background-size: cover;
+	color: #333;
+	left: 0;
+	height:100%;
+}
+.scoreExplain .closeBtn{
+	bottom: 20px;
+	left: 0;
+}
+#scoreListRule{
+	padding: 20px 0 0 20px;
+}
+#scoreListRule li{
+	line-height: 20px;
+	text-indent: -1em;
+    margin-bottom:10px;
+}
+#scoreListRule span{
+	color: #ff5a5a;
+}
+.ruledetail{
+	width: 100px;
+	height:35px;
+	line-height: 35px;
+	background: #facc00;
+	margin:20px auto 10px;
+	color:#2e53c1;
+}

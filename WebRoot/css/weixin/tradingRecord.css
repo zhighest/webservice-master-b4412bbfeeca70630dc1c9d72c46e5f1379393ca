@@ -1,0 +1,75 @@
+*{-webkit-tap-highlight-color:rgba(0,0,0,0); text-decoration:none}/* 取消浏览器默认点击样式 */
+body{
+	background: #EFEFEF;
+	line-height: 100%;
+	font-size:14px;
+}
+.month{
+	padding:5px 5%;
+	background: #EFEFEF;
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+}
+.up{
+	padding-top: 7px;
+	font-size: 16px;
+}
+.down{
+	padding: 3px 0 5px 0;
+}
+.detail{
+	margin:0 5%;
+}
+#fundFList li{
+	margin-bottom: -1px;
+}
+#fundList{
+	line-height: 1.2em;
+}
+#fundNull{
+	padding-top:40px;
+}
+/*条件筛选*/
+.selectContent{
+	background: #fff;
+	width:100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling:touch;
+}
+.selectList{
+	width:999em;
+	height:40px;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+.selectList .selectItem{
+	height:28px;
+	line-height: 40px;
+	padding:0 20px 12px;
+}
+
+.selectList .selectItem .text.active{
+	color:#ff5a5a;  
+}
+.selectList .selectItem .text.active:after{
+	  display: block;
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #ff5a5a;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 2px;  
+}
+.gradientBg{
+	position: fixed;
+	height: 40px;
+	width:30%;
+	right:0;
+	top:0;
+	background:url("../../pic/weixin/gradient.png") no-repeat;
+ 	background-size:100% 100%;
+}

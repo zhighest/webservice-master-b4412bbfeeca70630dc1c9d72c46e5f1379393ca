@@ -1,0 +1,106 @@
+
+.popSire {
+	position: relative;
+	height: auto;
+	background: url("../../pic/weixin/ver2_8/topBkg.png") no-repeat center bottom;
+	background-size: cover;
+	padding-bottom: 7%;
+}
+.turnAround90{
+	transform: rotate(90deg);
+}
+.desIcon0{
+	background:url(../../pic/weixin/ver2_7/ticket.png) no-repeat;	
+}
+.desIcon1{
+	background:url(../../pic/weixin/ver2_7/describe.png) no-repeat;	
+}
+.desIcon2{
+	background:url(../../pic/weixin/ver2_7/safe.png) no-repeat;	
+}
+.desIcon3{
+	background:url(../../pic/weixin/ver2_7/assure.png) no-repeat;	
+}
+.desIcon4{
+	background:url(../../pic/weixin/ver2_7/time.png) no-repeat;	
+}
+.desIcon5{
+	background:url(../../pic/weixin/ver2_7/cover.png) no-repeat;	
+}
+.desIcon6{
+	background:url(../../pic/weixin/ver2_7/record.png) no-repeat;	
+}
+.desIcon0,.desIcon1,.desIcon2,.desIcon3,.desIcon4,.desIcon5,.desIcon6{
+	background-size: 100%;
+	width:20px;
+	height:20px;
+	top:15px;
+	left:0;
+}
+.stick {
+	top:18px;
+	right:20px;
+}
+.btmDiv {
+	color: #FFF;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	padding: 4% 0;
+	z-index: 100;
+	box-shadow:0px -1px 2px #ccc;
+}
+.amountDiv {
+	margin: 0 auto 0px;
+	border: 1px solid #eee;
+	padding: 10px 0px 10px 10px; 
+	
+}
+.inputAmount {
+	border: none;
+	width: 70%;
+	margin-left: 50px;
+	background: none;
+}
+.moneyBtn li{
+	margin:0 10px 0 0;
+	padding: 0 6px;
+	height:30px;
+	line-height: 30px;
+}
+.moneyBtn li:last-child{
+	margin-right: 0;
+}
+.moneyBtn li:active{
+	background: #ff5a5a;
+	color:#fff;
+}
+
+.agreementUl li{
+	margin-bottom: 4px;
+}
+.redBorderB {
+	border-bottom:1px solid #ff5a5a;
+}
+.borderDB{
+	border-bottom:1px dashed #c1c1c1;
+}
+.borderDT{
+	border-top:1px dashed #c1c1c1;
+}
+#projectView h4{
+	 padding-left: 10px;
+	 line-height: 100%;
+	 color: #373737;
+	 border-left:2px solid #ff5a5a;
+}
+#projectView p{
+	color: #9f9f9f;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#projectView span{
+	color: #ff5a5a;
+	font-weight: bold;
+}

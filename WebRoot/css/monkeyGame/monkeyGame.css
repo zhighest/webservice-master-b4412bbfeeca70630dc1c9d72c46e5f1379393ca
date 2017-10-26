@@ -1,0 +1,160 @@
+@font-face { 
+	font-family: 'huakang'; 
+	src: url('../monkeyGame/huakang.ttf'); 
+}
+@font-face { 
+	font-family: 'yuanti'; 
+	src: url('../monkeyGame/yuanti.TTF'); 
+}
+.yuanti {
+	font-family: 'yuanti'; 
+}
+.huakang {
+	font-family: 'huakang';
+}
+body {
+	background: url("../../pic/weixin/monkeyGame/bkg.jpg") no-repeat;
+	background-size: 100%;
+	color: #571800;
+}
+body.noBkg{
+	background: none;
+}
+.useInfoBody {
+/*
+	min-height: 660px;
+	height: 660px;
+*/
+	overflow: hidden;
+	height: 418px;
+}
+.pageTitle {
+	width: 80%;
+	text-align: center;
+	padding-top: 15%;
+	margin-bottom: 15%;
+}
+.pageTitleUserInfo {
+	width: 70%;
+	text-align: center;
+	padding-top: 15%;
+	margin-bottom: 5%;
+}
+.pageTitleUserInfo img,.pageTitle img {
+	width: 100%;
+}
+.contentBox {
+	background-size: 100%;
+	min-height: 100px;
+}
+.height450 {
+	height: 450px;
+}
+.listBox {
+	background: url("../../pic/weixin/monkeyGame/listBkg.png") no-repeat;
+	background-size: 100%; 
+	margin-bottom: 2%;
+    min-height: 100px;
+    padding: 5% 3%;
+    width: 94%;
+}
+.popBox {
+	background: url("../../pic/weixin/monkeyGame/listBkg1.png") no-repeat;
+	width: 90%;
+	background-size: 100%; 
+	height: 200px;
+	padding: 5% 5%;
+	margin-top: 20%;
+}
+.imgBkg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	height: 200px;
+}
+.popTitle {
+	font-size: 1.2rem;
+	line-height: 1.2em;
+	font-family: 'yuanti';
+	margin-top: 5%;
+}
+.popTitle.font16 {
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+}
+.popTitle.Font25 {
+	font-size: 2.5rem;
+}
+.font10 {
+	font-size: 0.8rem;
+}
+.font12 {
+	font-size: 1.2rem;
+}
+.font14 {
+	font-size: 1.4rem;
+}
+.inputTel {
+	border-radius: 40px;
+	box-shadow: 1px 1px 4px #BB8F29;
+	background: #FFF;
+	text-align: center;
+	padding: 2% 5%;
+	border: none;
+	width: 90%;
+}
+.listUl {
+	display: table-row;
+	font-size: 0.7rem;
+}
+li.verM {
+	vertical-align: middle;
+}
+.listUl li.firstLi {
+	padding-left: 5%;
+}
+.listUl li {
+	display: table-cell;
+}
+.btnB5 {
+	position: relative;
+	bottom: 2%;
+}
+.listDiv {
+	height: 550px;
+	overflow: auto;
+}
+.gamebtnArea {
+	position: absolute;
+	top: 5%;
+	width: 100%;
+}
+.successdBtnArea {
+	position: absolute;
+    bottom: -30px;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+}
+.width34 {
+	width: 34%;
+}
+@media screen and (max-height:480px) {
+	.listBox {
+		background: url("../../pic/weixin/monkeyGame/listBkg.png") no-repeat;
+		background-size: 100%; 
+		margin-bottom: 2%;
+	    min-height: 100px;
+	    padding: 3% 3% 2%;
+	    width: 94%;
+	}
+	.successdBtnArea {
+		position: absolute;
+	    bottom: 0%;
+	    width: 80%;
+	    left: 50%;
+	    margin-left: -40%;
+	}
+}

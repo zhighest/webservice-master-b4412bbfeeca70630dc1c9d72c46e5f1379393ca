@@ -1,0 +1,16 @@
+/*详情页样式开始*/
+.limitWrap{
+	background: #f7f6f6;
+	padding: 8px 5%;
+	line-height: 24px;
+}
+.rightNow{
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-mz-transform: translateX(-50%);
+}
+/*详情页样式结束*/

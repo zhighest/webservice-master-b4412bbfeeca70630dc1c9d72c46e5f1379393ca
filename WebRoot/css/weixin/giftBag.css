@@ -1,0 +1,278 @@
+body,html{
+	font-size: 14px;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select: none; 
+	-khtml-user-select: none; 
+	user-select: none; 
+} 
+.header{
+	height: 3.06rem;
+	background: url(../../pic/weixin/giftBag/package.png);
+	background-size: cover;
+}
+.headerPT{
+	padding-top: 0.25rem;
+}
+.newHeaderPT{
+	padding-top: 0.3rem;
+}
+.headerMT{
+    margin-top: 6px;
+}
+.headerSec{
+	width: 100%;
+	height: 1rem;
+	background: #fc477c;
+	background: -webkit-linear-gradient(left, #ff6d74 , #fb3081); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #ff6d74, #fb3081); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #ff6d74, #fb3081); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ff6d74 , #fb3081); /* 标准的语法 */
+    bottom: 0;
+}
+.borderBox{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 50%;
+}
+.headerBtom{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	padding-top: 0.25rem;
+}
+.headerFl{
+	border-right: 1px solid #fea2c0;
+}
+.headerFr{
+	border-left: 1px solid #fea2c0;
+}
+.contentLi{
+	border: 1px solid #d5d5d5;
+	height: 2.8rem;
+	margin-top: 0.3rem;
+}
+.contentFr img{
+	height: 1.45rem;
+}
+.contentFl{
+	margin-left: 0.25rem;
+}
+.letterSpace{
+	letter-spacing: 1px;
+}
+.PTREM15{
+	padding-bottom:0.2rem
+}
+.numFont{
+	font-size: 42px;
+}
+.ML2REM{
+	margin-left: 0.2rem;
+}
+.contentFr{
+	margin-right: 0.25rem;
+}
+.contentSpan{
+	display: inline-block;
+	width: 1.6rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.grayColor{
+	color: #d6d6d6;
+}
+.grayColor1{
+	color: #c8c8c8;
+}
+.grayBk{
+	background-color: #c8c8c8;
+}
+.height28{
+	height: 2.8rem;
+}
+.footer{
+	padding-top: 0.27rem;
+}
+.footerSpan{
+	display: inline-block;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.redColor{
+	color: #ffdddd;
+}
+.height24{
+	height: 2.4rem;
+}
+.contentLiNew{
+	border: 1px solid #d5d5d5;
+	height: 2.36rem;
+	margin-top: 0.3rem;
+}
+.MT1REM{
+	margin-top: 0.1rem;
+}
+.newFooter{
+	padding-top: 0.04rem;
+}
+.newMar{
+    font-size: 24px;
+    margin-top: 0.5rem;
+}
+.headerL{
+	height: 1rem;
+}
+.headerR{
+	height: 1rem;
+	left: 50%;
+}
+.luckAlert{
+    width: 100%;
+}
+.positionB1{
+	bottom:-1px
+}
+.height14R{
+	height:1.4rem;
+}
+.bthImg{
+	height: 0.48rem;
+    width: 0.48rem;
+    margin: 0.24rem auto;
+}
+.bthImg2{
+    -webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0); 
+    width: 6rem;
+    height: 4.2rem;
+	background: url(../../pic/weixin/giftBag/giftBag.png) 0 0 no-repeat;
+	position: absolute;
+    background-size: cover;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-webkit-animation:person-normal 1500ms steps(10);
+	animation:person-normal 1500ms steps(10);
+    z-index: 1; 
+}
+@-webkit-keyframes person-normal{
+   0% {background-position: 0 0;}
+   100% {background-position: -60rem 0;}
+}
+@keyframes person-normal{
+   0% {background-position: 0 0;}
+   100% {background-position: -60rem 0;}
+}
+.confirmBtn{
+	height: 1rem;
+    width: 1rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 2.7rem;
+     z-index: 2;
+}
+/*轮播*/
+.swiper-container {
+    width: 100%;
+    height: 3.2rem;
+} 
+.divImg{
+    	margin-bottom: 0.1rem;
+    }
+.alertWrap{
+	background-color: rgba(42,42,42,0.7);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+}
+.clearAlertH8{
+	height: 8rem;	
+}
+.clearAlertH{
+	height: 1.9rem;
+}
+.alertConent{
+	position: relative;
+	/*top: 1.9rem;*/
+}
+.prompt{
+	margin-top: 0.1rem;
+    text-align: center;
+}
+.KcodeBtn{
+    height: 0.92rem;
+    line-height: 0.92rem;
+    background: #fbec14;
+    box-shadow: 0px 2px 0px #eea800;
+    margin-top: 0.6rem;
+}
+.width3R{
+	width:3.8rem
+}
+.opacity0{
+	opacity:0;
+	z-index: -1;
+}
+.opacity1{
+	opacity:1;
+}
+.contentUl{
+	height: 0.3rem;
+}
+.listNull{
+	padding-top: 20%;
+}
+.zIndex{
+	z-index: 2;
+}
+.opacity5{ 
+	z-index: 2;
+opacity: 0.5;  
+filter: "alpha(opacity=50)"; 
+filter: alpha(opacity=50);
+zoom: 1;   
+}
+@media only screen
+and (max-device-width: 380px)
+{
+.newMar{
+    font-size: 20px;
+    margin-top: 0.6rem;
+}
+}
+@media only screen
+and (max-device-width: 320px)
+{
+.newMar{
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+.PTREM15{
+	padding-bottom:0.05rem
+}
+.numFont{
+	font-size: 36px;
+}
+.headerMT{
+    margin-top: 4px;
+}
+.KcodeBtn{
+	margin-top: 0.6rem;
+} 
+}
+@media only screen
+and (min-device-width: 400px)
+{
+.footer{
+	padding-top: 0.31rem;
+}
+.headerMT{
+    margin-top: 5px;
+}
+}

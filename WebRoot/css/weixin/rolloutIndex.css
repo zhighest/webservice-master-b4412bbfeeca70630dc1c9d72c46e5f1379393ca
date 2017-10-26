@@ -1,0 +1,140 @@
+.PT40{
+	padding-top: 40px;
+}
+.halfBkg{
+	background:rgba(255, 255, 255, 0.1);
+}
+.bottomBtn {
+	bottom:0;
+}
+.borderRL{
+	border-right:1px solid rgba(255,255,255,0.2);
+}
+.opacity80{
+	opacity: 0.8;
+}
+.stick {
+	top:21px;
+	right:0;
+}
+.desIcon0 {
+	background:url(../../pic/weixin/ver2_8/purpose.png) no-repeat;
+}
+.desIcon0,.desIcon1,.desIcon2,.desIcon3,.desIcon4,.desIcon5,.desIcon6{
+	background-size: 100%;
+	width:20px;
+	height:20px;
+	top:15px;
+	left:0;
+}
+#inputRollNum::-moz-placeholder {
+    color: #9f9f9f;
+    opacity: 1!important;
+    font-size: 16px;
+    line-height: 45px;
+}
+#inputRollNum:-ms-input-placeholder {
+    color: #9f9f9f;
+    font-size: 16px;
+    line-height: 45px;
+}
+#inputRollNum::-webkit-input-placeholder {
+    color: #9f9f9f;
+    font-size: 16px;
+    line-height: 45px;
+}
+.lineHeight30 {
+	line-height: 30px;
+}
+.rolloutList {
+	right: 5%;
+	top: 15px;
+}
+
+.alertBox{
+	/*height: 220px;*/
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.redBkg{margin-left: 12%;}
+
+#agreement{text-align:left; margin: 10px; height: 20px; margin-left: 20px;}
+#txt{line-height: 36px; display: inline-block; height: 28px; margin-left: 3px;
+		position: relative; top:-3px;
+}
+#icon1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid gainsboro;
+	
+}
+#icon2{	
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	
+}
+
+body{width: 100%; overflow-x: hidden;}
+/*新增*/
+.figure{
+	width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 5px solid #fff;
+   /* transform: translateX(50px);*/
+}
+.msgB{
+	    white-space: nowrap;
+}
+.hrBoder:after{
+	 content: "";
+	  display: block;
+	  position: absolute;
+	 left: -50%;
+	 width: 200%;
+	 height: 1px;
+	background: #e6e7e8;
+	-webkit-transform:scale(0.5);
+	transform:scale(0.5);
+}
+.hearder:after{
+	 content: "";
+	  display: block;
+	  position: absolute;
+	 left: -50%;
+	 width: 200%;
+	 height: 1px;
+	background: #ff5a5a;
+	-webkit-transform:scale(0.5);
+	transform:scale(0.5);
+}
+.btmDiv {
+    color: #FFF;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 4% 0;
+    z-index: 100;
+    box-shadow: 0px -1px 2px #ccc;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	#msg{
+		font-size: 12px;
+	}
+	#msg .PTB5{
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	#msg .PLR10{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}

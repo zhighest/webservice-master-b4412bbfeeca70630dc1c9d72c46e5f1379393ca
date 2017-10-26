@@ -1,0 +1,35 @@
+body{background: #fff;}
+.recharge{width:946px;}
+.dealTex{border-left:2px solid #ff5a5a;}
+.heigh45{height:45px; line-height: 45px;}
+.width65{width:65px;}
+.width150P {width: 150px;}
+.width220P{width:220px;}
+.moneyOd {
+	border:1px solid #a8a8a8; 
+	width:250px;
+}
+.moneyOd:hover {
+	border:1px solid #ff5a5a;
+}
+.moneyOd:focus {
+	border:1px solid #ff5a5a; 
+}
+.dashed{border:1px dashed #ccc; height:25px; line-height: 25px;}
+.goTopUp:hover{color: #fff;}
+.width250{ width:250px;}
+.redBorder{border:1px solid #ff5a5a;}
+.blueTex{color:#1290e0;}
+.enterBtn:hover{color: #fff;}
+.inactiveBtn{background: #ccc;}
+.downIcon{width:16px;height:10px;right:20px;top: 16px;}
+.povince{top:0; left:85px;}
+.city{top:0; left:347px;}
+.povinceList{width: 460px; top:41px; left:85px;}
+.cityList{width: 500px; top:41px; left:347px;}
+.povince.active{border-bottom: 1px solid #fff; z-index: 3; display: block;}
+.povince.active .povinceList{z-index: 2;}
+.city.active{border-bottom: 1px solid #fff; z-index: 3; display: block;}
+.city.active .povinceList{z-index: 2;}
+.povinceList li:hover{background: #ff5a5a; color:#fff;}
+.cityList li:hover{background: #ff5a5a; color:#fff;}

@@ -1,0 +1,54 @@
+body{background:#ff9c00 url(../../pic/weixin/wxyiyBg.jpg) no-repeat; background-size:100%;}
+.content{box-sizing: border-box;}
+.redBox{background:#f7564f url(../../pic/weixin/redboxBg.png) no-repeat; background-size:100%; padding-top: 20%;border-radius: 5px;}
+.yiyIcon{
+	left:5%;
+	top:1.5%;
+	animation: hand_move .2s;
+	-webkit-animation: hand_move .2s;
+	animation-iteration-count:6;
+	-webkit-animation-iteration-count:6;
+	animation-direction:alternate;
+	-webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+.center{background:url(../../pic/weixin/pngBg.png) no-repeat center; background-size:cover; left:0; top:0;}
+.yellowBox{background:url(../../pic/weixin/yellowBg.png) no-repeat center;background-size:cover; width:60%; margin-left: 15%; padding:5%;}
+#handImg{
+	animation: hand_move .2s;
+	-webkit-animation: hand_move .2s;
+	animation-iteration-count:8;
+	-webkit-animation-iteration-count:8;
+	animation-direction:alternate;
+	-webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+.handImgRunning{
+	animation-play-state:running;
+	-webkit-animation-play-state:running; /* Safari 和 Chrome */
+}
+.handImgPaused{
+	animation-play-state:paused;
+	-webkit-animation-play-state:paused; /* Safari 和 Chrome */
+}
+.btnYiy{width:40%;}
+.residue{width:50%; background: rgba(255,255,255,0.2); border-radius: 20px;}
+.residueNum{color:#ffc600;}
+dl{padding-bottom:5%;}
+@media screen and (max-width: 320px) {
+	.btnYiy,.residue{margin-top: 3%;}
+}
+@media screen and (min-width: 321px) {
+	.btnYiy,.residue{margin-top: 5%;}
+}
+@keyframes hand_move {
+    from {transform: rotate(0); }
+    to { transform: rotate(15deg); }
+}
+@-webkit-keyframes hand_move {
+    from { -webkit-transform: rotate(0); }
+    to { -webkit-transform: rotate(15deg); }
+}
+
+.alertBg{background:rgba(0,0,0,0.4); left:0; top:0;}
+.alertBox{height:210px;left:5%; top:50%; margin-top: -105px;}
+.alertBox p{height: 85px; font-size: 120%; padding-top: 55px;}
+.alertBox button{ border:0; height:23%; font-size: 120%;}

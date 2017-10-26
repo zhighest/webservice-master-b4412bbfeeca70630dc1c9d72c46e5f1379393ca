@@ -1,0 +1,123 @@
+.container {
+	background: #FFFED8 url("../../pic/drawer/bkg.jpg") no-repeat;
+	width: 100%;
+	background-size: 100%;
+	position: relative;
+}
+#container1 {
+	background: #FFFED8 url("../../pic/drawer/bkg1.jpg") no-repeat;
+	width: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.fs-current > .fs-field-label {
+	color: #1e5089;
+}
+.fs-submit {
+	margin-bottom: 30px;
+}
+.drawerTitle {
+	font-weight: bold;
+	line-height: 1.6em;
+	font-size: 20px;
+}
+.activitydraw {
+	border: 3px solid #FFF;
+	font-size: 26px;
+	letter-spacing: 4px;
+	color: #FFF;
+	border-radius: 30px;
+	background: rgba(80, 96, 114, 0.54);
+	width: 56%;
+	display: block;
+	margin: 0 auto;
+	
+}
+.activitydraw:hover {
+	background: #506072;
+}
+.btnArea {
+	display: block;
+	padding-top: 50%;
+}
+.banner {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+.alertBg {
+    background: rgba(0,0,0,0.3);
+    left: 0;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.alertBox {
+    height: 160px;
+    left: 10%;
+    top: 50%;
+    margin-top: -95px;
+    background-color: #FFF;
+    border-radius: 5px;
+    position: absolute;
+    width: 80%;
+	text-align: center;
+	color: #1e5089;
+}
+.popupTitle {
+	margin-top: 30px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.btn {
+	display: inline-block;
+    zoom: 1;
+    *display:inline;
+    padding: 5px 0;
+    margin: 0 10px;
+    background: #1e5089;
+}
+.grayBtn {
+	color: #9f9f9f;
+	background: #f4f4f4;
+	width: 35%;
+}
+.activeBtn {
+	color: #FFF;
+	background: #1e5089;
+	width: 35%;	
+}
+.winnerTitle {
+	color: #1e5089;
+	font-size: 14px;
+}
+.winnerMobile {
+	color: #FFF;
+	font-size: 24px;
+}
+.winnerText {
+	position: relative;
+}
+.lineL {
+	width: 30px;
+	height: 1px;
+	background: #1e5089;
+	display: block;
+	position: absolute;
+	left: -40px;
+	top:6px;
+}
+.lineR {
+	width: 30px;
+	height: 1px;
+	background: #1e5089;
+	display: block;
+	position: absolute;
+	right: -40px;
+	top:6px;
+}
+.transparent {
+	color: rgba(255, 255, 255, 0.5);
+}

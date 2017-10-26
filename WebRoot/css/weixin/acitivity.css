@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.imgDiv {
+	width: 100%;
+	background: #fef0bf;
+}
+.imgDiv img {
+	width: 100%;
+	float: left;
+}
+.bkg1 {
+	background: #aedde6;
+}
+.btn.activitybtn1 {
+	background: #ef8586;
+}
+.pop {
+	background: rgba(0, 0, 0, 0.52);
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.popCon {
+	margin-top: 20%;
+}
+.popCon img {
+	width: 60%;
+}
+.KCodebtnArea {
+	background: #FDD706;
+}
+.imgDiv .KCodebtn {
+	display: block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}

@@ -1,0 +1,34 @@
+.signinBkg {
+	    background:url("../../pic/weixin/activity/activity_April/signinBkg.jpg") no-repeat center;
+		width: 100%;
+        height:100%;
+        background-size:100%;
+}
+.signInbtn a {
+	width: 80%;
+    text-align: center;
+    background-color: #fee306;
+    color: #ff5a5a;
+    box-shadow: 0px 2px 0 #f39134;
+    border-radius: 100px;
+    margin-left: 10%;
+    padding: 8px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.signInbtn a.cannot{
+	background-color: #c8c8c8;
+	box-shadow: 0px 2px 0px #9f9f9f;
+	color:#FFF;
+}
+h4 {
+    text-shadow:0px 1px 0px #9f9f9f;
+}
+#explainText {
+    letter-spacing:1px;
+    margin-bottom:10px;
+    text-shadow:0px 1px 0px rgba(78,78,78,.6);
+}
+#explainText  span {
+    color: #fee306;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

@@ -1,0 +1,25 @@
+/*
+* @Author: Administrator
+* @Date:   2016-05-13 17:06:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-05-17 09:18:02
+*/
+#tabNav li {
+	border:0;
+}
+.CUA {
+	border-radius:20px;
+	background-color:#ff5a5a;
+	color:#FFFFFF;
+}
+.width33 {
+	width:33%;
+
+}
+.POSITION{
+	left: 4%;
+	font-weight: bold;
+}
+.colourE{
+	color: #333;
+}

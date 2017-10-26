@@ -1,0 +1,6 @@
+#mediaDetail p,#mediaDetail div{
+	text-indent: 2em;
+}
+#mediaDetail img {
+	width: 100%
+}

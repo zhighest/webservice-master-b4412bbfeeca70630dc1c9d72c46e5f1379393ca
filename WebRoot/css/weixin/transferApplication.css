@@ -1,0 +1,49 @@
+.borderBD {
+	border-bottom:1px dashed #E6E6E6;
+}
+.autoHide {
+	overflow:auto;
+	bottom: 10px;
+	top:0;
+}
+.borderThis {
+	border: 1px solid #c8c8c8;
+}
+.stick {
+	top: 22px;
+	margin-left:5px;
+}
+.bottom {
+	bottom:0;
+	width:100%;
+}
+.transferBtn {
+	width:100%;
+}
+.grayBox {
+	background:#9f9f9f;
+}
+.showInfo1,.showInfo2 {
+	padding-left:10px;
+	padding-right:10px;
+}
+.showInfo1 span,.showInfo2 span,.showInfo3 span{
+	color:#ff5a5a;
+}
+.showInfo1 img,.showInfo2 img {
+	top:-9px;
+	left:20px;
+}
+ .thisMT2 {
+ 	margin-top:2px;
+ }
+ .desIcon1,.desIcon2,.desIcon3{
+	width:20px;
+	height:25px;
+	top:13px;
+	left:0;
+}
+ i.positionA.desIcon1{
+	background:url(../../pic/weixin/ver2_7/explan.png) no-repeat;
+	background-size: 100%;
+}

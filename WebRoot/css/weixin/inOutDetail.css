@@ -1,0 +1,60 @@
+body{
+	background: #efefef;
+  line-height: 100%;
+  font-size:14px;
+}
+*{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.tabBar{
+  top:0px;
+}
+.tabBar .active{
+  /*font-size: 16px;*/
+  color:#ff5a5a;
+}
+.tabBar li{
+  float: left;
+  width: 25%;
+  border-right:1px solid #efefef;
+  box-sizing: border-box;
+  padding:15px;
+}
+.tabBar li:last-child{
+  border-right:none;
+}
+.containWrap{
+  padding-top: 44px;
+}
+.contain li{
+  margin-bottom: -1px;
+}
+.month{
+  padding:5px 5%;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -1px;
+  border-top:1px solid #E6E6E6;
+}
+.detail{
+  margin:0 5%;
+}
+.greyTex2{
+  color: #6C6C6C;
+}
+.blackText{
+  color: #333333;
+}
+#fundFlowList li{
+  margin-bottom: -1px;
+}
+#fundFlowList{
+  line-height: 1.2em;
+}

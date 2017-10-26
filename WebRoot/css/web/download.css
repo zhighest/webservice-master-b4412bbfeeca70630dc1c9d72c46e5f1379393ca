@@ -1,0 +1,26 @@
+.downBg{
+	background: url(../../pic/downLoad/downBg2.jpg) no-repeat top center;
+	background-size:cover;
+}
+.code{
+	left:10%;
+	bottom:19%;
+	width:50%;
+}
+.downloadBtn{
+	left:15%;
+	bottom:7%;
+}
+@media screen and (device-height: 480px){
+	.downBg{
+		background-image: url(../../pic/downLoad/downBg3.jpg);
+		background-size:cover;
+	}
+	.code{
+		width:40%;
+		bottom:11%;
+	}
+	.downloadBtn{
+		bottom:1%;
+	}
+}

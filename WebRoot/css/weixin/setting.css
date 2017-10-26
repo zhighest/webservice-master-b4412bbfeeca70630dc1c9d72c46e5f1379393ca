@@ -1,0 +1,23 @@
+.alertBkg{
+	background: rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+}
+.alertBox{
+	top:50%;
+	left:5%;
+	margin-top:-75px;
+	height:160px;
+}
+.heigh45{
+	height: 45px;
+	line-height: 45px;
+}
+#comfirmBtn{
+	width: 100px;
+	margin-left: 20px;
+}
+#cancel{
+	width: 100px;
+	margin-right: 20px;
+}

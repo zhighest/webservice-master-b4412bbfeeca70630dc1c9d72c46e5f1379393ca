@@ -1,0 +1,185 @@
+.activityBanner{
+    width:100%;
+    height: 320px;
+    background: url(../../pic/web/banner/activityBanner.jpg) no-repeat top center;
+    overflow: hidden;
+}
+.activityBanner .wrapper {
+    margin-top: 75px;
+    height: 245px;
+}
+.shortShortLine {
+    width: 30px; 
+    height: 3px;
+}
+.New {
+    top:50%;
+    left:0;
+    margin-top:-24px;
+}
+.new {
+    top:50%;
+    margin-top:-24px;
+    left: 110px;
+}
+.width30 {
+    width: 30%;
+}
+.MR5P {
+    margin-right: 5%;
+}
+.littleShortLine {
+    width: 20px; 
+    height: 3px;
+}
+.firstTr {
+    height: 444px;
+}
+.secondTr {
+    height: 222px;
+}
+.halfLi {
+    padding: 20px 0;
+    height: 182px;
+}
+.MsoNormal {
+    font-size: 12px;
+    color: #616161;
+}
+.allLi {
+    padding: 60px 0;
+}
+.halfImg {
+    height: 222px;
+}
+.halfImg img{
+    width: 100%;
+    height: 222px;
+}
+.allImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.height18{
+    line-height: 18px;
+}
+.nowrap{
+    font-size: 16px;
+    line-height: 32px;
+    height:32px;
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.imgMedia {
+	transition:all 0.5s;
+    -moz-transition:all 0.5s; /* Firefox 4 */
+    -webkit-transition:all 0.5s; /* Safari and Chrome */
+    -o-transition:all 0.5s; /* Opera */
+}
+#mediaList li:hover .imgMedia{
+    -webkit-transform: scale(1.15,1.15);
+    -moz-transform: scale(1.15,1.15);
+    -o-atransform: scale(1.15,1.15);
+    transform: scale(1.15,1.15);
+}
+#mediaList li{
+	cursor: pointer;
+    margin-top: 20px;
+}
+
+/****header部分logo修改****/
+@media screen and (max-width:768px){
+    html,body{
+        min-width:300px;
+    }
+    .headerBox {
+        display: none;
+    }
+    .PT50 {
+        padding-top: 20px;
+    }
+    .PB50 {
+        padding-bottom: 20px;
+    }
+    .activityBanner {
+        display: block;
+        width: 100%;
+        height: 200px;
+        background: url(../../pic/web/banner/activityBanner.jpg) no-repeat top center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .activityBanner .wrapper {
+        margin-top: 90px;
+        height: 110px;
+    }
+    .New {
+        font-size: 24px;
+        top:10%;
+        left:0;
+        margin-top:-24px;
+    }
+    .new {
+        font-size: 14px;
+        top:10%;
+        margin-top:-40px;
+        left: 50px;
+    }
+    .font18 {
+        font-size: 14px;
+    }
+    .width30 {
+        width: 100%;
+    }
+    .MR5P {
+        margin-right: 0%;
+    }
+    .contentWrapper {
+        width:100%;
+        padding-top: 40px;
+    }
+    .newActivityBanner {
+        width: 100%;
+        height: 200px;
+        background: url(../../pic/web/banner/newActivityBanner2.jpg) no-repeat top center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .nowrap{
+        font-size: 14px;
+        line-height: 28px;
+        height:28px;
+    }
+    #mediaListPaging{
+        display: none;
+    }
+    .lrBtn{
+        display: block;
+        margin-right: 6%;
+    }
+    .listBox{
+        margin-top: 10px;
+    }
+}
+
+/* 新加的CSS */
+.textBox{
+    height: 222px;
+}
+.listImg{
+    width: 100%;
+    height: 222px;
+}
+.detailText{
+    height: 110px;
+    line-height:28px;
+}
+.lineHeight28{
+    line-height:28px;
+}

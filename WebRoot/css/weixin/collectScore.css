@@ -1,0 +1,176 @@
+*{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*****************banner**************************/
+.header{
+  width:100%;
+  background: url(../../pic/weixin/collectScore/headerPic.png) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 5%;
+  line-height: 1.5em;
+}
+.scoreNotice{
+    width: 20px;
+    height: 20px;
+    top: -7px;
+    right: 22px;
+    padding:5px;
+    background: url(../../pic/weixin/collectScore/noticeIcon2.png) no-repeat center;
+    background-size: 75% 75%;
+  }  
+.entrance{
+	padding:15px 5px;
+	height:45px;
+	white-space: nowrap;
+}
+.totalScore{
+  height:16px;
+  line-height: 16px;
+}
+.entrance li{
+	height:45px;
+}
+ .entrance li:nth-child(1) .wrap{
+  padding-left: 35px;
+  background:url(../../pic/weixin/collectScore/outdateIcon.png) no-repeat left 5px; 
+  background-size: 30px;
+}
+ .entrance li:nth-child(2) .wrap{
+  padding-left: 40px;
+  background:url(../../pic/weixin/collectScore/inoutDetaileIcon.png) no-repeat left 5px; 
+  background-size: 30px;
+}    
+.entrance .wrap{
+	left: 50%;
+	-webkit-transform:translateX(-50%);
+  transform:translateX(-50%);
+}
+.main .needScore{
+  background-size: 18px;
+  height:20px;
+  line-height: 20px;
+}
+.title{
+	border-left: 3px solid #ff5a5a;
+	padding-left:5px; 
+}
+#pruductList{
+	padding-top:20px;
+}
+#pruductList li{
+  width: 48%;
+}
+#pruductList li:nth-child(odd) {
+  margin-right: 4%;
+
+}
+.new{
+  display: inline-block;
+  top:8px;
+  left: 0px;
+  width: 30px;
+  height:20px;
+  background:url(../../pic/weixin/collectScore/commentBkg.png) no-repeat left center; 
+  background-size: contain;
+  text-align: center;
+  line-height: 20px;
+  color:#ffffff;
+  font-size: 10px;
+}
+.main .item{
+  margin-bottom: 2px;
+}
+.name{
+  height: 36px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+}
+.bottom{
+  height: 35px;
+  text-align:center;
+}
+.bottom img{
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+/* 弹框样式 */
+.scoreExplain{
+  background: #FFFFFF;
+  position: fixed;
+  width: 90%;
+  color: #9f9f9f;
+  z-index: 1000;
+  left: 0;
+  height:100%;
+}
+.scoreExplain .closeBtn{
+  bottom: 20px;
+  left: 0;
+}
+#scoreListRule{
+  padding: 20px 0 0 20px;
+}
+#scoreListRule li{
+  line-height: 20px;
+  text-indent: -1em;
+    margin-bottom:10px;
+}
+#scoreListRule span{
+  color: #ff5a5a;
+}
+.listNull{
+  padding-top: 40%;
+}
+
+/*条件筛选*/
+.selectContent{
+	background: #fff;
+	width:100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling:touch;
+}
+.selectList{
+	width:999em;
+	height:40px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.selectList .selectItem{
+	height:28px;
+	line-height: 40px;
+	padding: 0 20px 12px;
+}
+
+.selectList .selectItem .text.active{
+	color:#ff5a5a;  
+}
+.selectList .selectItem .text.active:after{
+	  display: block;
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #ff5a5a;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 2px;  
+}
+.gradientBg{
+	height: 40px;
+	width:20%;
+	right:0;
+	top:10px;
+	background:url("../../pic/weixin/gradient.png") no-repeat;
+	background-size:100% 100%;
+}
+.fixTop{
+	top:0;
+	z-index:10;
+}
+.scrollBox{
+	height:40px;
+}

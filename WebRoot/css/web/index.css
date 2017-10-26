@@ -1,0 +1,1134 @@
+.forbid {
+	background: rgba(255,255,255,0.3);
+	background: #817f7f \9;
+	opacity: 0.3 \9;
+	filter:alpha(opacity=50) \9;
+	color: #fff;
+	cursor: default;
+}
+/* 变成灰度 */
+.grayThis {
+	-webkit-filter: grayscale(1);/* Webkit */
+	filter:gray;/* IE6-9 */
+	filter: grayscale(1);/* W3C */
+}
+.goWhere {
+	-webkit-filter: grayscale(1);/* Webkit */
+	filter:gray;/* IE6-9 */
+	filter: grayscale(1);/* W3C */
+}
+.goWhere:hover {
+	-webkit-filter: grayscale(0);/* Webkit */
+	filter:gray;/* IE6-9 */
+	filter: grayscale(0);/* W3C */
+}
+/* ######################12月改版分界线#################### */
+.holderDiv {
+	height: 100px;
+}
+.partTitle {
+	font-size: 30px;
+}
+.screenF5{
+	width:100%;
+	padding: 60px 0;
+	z-index: 2;
+	background: #f5f5f5;
+}
+.screenFf{
+	width:100%;
+	padding: 60px 0;
+	z-index: 2;
+	background: #ffffff;
+}
+@media screen and (max-width:768px) {
+	#activityListW {
+		display: none;
+	}
+	#activityListP {
+		display: block;
+	}
+	#productListP {
+		display: block;
+	}
+	.holderDiv {
+		height: 40px;
+	}
+	.partTitle {
+		font-size: 20px;
+	}
+	.screenF5{
+		padding: 20px 0;
+	}
+	.screenFf{
+		padding: 20px 0;
+	}
+}
+/* ############## 轮播 bannner begin ############# */
+#slider{
+	display: none;
+}
+#PCbanner{
+	display: block;
+}
+.oneScreen{
+	width:100%;
+	height:100%;
+	_height: 100%;
+	overflow: hidden;
+	z-index: 2;
+	visibility: visible;
+}
+.oneScreenIn{
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	display: block;
+	z-index: 1;
+}
+#bannertitle {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: 50;
+}
+#position{
+	position: absolute;
+	bottom: 6px;
+	z-index: 10;
+	width: 100%;
+}
+#position li{
+	background-color: rgba(255,255,255,0.3);
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	margin: 0 3px;
+	display: inline-block;
+	border:1px solid #fff;
+}
+#position li.on{
+	background-color:#ff5a5a;opacity: 0.7;filter:alpha(opacity=70);
+}
+.slides {
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+.bannerInner {
+	height:100%;
+	position:relative;
+	left:0;
+	margin-left:0;
+}
+.bannerInner a {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	display:block;
+	height:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	position:relative;
+	text-align:center;
+	z-index:1;
+}
+.navListBox {
+	position:absolute;
+	left:50%;
+	bottom:70px;
+	z-index:99;
+}
+.navListBox li {
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:50%;
+}
+.navListBox li a {
+	display:block;
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	background:rgba(232,232,232,0.2);
+}
+.navListBox li a.active {
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	margin-top: -1px;
+	background-color:#fb4148;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+@media screen and (max-width: 768px){
+	.navListBox{
+		margin-left: auto;
+		margin-right: auto;
+		bottom:30px;
+	}
+	.oneScreen{
+		width: 100%;
+		height: 50%;
+	}
+}
+
+/* ############## 精选理财产品 begin ############# */
+#productListUl {
+	width: 972px;
+	overflow: hidden;
+}
+.showBoxLi {
+	width: 243px;
+}
+.showBoxLi .lineHeight2x {
+	line-height: 200%;
+}
+#showLiBox {
+	display: block;
+}
+#productList {
+	position: relative;
+	margin-top: 40px;
+}
+.goLeftBtn {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	z-index: 5;
+}
+.goRightBtn {
+	position: absolute;
+	top: 45%;
+	right: 0;
+	z-index: 5;
+}
+.minHeight {
+	min-height: 20px;
+}
+@media screen and (max-width: 768px){
+	.showBoxLi .lineHeight2x {
+		line-height: 150%;
+	}
+	.minHeight {
+		min-height: 40px;
+	}
+	#productListUl {
+		display: none;
+		width: 90%;
+		overflow-x: hidden;
+	}
+	#productList {
+		margin-top: 10px;
+	}
+	.goWhere {
+		display: none;
+	}
+	.goLeftBtn {
+		display: none;
+	}
+	.goRightBtn {
+		display: none;
+	}
+	.showBoxLi {
+		float: left;
+		width: 46%;
+		/* 		margin-left: 2%;
+                margin-right: 2%; */
+		height: auto;
+		margin:0px 2%;
+	}
+
+}
+/* ############# 最新动态 begin ########### */
+
+
+/* ######################### 理财产品点击弹窗 begin ######################### */
+#showName {
+	font-size: 32px;
+}
+.productAlertBox {
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+}
+#listDetail {
+	width: 400px;
+	top: 200px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	z-index: 100;
+	left: 50%;
+	margin-left: -200px;
+	box-shadow: 0px 0px 8px #c9c9c9;
+}
+/*弹框动画*/
+.animated{
+	-webkit-animation-duration:0.3s;
+	animation-duration:0.3s;
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both
+}
+
+@-webkit-keyframes bounceIn{
+	0%{
+		opacity:0;
+		-webkit-transform:scale(.3);
+		transform:scale(.3)
+	}
+	100%{
+		opacity:1;
+		-webkit-transform:scale(1);
+		transform:scale(1)
+	}
+
+}
+@keyframes bounceIn{
+	0%{
+		opacity:0;
+		-webkit-transform:scale(.3);
+		-ms-transform:scale(.3);
+		transform:scale(.3)
+	}
+	100%{
+		opacity:1;
+		-webkit-transform:scale(1);
+		-ms-transform:scale(1);
+		transform:scale(1)
+	}
+
+}
+.bounceIn{
+	-webkit-animation-name:bounceIn;
+	animation-name:bounceIn
+}
+
+/*弹框动画*/
+
+#listDetail span {
+	font-size: 20px;
+	line-height: 1.5em;
+}
+.circleBox{
+	width: 140px;
+	height: 140px;
+	background:url("../../pic/web/index/circleBkg.png") no-repeat left center;
+	background-size: cover;
+}
+.circleBox p {
+	font-size: 18px;
+}
+.sellRate {
+	font-size: 40px;
+	padding-top: 30px;
+	margin-top: 20px;
+}
+.closeIcon {
+	width: 20px;
+	top: 15px;
+	right: 15px;
+}
+#closeBtn {
+	width: 80px;
+	background: #fb4148;
+}
+#closeBtn:hover {
+	background: #ff1f27;
+}
+@media screen and (max-width: 768px){
+	#showName {
+		font-size: 20px;
+	}
+	#listDetail {
+		width: 200px;
+		top: 80px;
+		left: 50%;
+		margin-left: -100px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	#listDetail span {
+		font-size: 12px;
+		line-height: 1em;
+	}
+	.closeIcon {
+		width: 10px;
+		top: 20px;
+		right: 10px;
+	}
+	.circleBox{
+		width: 70px;
+		height: 70px;
+		background:url("../../pic/web/index/circleBkg.png") no-repeat left center;
+		background-size: cover;
+	}
+	.circleBox p {
+		font-size: 12px;
+	}
+	.sellRate {
+		font-size: 20px;
+		padding-top: 20px;
+		margin-top: 10px;
+	}
+}
+/* ############################# 最新动态 begin ###################### */
+.checkMore {
+	width: 60px;
+}
+.activityList {
+	margin-top: 40px;
+	height: 286px;
+}
+.acLi{
+	float: left;
+	width: 360px;
+	height: 286px;
+	box-sizing: border-box;
+}
+.activityImgBox {
+	width: 300px;
+	height: 216px;
+	font-size: 0;
+	box-sizing: border-box;
+	background: url("../../pic/web/index/grayBkgImg.png") center;
+	background-size: cover;
+	overflow: hidden;
+}
+.activityImgBox img {
+	width: 300px;
+}
+.activityPBox {
+	width: 300px;
+	padding: 10px 0;
+}
+.activityPBox p {
+	width: 80%;
+	margin:0 auto;
+}
+.activityCheckMore {
+	font-size: 16px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(251,65,72,0.9);
+}
+.atCheckMoreBtn {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 93px;
+	border: solid 2px #ececec;
+}
+.activityImgBox:hover .activityCheckMore {
+	display: block;
+}
+@media screen and (max-width:768px) {
+	.activityList {
+		height: auto;
+		margin-top: 20px;
+	}
+	.activityList li{
+		padding-left: 0;
+		width: 100%;
+	}
+	#activityListBox{
+		width: 100%;
+	}
+	.activityImgBox {
+		width: 100%;
+		height: 240px;
+		position: relative;
+	}
+	.acLi{
+		float: none;
+		padding-left: 0;
+		width: 100%;
+		height: 300px;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+	}
+	.activityImgBox img {
+		width: 100%;
+	}
+	.activityPBox {
+		width: 100%;
+		margin-left: 0;
+	}
+	.activityPBox .font16 {
+		font-size: 14px;
+	}
+	.activityPBox .font12 {
+		font-size: 10px;
+	}
+}
+/* ############################# 关于我们 begin ###################### */
+.aboutUs {
+	margin-top: 40px;
+}
+.aboutUsImg {
+	height: 240px;
+}
+.aboutUsP {
+	width: 100%;/*要显示文字的宽度*/
+	overflow: hidden; /*超出的部分隐藏起来。*/
+	white-space: nowrap;
+	text-overflow: ellipsis;/* 支持 IE */
+}
+.checkMoBtn {
+	padding: 10px 0;
+	width: 160px;
+}
+.checkMoBtn:hover {
+	color: #fff;
+}
+@media screen and (max-width:768px) {
+	.aboutUs {
+		margin-top: 10px;
+	}
+	.aboutUsImg {
+		height: 120px;
+	}
+	.aboutUsImg img{
+		height: 180px;
+	}
+	.checkMoreBtn {
+		padding: 10px 0;
+		width: 160px;
+	}
+}
+/* ################## 理财优势 begin ######################## */
+.fourScreen{
+	width:100%;
+	background: url("../../pic/web/index/superiorityImg.jpg") no-repeat center;
+	background-size: cover;
+	z-index: 2;
+	padding: 60px 0;
+}
+
+@media screen and (max-width: 768px){
+	.fourScreen{
+		padding: 20px 0;
+	}
+}
+/* ######################### 媒体报道 begin ######################### */
+/* 暂时隐藏的样式 begin */
+.mediaTitle {
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 暂时隐藏的样式 end */
+.mediaShow {
+	margin-top: 40px;
+}
+.mediaShowCon {
+	float: left;
+	width: 400px;
+}
+.mediaImgCon {
+	width: 400px;
+	height: 200px;
+	background: url("../../pic/web/index/grayBkgImg.png") center;
+	background-size: cover;
+	overflow: hidden;
+}
+.mediaImgCon img {
+	width: 400px;
+}
+.mediaPCon {
+	padding: 10px 10px;
+	text-align: center;
+	background: #ffffff;
+	border-bottom: solid 1px #ececec;
+}
+.mediaPCon h5 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #616161;
+}
+.mediaPCon p {
+	font-size: 12px;
+	color: #838383;
+}
+.checkBtn {
+	width: 20px;
+}
+.checkBtn img {
+	transition: all .5s;
+}
+.checkBtn:hover img {
+	transform: scale(1.2);
+}
+.mediaShowList {
+	float: right;
+	width: 500px;
+}
+.mediaShowList > ul li {
+	margin: 10px 0;
+	width: 460px;
+	padding: 20px 20px;
+	text-align: left;
+	border: solid 3px #dcdcdc;
+}
+.mediaShowList h5 {
+	font-size: 14px;
+	color: #616161;
+}
+.mediaShowList p {
+	font-size: 12px;
+	color: #838383;
+}
+.mediaShowList > ul li:hover {
+	border: solid 3px #f9777c;
+}
+.mediaShowList > ul li:hover  h5 {
+	color: #fb4148;
+}
+.mediaShowList > ul li:hover  p {
+	color: #fb4148;
+}
+.mediaShowList > ul li.current {
+	border: solid 3px #f9777c;
+}
+.mediaShowList > ul li.current  h5 {
+	color: #fb4148;
+}
+.mediaShowList > ul li.current  p {
+	color: #fb4148;
+}
+@media screen and (max-width: 768px){
+	.mediaShow {
+		margin-top: 20px;
+	}
+	.mediaShowCon {
+		float: none;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.mediaImgCon {
+		width: 100%;
+		height: 120px;
+		position: relative;
+		overflow: hidden;
+	}
+	.mediaImgCon img {
+		width: 100%;
+	}
+	.mediaShowList {
+		margin-top: 20px;
+		float: none;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.mediaShowList > ul li {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.mediaShowList > ul li:hover {
+		border: solid 3px #dcdcdc;
+	}
+	.mediaShowList > ul li:hover  h5 {
+		color: #616161;
+	}
+	.mediaShowList > ul li:hover  p {
+		color: #838383;
+	}
+
+
+}
+/* ################## 联璧金融理财 begin ################## */
+.productNam1 {
+	font-size: 48px;
+	line-height: 100%;
+}
+.productNam2 {
+	font-size: 24px;
+	line-height: 60px;
+}
+.productNam3 {
+	font-size: 36px;
+	line-height: 60px;
+}
+.productP {
+	margin-top: 10px;
+}
+.sixScreen{
+	width:100%;
+	background: url("../../pic/web/index/limcobImg.jpg");
+	padding-top: 60px;
+	padding-bottom: 150px;
+	z-index: 2;
+}
+.showUsL {
+	float: left;
+	width: 70%;
+	margin-top: 25px;
+}
+.showUsL img {
+	width: 700px;
+}
+.showUsR {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -140px;
+	width: 25%;
+}
+.showUsR h3 {
+	font-size: 26px;
+}
+.showUsRP {
+	text-align: left;
+	font-size: 16px;
+}
+@media screen and (max-width:768px){
+	.productNam1 {
+		font-size: 36px;
+		line-height: 100%;
+	}
+	.productNam2 {
+		font-size: 24px;
+		line-height: 50px;
+	}
+	.productNam3 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.productP {
+		margin-top: 0px;
+	}
+	.sixScreen{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.showUsL {
+		position: relative;
+		float: none;
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 10%;
+	}
+	.showUsL img {
+		width: 100%;
+	}
+	.showUsR {
+		float: none;
+		position: relative;
+		margin-top: 10px;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.showUsR h3 {
+		text-align: center;
+		font-size: 20px;
+	}
+	.showUsRP {
+		text-align: center;
+		font-size: 12px;
+	}
+}
+/* ######################### 合作伙伴 begin ####################### */
+.sevenScreen{
+	width:100%;
+	z-index: 2;
+	background:#f5f5f5;
+	padding-top: 80px;
+	padding-bottom: 300px;
+}
+.partner {
+	padding: 20px 0;
+	position: absolute;
+	top: -100px;
+	height:310px;
+	overflow: hidden;
+}
+.focusBtnBoxP {
+	position: relative;
+	width: 90px;
+	left: 50%;
+	margin-left: -45px;
+}
+.focusBtnBoxP li {
+	margin: 0 10px;
+	float: left;
+}
+.noSelectli {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #b6b6b9;
+}
+.selectli {
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	background:#fb4148;
+}
+.partUl {
+	width: 200%;
+}
+.parterBox {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.swiper-wrapper {
+	width: 200%;
+}
+.partnerImgCon {
+	width: 50%;
+	box-sizing: border-box;
+}
+.partnerImgCon li {
+	width: 27%;
+	margin: 20px 3%;
+}
+.partnerImgCon li a {
+	display: block;
+	width: 100%;
+}
+.partnerImgCon li img{
+	display: block;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+.partnerImgCon li a img{
+	-webkit-filter: grayscale(1);/* Webkit */
+	-moz-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	filter:gray;/* IE6-9 */
+	filter: grayscale(1);/* W3C */
+}
+.partnerImgCon li a img:hover {
+	-webkit-filter: grayscale(0);/* Webkit */
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	filter:gray;/* IE6-9 */
+	filter: grayscale(0);/* W3C */
+}
+.codeBox {
+	margin-top: 30px;
+}
+.codeBox li {
+	float: left;
+	width: 50%;
+}
+.codeBox img {
+	width: 100%;
+}
+.swiper-pagination {
+	top: 220px;
+	position: absolute;
+	height: 10px;
+	width: 40px;
+	left: 50%;
+	margin-left: -20px;
+}
+.swiper-pagination-switch {
+	display:inline-block;
+	float: left;
+	margin-right: 10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #b6b6b9;
+}
+.swiper-active-switch {
+	background-color: #fb4148;
+}
+@media screen and (max-width:768px) {
+	.swiper-pagination {
+		height: 5px;
+		width: 20px;
+		left: 50%;
+		margin-left: -10px;
+	}
+	.swiper-pagination-switch {
+		margin-right: 5px;
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+	}
+	.sevenScreen{
+		width:100%;
+		z-index: 2;
+		background:#ffffff;
+		padding-top: 5px;
+		padding-bottom: 20px;
+	}
+	.focusBtnBoxP {
+		position: relative;
+		width: 60px;
+		left: 50%;
+		margin-left: -30px;
+	}
+	.focusBtnBoxP li {
+		margin: 0 6px;
+		float: left;
+	}
+	.partner {
+		position: relative;
+		top: 0px;
+	}
+	.parterBox {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.partnerImgCon li {
+		margin: 10px 3%;
+	}
+	.codeBox {
+		margin-top: 15px;
+	}
+	.codeBox li p {
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

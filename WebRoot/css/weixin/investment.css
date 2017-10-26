@@ -1,0 +1,201 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: Helvetica,Arial,sans-serif;
+}	
+body,html{
+	background-color: #efefef;
+	height: 100%;
+}
+.checkBox{
+	width: 16px;
+	height: 16px;
+}
+.blueColor {
+	color: #108ee9;
+}
+.header{
+	background-color: #fbfbfb;
+}
+.borderHr{
+	border: solid 1px #edeff0;
+}
+.headerDiv{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #9f9f9f;
+    border-bottom: 1px solid #e6e6e6;
+}
+.headerDiv span{
+    font-weight: 800;
+    transform: translateY(11%);
+    -webkit-transform: translateY(11%);
+    display: inline-block;
+}
+.headerInput{
+	width: 100%;
+	text-align: left;
+	font-size: 40px;
+	height: 60px;
+	line-height: 60px;
+	border: none;
+	outline: none;
+	background: none;
+	color: #333333;
+	letter-spacing: 1px;
+}
+.helveticaneue{
+	font-family: Helvetica,Arial,sans-serif;
+}
+.invalid:-moz-placeholder { 
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+.invalid::-moz-placeholder {
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+.invalid:-ms-input-placeholder{
+    letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+.invalid::-webkit-input-placeholder{
+    letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+input.invalid:-ms-input-placeholder{
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+input.invalid::-webkit-input-placeholder { 
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+.stick {
+    top: 21px;
+    right: 0;
+}
+.colorGray{
+	color: #9b9d9f;
+}
+.hrBoder:after{
+	 content: "";
+	  display: block;
+	  position: absolute;
+	 left: -50%;
+	 width: 200%;
+	 height: 1px;
+	background: #e6e7e8;
+	-webkit-transform:scale(0.5);
+	transform:scale(0.5);
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	.headerInput{
+		font-size: 34px;
+	}
+	.headerDiv{
+		font-size: 18px;
+	}
+	.invalid:-moz-placeholder { 
+	letter-spacing: 0;
+	font-size: 20px;
+    color: #ff5a5a;  
+}
+
+.invalid::-moz-placeholder { 
+	font-size: 16px;
+}
+
+input.invalid:-ms-input-placeholder{ 
+	font-size: 16px;
+}
+
+input.invalid::-webkit-input-placeholder { 
+	font-size: 16px;
+}
+}
+
+
+/*可投金额*/
+.investmentMoney{
+	height: 80px;
+}
+.line{
+	height: 4px;
+	width: 100%;
+	background: #C8C8C8;
+	margin-top: 38px;
+}
+.inLine{
+	background: #FF5A5A;
+	width: 0%;
+}
+.colorA9A9A9{
+	color: #A9A9A9;
+}
+.PTB12{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.moveEm{
+	top: -12px;
+	left: -3px;
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 10px solid #FF5A5A;
+}
+.moveSpan{
+	background: #FF5A5A;
+	width: 35px;
+	height: 16px;
+	line-height: 16px;
+	top: -20px;
+	left: -18px;
+	border-radius: 8px;
+}
+.downOrUp{
+	margin: 22px 0 0 6px;
+}
+.returnMoney em{
+	height: 18px;
+	line-height: 12px;
+/*	width: 50%;*/  
+}
+.returnMoney span:before{
+	content: '';
+	position: absolute;
+	top: 6px; 
+	left: -65px;
+	width: 5px;
+	height: 5px;
+	background: #108EE9;
+	border-radius: 50%;
+}
+.returnMoney em:nth-child(2) span:before{
+	background: #FFD837;
+}
+.returnMoney em:nth-child(3) span:before{
+	background: #FF5A5A;
+}
+.accountLeft{
+	color: #A0A0A0;
+}

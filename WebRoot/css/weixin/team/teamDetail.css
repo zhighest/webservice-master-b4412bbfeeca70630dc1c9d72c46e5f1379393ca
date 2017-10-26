@@ -1,0 +1,143 @@
+/*
+by dhm
+
+*/
+.bannerWrap img{
+    width: 100%;
+    height: auto;
+}
+.rewardBox{
+    width: 58px;
+    height: 12px;
+    padding-top: 22px;
+    top: 10px;
+    right: 10px;
+    background: url("../../../pic/weixin/activity/team/icongift.png") no-repeat center top;
+    background-size: 20px 20px;
+}
+.myTeam .title{
+    padding-left: 25px;
+    background: url("../../../pic/weixin/activity/team/teamImg.png") no-repeat left center;
+    background-size: 18px auto;
+}
+.myTeam .strongIcon{
+    padding-left: 16px;
+    background: url("../../../pic/weixin/activity/team/battle.png") no-repeat left center;
+    background-size: 10px auto;
+}
+.myTeam .moreTeam{
+    padding-right: 12px;
+    background: url("../../../pic/weixin/activity/team/more.png") no-repeat right center;
+    background-size: 6px auto;
+}
+.teamMembers{
+    padding: 0 6%;
+}
+.teamMembers li{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 19.2%;
+    height: auto;
+    margin-right: 7.6666%;
+}
+.teamMembers li:nth-child(4),.teamMembers li:last-child{
+    margin-right: 0;
+}
+.teamMembers li img{
+    width: 55px;
+    height: 55px;
+}
+.teamMembers li span{
+    height: 25px;
+    line-height: 25px;
+}
+.strongTeam{
+    width: 50%;
+    margin: 15px auto 0;
+}
+.rankList .figureImg{
+    width: 15%;
+}
+.rankList li .rank1{
+    width:32px;
+    height:40px;
+    text-indent: -999em;
+    background: url("../../../pic/weixin/activity/team/one.png") no-repeat center top;
+    background-size: 32px 40px;
+    padding:0;
+}
+.rankList li .rank2{
+    width:32px;
+    height:40px;
+    text-indent: -999em;
+    background: url("../../../pic/weixin/activity/team/two.png") no-repeat center top;
+    background-size: 32px 40px;
+    padding:0;
+}
+.rankList li .rank3{
+    width:32px;
+    height:40px;
+    text-indent: -999em;
+    background: url("../../../pic/weixin/activity/team/three.png") no-repeat center top;
+    background-size: 32px 40px;
+    padding:0;
+}
+.levelStar{
+    width: 100px;
+    height: auto;
+    bottom: 2px;
+}
+@media screen and (max-width: 320px) {
+    .levelStar{
+        position: relative;
+        height: auto;
+        margin-top: 5px;
+        bottom: 0;
+        left: 0;
+    }
+}
+.inRank{
+    width: 10%;
+}
+.teamInfo{
+    width: 35%;
+    height: 7.5%;
+}
+.teamMembers li img.captain{
+    position: absolute;
+    width: 35px;
+    height: auto;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 414px) {
+    .teamMembers li img.captain{
+        right: 8px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .teamMembers li img.captain{
+        right: 4px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .teamMembers li img.captain{
+        right: 0px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .teamMembers li img.captain{
+        right: 40px;
+    }
+}
+.sharePopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(53, 53, 53, 0.63);
+    z-index: 1000;
+}

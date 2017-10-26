@@ -1,0 +1,118 @@
+body,html{
+	font-size: 14px;
+}	
+body,html{
+	background-color: #efefef;
+	height: 100%;
+}
+.checkBox{
+	width: 16px;
+	height: 16px;
+}
+.blueColor {
+	color: #108ee9;
+}
+.header{
+	background-color: #fbfbfb;
+}
+.borderHr{
+	border: solid 1px #edeff0;
+}
+.headerDiv{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #9f9f9f;
+    border-bottom: 2px dashed #d1d3d4;
+}
+.headerDiv span{
+    font-weight: 800;
+    transform: translateY(11%);
+    -webkit-transform: translateY(11%);
+    display: inline-block;
+}
+.headerInput{
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	height: 60px;
+	line-height: 60px;
+	border: none;
+	outline: none;
+	background: none;
+	color: #ff5a5a;
+	letter-spacing: 1px;
+}
+.invalid:-moz-placeholder { 
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+.invalid::-moz-placeholder {
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+.invalid:-ms-input-placeholder{
+    letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+.invalid::-webkit-input-placeholder{
+    letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+input.invalid:-ms-input-placeholder{
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+
+input.invalid::-webkit-input-placeholder { 
+	letter-spacing: 0;
+	font-size: 16px;
+	color: #9f9f9f;
+}
+.btmDiv{
+    color: #FFF;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    z-index: 100;
+    box-shadow: 0px -1px 2px #ccc;
+}
+@media only screen
+and (max-device-width : 320px)
+{
+	.headerInput{
+		font-size: 34px;
+	}
+	.headerDiv{
+		font-size: 18px;
+	}
+	.invalid:-moz-placeholder { 
+	letter-spacing: 0;
+	font-size: 20px;
+    color: #ff5a5a;  
+}
+
+.invalid::-moz-placeholder { 
+	font-size: 16px;
+}
+
+input.invalid:-ms-input-placeholder{ 
+	font-size: 16px;
+}
+
+input.invalid::-webkit-input-placeholder { 
+	font-size: 16px;
+}
+}
